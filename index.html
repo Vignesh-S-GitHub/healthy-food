@@ -3,9 +3,9 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="A simple Chennai-friendly healthy food guide for everyday meals." />
+  <meta name="description" content="A simple Chennai-friendly healthy food guide with fixed breakfast, lunch, snack and dinner combinations." />
   <meta name="theme-color" content="#f7f8f3" />
-  <title>Healthy Food · Daily Guide</title>
+  <title>Healthy Food · Daily Menu</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@700;800&display=swap" rel="stylesheet">
@@ -13,88 +13,91 @@
 </head>
 <body>
   <header class="site-header">
-    <a class="brand" href="#today" aria-label="Healthy Food home">
-      <span class="brand-mark" aria-hidden="true">☀</span>
+    <a class="brand" href="#home" aria-label="Healthy Food home">
+      <span class="brand-mark" aria-hidden="true">🥗</span>
       <span>Healthy Food</span>
     </a>
-    <nav class="nav" aria-label="Primary navigation">
-      <a href="#today">Today</a>
-      <a href="#meals">Meals</a>
+
+    <nav class="desktop-nav" aria-label="Primary navigation">
+      <a href="#breakfast">Breakfast</a>
+      <a href="#lunch">Lunch</a>
+      <a href="#snacks">Snacks</a>
+      <a href="#dinner">Dinner</a>
       <a href="#stock">Room stock</a>
     </nav>
-    <span class="header-icon" aria-hidden="true">🥗</span>
+
+    <button class="menu-button" id="menuButton" type="button" aria-expanded="false" aria-controls="mobileMenu" aria-label="Open menu">
+      <span></span><span></span><span></span>
+    </button>
   </header>
 
-  <main>
-    <section class="hero" id="today">
+  <div class="mobile-menu" id="mobileMenu" hidden>
+    <nav aria-label="Mobile navigation">
+      <a href="#breakfast"><span>🌅</span> Breakfast</a>
+      <a href="#lunch"><span>☀️</span> Lunch</a>
+      <a href="#snacks"><span>🍎</span> Snacks</a>
+      <a href="#dinner"><span>🌙</span> Dinner</a>
+      <a href="#stock"><span>🛒</span> Room stock</a>
+    </nav>
+  </div>
+
+  <main id="home">
+    <section class="hero">
       <div class="hero-copy">
-        <span class="eyebrow">SIMPLE · CHENNAI-FRIENDLY · DAILY</span>
-        <h1>What can I eat today?</h1>
-        <p>Practical everyday meals for hotel breakfast, office lunch, room snacks and easy dinners.</p>
-        <div class="hero-actions">
-          <button class="button button-primary" id="randomMealBtn" type="button">🍽 Pick something for me</button>
-          <a class="button button-secondary" href="#meals">See all meals</a>
-        </div>
-        <div class="quick-rules" aria-label="Quick food guidelines">
-          <span>🥚 Protein each meal</span><span>🥬 More vegetables</span><span>💧 Stay hydrated</span>
-        </div>
+        <span class="eyebrow">SIMPLE · VISUAL · EVERYDAY</span>
+        <h1>Choose a meal.<br>See exactly what you get.</h1>
+        <p>Three practical combinations for each part of the day. The food name always matches the food shown in the picture.</p>
+        <a class="primary-button" href="#breakfast">View today’s menu <span>↓</span></a>
       </div>
 
-      <div class="hero-image-wrap">
-        <img class="hero-image" src="https://b.zmtcdn.com/data/dish_photos/7de/2ed7ddbab61df4d9a5fe90d233fdc7de.jpg" alt="South Indian meal with rice, sambar, vegetables and curd" />
-        <div class="hero-card"><span>Easy rule</span><strong>½ vegetables · ¼ protein · ¼ carbs</strong></div>
-      </div>
+      <figure class="hero-figure">
+        <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy%2Cf_auto%2Cq_auto/FOOD_CATALOG/IMAGES/CMS/2026/6/23/51f8fd99-e683-4c5e-a976-5e39a27f4640_74f8ee65-9ff1-463d-a934-b37414f49d63.jpg" alt="Rice with dal, vegetable stir-fry and boiled egg" />
+        <figcaption>
+          <span>Simple plate</span>
+          <strong>Rice + dal + vegetables + boiled egg</strong>
+        </figcaption>
+      </figure>
     </section>
 
-    <section class="quick-pick" id="quickPick" aria-live="polite">
-      <div class="quick-pick-image-wrap"><span id="quickPickFallback">🍽️</span><img id="quickPickImage" alt="" hidden /></div>
-      <div class="quick-pick-copy">
-        <span class="section-label">QUICK PICK</span>
-        <h2 id="quickPickTitle">Need a suggestion?</h2>
-        <p id="quickPickText">Tap “Pick something for me” and get one simple meal idea.</p>
-      </div>
-    </section>
+    <nav class="meal-jump" aria-label="Jump to meal">
+      <a href="#breakfast">🌅 <span>Breakfast</span></a>
+      <a href="#lunch">☀️ <span>Lunch</span></a>
+      <a href="#snacks">🍎 <span>Snacks</span></a>
+      <a href="#dinner">🌙 <span>Dinner</span></a>
+    </nav>
 
-    <section class="section" id="meals">
-      <div class="section-head">
-        <div><span class="section-label">DAILY MEAL GUIDE</span><h2>Choose by what fits now</h2></div>
-        <div class="filters" aria-label="Meal filters">
-          <button class="filter active" data-filter="all" type="button">All</button>
-          <button class="filter" data-filter="quick" type="button">Quick</button>
-          <button class="filter" data-filter="protein" type="button">Protein</button>
-          <button class="filter" data-filter="hotel" type="button">Hotel</button>
-          <button class="filter" data-filter="room" type="button">Room</button>
+    <div id="mealSections"></div>
+
+    <section class="section stock-section" id="stock">
+      <div class="section-heading">
+        <div>
+          <span class="section-label">ROOM STOCK</span>
+          <h2>Keep the basics ready</h2>
+          <p>Simple foods that make the fixed combinations easier on busy days.</p>
         </div>
       </div>
-      <div class="meal-grid" id="mealGrid"></div>
-    </section>
 
-    <section class="section" id="stock">
-      <div class="section-head compact"><div><span class="section-label">ROOM STOCK</span><h2>Keep these ready</h2><p>Useful for rushed mornings, evening hunger and emergency dinners.</p></div></div>
       <div class="stock-grid">
         <article><span>🍌</span><div><h3>Fruit</h3><p>Banana, apple, guava, orange</p></div></article>
         <article><span>🥚</span><div><h3>Protein</h3><p>Eggs, curd, milk, roasted chana</p></div></article>
-        <article><span>🥣</span><div><h3>Breakfast base</h3><p>Oats, muesli, whole-wheat bread</p></div></article>
-        <article><span>🥜</span><div><h3>Smart snacks</h3><p>Peanuts, almonds, walnuts, makhana</p></div></article>
-        <article><span>🥛</span><div><h3>Easy drinks</h3><p>Milk, buttermilk, unsweetened curd</p></div></article>
-        <article><span>🥫</span><div><h3>Backup meal</h3><p>Ready chana / rajma + bread or chapati</p></div></article>
+        <article><span>🥣</span><div><h3>Breakfast</h3><p>Oats and whole-wheat bread</p></div></article>
+        <article><span>🥜</span><div><h3>Nuts</h3><p>Peanuts, almonds and walnuts</p></div></article>
+        <article><span>🥛</span><div><h3>Drinks</h3><p>Milk and buttermilk</p></div></article>
+        <article><span>🥫</span><div><h3>Backup</h3><p>Ready chana or rajma</p></div></article>
       </div>
     </section>
 
-    <section class="day-plan section">
-      <div class="section-head compact"><div><span class="section-label">ONE SIMPLE DAY</span><h2>No overthinking required</h2></div></div>
-      <div class="timeline">
-        <article><time>08:00</time><div><span>🌅 Breakfast</span><strong>3 idli + sambar + 2 eggs</strong></div></article>
-        <article><time>13:00</time><div><span>☀️ Lunch</span><strong>Rice + dal/sambar + vegetables + curd + protein</strong></div></article>
-        <article><time>17:00</time><div><span>🍎 Snack</span><strong>Fruit + roasted chana or buttermilk</strong></div></article>
-        <article><time>20:30</time><div><span>🌙 Dinner</span><strong>2 chapati/dosa + vegetables + dal/egg/chicken</strong></div></article>
-      </div>
-    </section>
-
-    <aside class="disclaimer"><strong>Simple reference, not a medical diet plan.</strong><span>Adjust portions for hunger, activity, allergies and advice from your doctor or dietitian.</span></aside>
+    <aside class="disclaimer">
+      <strong>Simple food reference, not a medical diet plan.</strong>
+      <span>Adjust portions for your hunger, activity, allergies and professional medical advice.</span>
+    </aside>
   </main>
 
-  <footer><span>Healthy Food · Chennai-friendly daily choices</span><a href="#today">Back to top ↑</a></footer>
+  <footer>
+    <span>Healthy Food · Chennai-friendly daily choices</span>
+    <a href="#home">Back to top ↑</a>
+  </footer>
+
   <script src="script.js"></script>
 </body>
 </html>
