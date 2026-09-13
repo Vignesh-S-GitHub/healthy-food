@@ -23,6 +23,12 @@ const mealGroups = [
         items: ["oatmeal", "banana slices", "chopped almonds"],
         image: "https://snapcalorie-webflow-website.s3.us-east-2.amazonaws.com/media/food_pics_v2/medium/mandelmilch.jpg",
         alt: "Oatmeal topped with banana and almonds"
+      },
+      {
+        title: "Ven Pongal + Sambar + Chutney",
+        items: ["ven pongal", "sambar", "coconut chutney"],
+        image: "https://media.assettype.com/deccanherald%2F2025-01-14%2Fo6y3h8uc%2FVen_Pongal.jpg?rect=0%2C0%2C2359%2C3145",
+        alt: "Ven pongal with sambar and coconut chutney"
       }
     ]
   },
@@ -31,7 +37,7 @@ const mealGroups = [
     icon: "☀️",
     label: "LUNCH",
     title: "Balanced office lunch",
-    note: "Three practical lunch plates with clear portions.",
+    note: "Practical lunch plates with clear combinations.",
     meals: [
       {
         title: "Rice + Dal + Vegetables + Egg",
@@ -50,6 +56,12 @@ const mealGroups = [
         items: ["white rice", "fish curry", "mixed vegetables"],
         image: "https://www.arise-app.com/images/dishes/en/fish-curry-with-rice-and-vegetables-auvdy7.webp",
         alt: "Rice with fish curry and vegetables"
+      },
+      {
+        title: "Lemon Rice + Vegetable Raita",
+        items: ["lemon rice", "peanuts and curry leaves", "vegetable raita"],
+        image: "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy%2Cf_auto%2Cq_auto%2Cw_300%2Ch_300%2Cc_fit/FOOD_CATALOG/IMAGES/CMS/2026/3/2/50908a15-d934-4feb-8c9c-3dc8cd697efa_c323faf6-62ba-4444-b44e-252c016ddb42.jpg",
+        alt: "Lemon rice with vegetable raita"
       }
     ]
   },
@@ -58,7 +70,7 @@ const mealGroups = [
     icon: "🍎",
     label: "EVENING SNACKS",
     title: "Keep evening hunger easy",
-    note: "Small combinations that are easy to keep at work or in your room.",
+    note: "Small options that are easy to keep at work or in your room.",
     meals: [
       {
         title: "Curd + Banana + Nuts",
@@ -77,6 +89,12 @@ const mealGroups = [
         items: ["1 glass buttermilk", "coriander and spices"],
         image: "https://nonprod-media.webdunia.com/public_html/_media/te/img/article/2019-03/19/full/1552984559-8653.jpg",
         alt: "Glass of spiced buttermilk"
+      },
+      {
+        title: "Roasted Chickpea Bhel",
+        items: ["roasted chickpeas", "cucumber and tomato", "carrot, herbs and lemon"],
+        image: "https://img-global.cpcdn.com/steps/3ab9629c1cc5eb0e/400x400cq80/photo.jpg",
+        alt: "Roasted chickpea bhel with cucumber tomato carrot herbs and lemon"
       }
     ]
   },
@@ -104,6 +122,12 @@ const mealGroups = [
         items: ["chicken", "broccoli, carrot and peppers", "white rice"],
         image: "https://images.deliveryhero.io/image/global-menu-service/OP_SE/vendor/kvxi/product/17e7c88b-4d1f-4e28-8a40-1b9063113394.jpg?width=900",
         alt: "Chicken with mixed vegetables and white rice"
+      },
+      {
+        title: "Vegetable Upma + Chutneys + Sambar",
+        items: ["vegetable upma", "coconut and tomato chutneys", "sambar"],
+        image: "https://www.dakshinbhojnam.com/img/1%2811%29.jpg",
+        alt: "Vegetable upma with chutneys and sambar"
       }
     ]
   }
@@ -119,7 +143,7 @@ mealSections.innerHTML = mealGroups.map(group => `
         <h2>${group.title}</h2>
         <p>${group.note}</p>
       </div>
-      <span class="option-count">3 options</span>
+      <span class="option-count">${group.meals.length} options</span>
     </div>
     <div class="meal-grid">
       ${group.meals.map((meal, index) => `
