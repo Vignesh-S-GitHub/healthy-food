@@ -29,6 +29,12 @@ const mealGroups = [
         items: ["ven pongal", "sambar", "coconut chutney"],
         image: "https://media.assettype.com/deccanherald%2F2025-01-14%2Fo6y3h8uc%2FVen_Pongal.jpg?rect=0%2C0%2C2359%2C3145",
         alt: "Ven pongal with sambar and coconut chutney"
+      },
+      {
+        title: "Poha + Peanuts + Lemon",
+        items: ["poha", "roasted peanuts", "lemon and coriander"],
+        image: "https://images.unsplash.com/photo-1645177628172-a94c1f96e6db?auto=format&fit=crop&w=900&q=82",
+        alt: "Poha with peanuts lemon and coriander"
       }
     ]
   },
@@ -43,7 +49,7 @@ const mealGroups = [
         title: "Rice + Dal + Vegetables + Egg",
         items: ["white rice", "dal", "vegetable poriyal", "1 boiled egg"],
         image: "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy%2Cf_auto%2Cq_auto/FOOD_CATALOG/IMAGES/CMS/2026/6/23/51f8fd99-e683-4c5e-a976-5e39a27f4640_74f8ee65-9ff1-463d-a934-b37414f49d63.jpg",
-        alt: "Rice with dal, vegetable poriyal and boiled egg"
+        alt: "Rice with dal vegetable poriyal and boiled egg"
       },
       {
         title: "Chapati + Dal + Vegetable Curry",
@@ -62,6 +68,12 @@ const mealGroups = [
         items: ["lemon rice", "peanuts and curry leaves", "vegetable raita"],
         image: "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy%2Cf_auto%2Cq_auto%2Cw_300%2Ch_300%2Cc_fit/FOOD_CATALOG/IMAGES/CMS/2026/3/2/50908a15-d934-4feb-8c9c-3dc8cd697efa_c323faf6-62ba-4444-b44e-252c016ddb42.jpg",
         alt: "Lemon rice with vegetable raita"
+      },
+      {
+        title: "Rajma + Rice",
+        items: ["rajma curry", "steamed rice"],
+        image: "https://images.unsplash.com/photo-1601050690597-df0568f70950?auto=format&fit=crop&w=900&q=82",
+        alt: "Rajma curry served with steamed rice"
       }
     ]
   },
@@ -95,6 +107,12 @@ const mealGroups = [
         items: ["roasted chickpeas", "cucumber and tomato", "carrot, herbs and lemon"],
         image: "https://img-global.cpcdn.com/steps/3ab9629c1cc5eb0e/400x400cq80/photo.jpg",
         alt: "Roasted chickpea bhel with cucumber tomato carrot herbs and lemon"
+      },
+      {
+        title: "Fruit Bowl + Nuts",
+        items: ["banana and apple", "seasonal fruit", "almonds or walnuts"],
+        image: "https://images.unsplash.com/photo-1490474418585-ba9bad8fd0ea?auto=format&fit=crop&w=900&q=82",
+        alt: "Fresh fruit bowl topped with nuts"
       }
     ]
   },
@@ -128,6 +146,12 @@ const mealGroups = [
         items: ["vegetable upma", "coconut and tomato chutneys", "sambar"],
         image: "https://www.dakshinbhojnam.com/img/1%2811%29.jpg",
         alt: "Vegetable upma with chutneys and sambar"
+      },
+      {
+        title: "Vegetable Khichdi + Curd",
+        items: ["vegetable khichdi", "plain curd"],
+        image: "https://images.unsplash.com/photo-1603105037880-880cd4edfb0d?auto=format&fit=crop&w=900&q=82",
+        alt: "Vegetable khichdi served with plain curd"
       }
     ]
   }
@@ -150,7 +174,7 @@ mealSections.innerHTML = mealGroups.map(group => `
         <article class="meal-card">
           <div class="meal-image-wrap">
             <img src="${meal.image}" alt="${meal.alt}" loading="lazy" />
-            <span class="option-number">0${index + 1}</span>
+            <span class="option-number">${String(index + 1).padStart(2, "0")}</span>
           </div>
           <div class="meal-content">
             <h3>${meal.title}</h3>
