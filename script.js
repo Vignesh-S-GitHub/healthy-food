@@ -1,57 +1,159 @@
-const meals = [
-  ["Idli + Sambar + Eggs","Breakfast","3 idli, generous sambar and 2 boiled eggs. Simple, filling and easy to find in Chennai.",["hotel","protein","quick"],"Top pick","https://images.unsplash.com/photo-1589301760014-d929f3979dbc?auto=format&fit=crop&w=900&q=82"],
-  ["Dosa + Sambar + Omelette","Breakfast","Plain dosa with sambar and an omelette. Prefer plain over butter or ghee-heavy versions.",["hotel","protein"],"Hotel","https://images.unsplash.com/photo-1668236543090-82eba5ee5976?auto=format&fit=crop&w=900&q=82"],
-  ["Oats + Milk + Banana","Breakfast","Add almonds or walnuts for texture. Works well when you are eating in your room.",["room","quick"],"5 min","https://images.unsplash.com/photo-1517673400267-0251440c45dc?auto=format&fit=crop&w=900&q=82"],
-  ["Adai + Sambar","Breakfast","A lentil-based option with more protein than many plain tiffin items.",["hotel","protein"],"Protein","https://images.unsplash.com/photo-1601050690597-df0568f70950?auto=format&fit=crop&w=900&q=82"],
-  ["South Indian Office Plate","Lunch","Rice + sambar/dal + 2 vegetables + curd. Add egg, fish or chicken if available.",["protein"],"Balanced","https://images.unsplash.com/photo-1546833999-b9f581a1996d?auto=format&fit=crop&w=900&q=82"],
-  ["Chapati + Dal + Sabji","Lunch","A dependable office-cafeteria choice with carbs, protein and vegetables.",["protein"],"Office","https://images.unsplash.com/photo-1585937421612-70a008356fbe?auto=format&fit=crop&w=900&q=82"],
-  ["Rice + Fish Curry + Veg","Lunch","Keep the rice moderate and make vegetables and protein a substantial part of the plate.",["protein"],"Protein","https://images.unsplash.com/photo-1626777552726-4a6b54c97e46?auto=format&fit=crop&w=900&q=82"],
-  ["Fruit + Roasted Chana","Evening snack","Banana, apple or guava paired with roasted chana is easy to keep at work or in your room.",["room","quick","protein"],"Easy","https://images.unsplash.com/photo-1610832958506-aa56368176cf?auto=format&fit=crop&w=900&q=82"],
-  ["Buttermilk + Peanuts","Evening snack","A light option for hot Chennai evenings. Choose unsalted or lightly salted peanuts.",["room","quick"],"Quick","https://images.unsplash.com/photo-1550583724-b2692b85b150?auto=format&fit=crop&w=900&q=82"],
-  ["Curd + Banana + Nuts","Evening snack","Works as a substantial snack when dinner will be late.",["room","quick","protein"],"Room","https://images.unsplash.com/photo-1488477181946-6428a0291777?auto=format&fit=crop&w=900&q=82"],
-  ["Chapati + Dal + Vegetables","Dinner","A simple repeatable dinner. Keep vegetables and dal generous rather than adding extra chapati.",["protein"],"Daily","https://images.unsplash.com/photo-1574484284002-952d92456975?auto=format&fit=crop&w=900&q=82"],
-  ["Dosa + Sambar + Egg","Dinner","A convenient Chennai dinner when you are ordering from a hotel.",["hotel","protein","quick"],"Hotel","https://images.unsplash.com/photo-1630383249896-424e482df921?auto=format&fit=crop&w=900&q=82"],
-  ["Chicken + Veg + Small Rice","Dinner","Choose grilled, home-style or less oily chicken over deep-fried versions.",["protein"],"Protein","https://images.unsplash.com/photo-1532550907401-a500c9a57435?auto=format&fit=crop&w=900&q=82"],
-  ["Ready Chana + Bread + Curd","Dinner","A backup room dinner when you cannot cook and do not want to order fast food.",["room","quick","protein"],"Backup","https://images.unsplash.com/photo-1604503468506-a8da13d82791?auto=format&fit=crop&w=900&q=82"]
-].map(([title,meal,description,tags,badge,image]) => ({title,meal,description,tags,badge,image}));
+const mealGroups = [
+  {
+    id: "breakfast",
+    icon: "🌅",
+    label: "BREAKFAST",
+    title: "Start simple",
+    note: "Choose one complete breakfast combination.",
+    meals: [
+      {
+        title: "Idli + Sambar + Boiled Eggs",
+        items: ["3 idli", "sambar", "2 boiled eggs"],
+        image: "https://www.arise-app.com/images/dishes/en/idli-sambar-with-boiled-eggs-xdkpr4.webp",
+        alt: "Three idlis with sambar and boiled eggs"
+      },
+      {
+        title: "Dosa + Sambar + Chutneys",
+        items: ["1 dosa", "sambar", "coconut, mint and tomato chutneys"],
+        image: "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy%2Cf_auto%2Cq_auto/FOOD_CATALOG/IMAGES/CMS/2025/11/29/7d4750d1-32e9-4cc8-9192-643a41a87824_7e3a3574-16ad-4152-8659-651e6b13eb14.jpg_compressed",
+        alt: "Dosa with sambar and three chutneys"
+      },
+      {
+        title: "Oats + Banana + Almonds",
+        items: ["oatmeal", "banana slices", "chopped almonds"],
+        image: "https://snapcalorie-webflow-website.s3.us-east-2.amazonaws.com/media/food_pics_v2/medium/mandelmilch.jpg",
+        alt: "Oatmeal topped with banana and almonds"
+      }
+    ]
+  },
+  {
+    id: "lunch",
+    icon: "☀️",
+    label: "LUNCH",
+    title: "Balanced office lunch",
+    note: "Three practical lunch plates with clear portions.",
+    meals: [
+      {
+        title: "Rice + Dal + Vegetables + Egg",
+        items: ["white rice", "dal", "vegetable poriyal", "1 boiled egg"],
+        image: "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy%2Cf_auto%2Cq_auto/FOOD_CATALOG/IMAGES/CMS/2026/6/23/51f8fd99-e683-4c5e-a976-5e39a27f4640_74f8ee65-9ff1-463d-a934-b37414f49d63.jpg",
+        alt: "Rice with dal, vegetable poriyal and boiled egg"
+      },
+      {
+        title: "Chapati + Dal + Vegetable Curry",
+        items: ["chapati", "yellow dal", "mixed vegetable curry"],
+        image: "https://bangeras-online.com/cdn/shop/files/3_3f2c2a41-7ac1-4c54-a90b-d42d1f31de23.webp?v=1751004808&width=1080",
+        alt: "Chapati with yellow dal and mixed vegetable curry"
+      },
+      {
+        title: "Rice + Fish Curry + Vegetables",
+        items: ["white rice", "fish curry", "mixed vegetables"],
+        image: "https://www.arise-app.com/images/dishes/en/fish-curry-with-rice-and-vegetables-auvdy7.webp",
+        alt: "Rice with fish curry and vegetables"
+      }
+    ]
+  },
+  {
+    id: "snacks",
+    icon: "🍎",
+    label: "EVENING SNACKS",
+    title: "Keep evening hunger easy",
+    note: "Small combinations that are easy to keep at work or in your room.",
+    meals: [
+      {
+        title: "Curd + Banana + Nuts",
+        items: ["plain curd", "banana slices", "chopped nuts"],
+        image: "https://images.rawpixel.com/image_social_landscape/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTExL3Jhd3BpeGVsb2ZmaWNlMTBfcGhvdG9fb2ZfZGVsaWNpb3VzX3lvZ3VydF93aXRoX2JhbmFuYV9pbl9icm93bl85Y2RjNDllNS1mZjJkLTRkYjgtOWIyOC1hOWEwOWFlNTkyNjhfMS5qcGc.jpg",
+        alt: "Curd bowl with banana and chopped nuts"
+      },
+      {
+        title: "Roasted Chana",
+        items: ["1 bowl roasted chana"],
+        image: "https://desimithas.in/cdn/shop/files/Roasted-Channa-2.jpg?v=1755067700",
+        alt: "Bowl of roasted chana"
+      },
+      {
+        title: "Spiced Buttermilk",
+        items: ["1 glass buttermilk", "coriander and spices"],
+        image: "https://nonprod-media.webdunia.com/public_html/_media/te/img/article/2019-03/19/full/1552984559-8653.jpg",
+        alt: "Glass of spiced buttermilk"
+      }
+    ]
+  },
+  {
+    id: "dinner",
+    icon: "🌙",
+    label: "DINNER",
+    title: "Finish light and filling",
+    note: "Keep dinner straightforward with one complete plate.",
+    meals: [
+      {
+        title: "Chapati + Dal + Vegetable Curry",
+        items: ["chapati", "yellow dal", "mixed vegetable curry"],
+        image: "https://bangeras-online.com/cdn/shop/files/3_3f2c2a41-7ac1-4c54-a90b-d42d1f31de23.webp?v=1751004808&width=1080",
+        alt: "Chapati with yellow dal and mixed vegetable curry"
+      },
+      {
+        title: "Egg Dosa + Sambar + Chutney",
+        items: ["egg dosa", "sambar", "chutney"],
+        image: "https://ik.imagekit.io/fpcle7dmn/images/thumbs/0021222_egg-pepper-dosa.jpeg",
+        alt: "Egg dosa with sambar and chutney"
+      },
+      {
+        title: "Chicken + Vegetables + Rice",
+        items: ["chicken", "broccoli, carrot and peppers", "white rice"],
+        image: "https://images.deliveryhero.io/image/global-menu-service/OP_SE/vendor/kvxi/product/17e7c88b-4d1f-4e28-8a40-1b9063113394.jpg?width=900",
+        alt: "Chicken with mixed vegetables and white rice"
+      }
+    ]
+  }
+];
 
-const grid = document.getElementById("mealGrid");
-const filterButtons = [...document.querySelectorAll(".filter")];
-const randomMealBtn = document.getElementById("randomMealBtn");
-const quickPick = document.getElementById("quickPick");
-const quickPickTitle = document.getElementById("quickPickTitle");
-const quickPickText = document.getElementById("quickPickText");
-const quickPickImage = document.getElementById("quickPickImage");
-const quickPickFallback = document.getElementById("quickPickFallback");
+const mealSections = document.getElementById("mealSections");
 
-function renderMeals(filter = "all") {
-  const visible = filter === "all" ? meals : meals.filter(m => m.tags.includes(filter));
-  grid.innerHTML = visible.map(m => `
-    <article class="meal-card">
-      <div class="meal-photo-wrap"><img class="meal-photo" src="${m.image}" alt="${m.title}" loading="lazy"></div>
-      <div class="meal-body">
-        <div class="meal-card-top"><span class="meal-type">${m.meal.toUpperCase()}</span><span class="badge">${m.badge}</span></div>
-        <h3>${m.title}</h3><p>${m.description}</p>
-        <div class="meal-tags">${m.tags.map(t => `<span>#${t}</span>`).join("")}</div>
+mealSections.innerHTML = mealGroups.map(group => `
+  <section class="section meal-section" id="${group.id}">
+    <div class="section-heading">
+      <div>
+        <span class="section-label">${group.icon} ${group.label}</span>
+        <h2>${group.title}</h2>
+        <p>${group.note}</p>
       </div>
-    </article>`).join("");
+      <span class="option-count">3 options</span>
+    </div>
+    <div class="meal-grid">
+      ${group.meals.map((meal, index) => `
+        <article class="meal-card">
+          <div class="meal-image-wrap">
+            <img src="${meal.image}" alt="${meal.alt}" loading="lazy" />
+            <span class="option-number">0${index + 1}</span>
+          </div>
+          <div class="meal-content">
+            <h3>${meal.title}</h3>
+            <ul>
+              ${meal.items.map(item => `<li>${item}</li>`).join("")}
+            </ul>
+          </div>
+        </article>
+      `).join("")}
+    </div>
+  </section>
+`).join("");
+
+const menuButton = document.getElementById("menuButton");
+const mobileMenu = document.getElementById("mobileMenu");
+
+function closeMenu() {
+  mobileMenu.hidden = true;
+  menuButton.setAttribute("aria-expanded", "false");
+  document.body.classList.remove("menu-open");
 }
 
-filterButtons.forEach(button => button.addEventListener("click", () => {
-  filterButtons.forEach(item => item.classList.remove("active"));
-  button.classList.add("active");
-  renderMeals(button.dataset.filter);
-}));
-
-randomMealBtn.addEventListener("click", () => {
-  const meal = meals[Math.floor(Math.random() * meals.length)];
-  quickPickTitle.textContent = `${meal.meal}: ${meal.title}`;
-  quickPickText.textContent = meal.description;
-  quickPickImage.src = meal.image;
-  quickPickImage.alt = meal.title;
-  quickPickImage.hidden = false;
-  quickPickFallback.hidden = true;
-  quickPick.scrollIntoView({ behavior: "smooth", block: "center" });
+menuButton.addEventListener("click", () => {
+  const open = menuButton.getAttribute("aria-expanded") === "true";
+  mobileMenu.hidden = open;
+  menuButton.setAttribute("aria-expanded", String(!open));
+  document.body.classList.toggle("menu-open", !open);
 });
 
-renderMeals();
+mobileMenu.querySelectorAll("a").forEach(link => link.addEventListener("click", closeMenu));
