@@ -1,21 +1,40 @@
-# Healthy Food
+<div align="center">
 
-A simple, mobile-friendly daily food reference focused on practical Chennai-friendly meal choices.
+# 🥗 Healthy Food
+### A practical daily meal guide for busy days in Chennai
 
-## What it includes
+**Simple meal ideas · quick filters · room-friendly options**
 
-- Simple daily meal plan
-- Breakfast, lunch, snack, and dinner ideas
-- Filters for quick, protein-rich, hotel, and room-friendly options
-- Random meal suggestion
-- Room-stock checklist
-- Light/dark theme support
-- Responsive layout for phone and desktop
+</div>
 
-## Tech
+> A lightweight reference for choosing everyday meals, with familiar Chennai-friendly options and practical choices for home, hostel, or hotel routines.
 
-Plain HTML, CSS, and JavaScript. No build step or framework is required.
+## What you can do
 
-## Run locally
+| Plan | Choose | Keep it practical |
+|---|---|---|
+| Browse a daily plan | Explore breakfast, lunch, snacks, and dinner | Filter quick, protein-rich, hotel, or room-friendly meals |
+| Get an idea | Pick a random meal suggestion | Check a small room-stock list before you shop |
+| Make it yours | Switch between light and dark themes | Use the responsive layout on phone or desktop |
 
-Open `index.html` in a browser, or serve the folder with any static web server.
+## Built with
+
+Plain **HTML, CSS, and JavaScript**. There is no framework, package installation, or build step.
+
+## Run it
+
+1. Clone or download this repository.
+2. Open `index.html` in a browser.
+
+For local development, serve the repository with any static file server and open the local URL.
+
+## Project contents
+
+- `index.html` — page structure and meal reference
+- `styles.css` — responsive layout and themes
+- `script.js` — filters and interactive behavior
+- `assets/images/` — food imagery
+
+---
+
+<p align="center"><sub>A small, practical food guide made for everyday decisions.</sub></p>
