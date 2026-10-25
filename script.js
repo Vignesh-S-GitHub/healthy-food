@@ -5,20 +5,20 @@ const mealGroups = [
   {
     "id": "breakfast",
     "icon": "🌅",
-    "title": "காலை",
+    "title": "Breakfast",
     "meals": [
       {
         "id": "breakfast-0",
         "pair": [
-          "இட்லி",
-          "வேகவைத்த முட்டை"
+          "Idli",
+          "Boiled eggs"
         ],
-        "side": "காய்கறிச் சாம்பார்",
+        "side": "Vegetable sambar",
         "nutrients": {
-          "protein": "முட்டை, பருப்பு",
-          "fibre": "சாம்பார் காய்கறிகள், பருப்பு",
-          "carbs": "இட்லி",
-          "other": "முட்டை மஞ்சளில் கொழுப்பு"
+          "protein": "Eggs, lentils",
+          "fibre": "Vegetables, lentils",
+          "carbs": "Idli",
+          "other": "Fats: egg yolk"
         },
         "veg": false,
         "image": "https://www.arise-app.com/images/dishes/en/idli-sambar-with-boiled-eggs-xdkpr4.webp"
@@ -26,15 +26,15 @@ const mealGroups = [
       {
         "id": "breakfast-1",
         "pair": [
-          "தோசை",
-          "சாம்பார்"
+          "Dosa",
+          "Sambar"
         ],
-        "side": "கேரட், தேங்காய்ச் சட்னி",
+        "side": "Carrot, coconut chutney",
         "nutrients": {
-          "protein": "சாம்பார் பருப்பு",
-          "fibre": "கேரட், சாம்பார் காய்கறிகள்",
-          "carbs": "தோசை",
-          "other": "தேங்காயில் கொழுப்பு"
+          "protein": "Lentils",
+          "fibre": "Carrot, vegetables",
+          "carbs": "Dosa",
+          "other": "Fats: coconut"
         },
         "veg": true,
         "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy%2Cf_auto%2Cq_auto/FOOD_CATALOG/IMAGES/CMS/2025/11/29/7d4750d1-32e9-4cc8-9192-643a41a87824_7e3a3574-16ad-4152-8659-651e6b13eb14.jpg_compressed"
@@ -42,15 +42,15 @@ const mealGroups = [
       {
         "id": "breakfast-2",
         "pair": [
-          "ஓட்ஸ் கஞ்சி",
-          "பால்"
+          "Oats",
+          "Milk"
         ],
-        "side": "வாழைப்பழம், பாதாம்",
+        "side": "Banana, almonds",
         "nutrients": {
-          "protein": "பால், ஓட்ஸ், பாதாம்",
-          "fibre": "ஓட்ஸ், வாழைப்பழம்",
-          "carbs": "ஓட்ஸ், வாழைப்பழம்",
-          "other": "பாலில் கால்சியம்; பாதாமில் கொழுப்பு"
+          "protein": "Milk, oats, almonds",
+          "fibre": "Oats, banana",
+          "carbs": "Oats, banana",
+          "other": "Calcium: milk · Fats: almonds"
         },
         "veg": true,
         "image": "https://snapcalorie-webflow-website.s3.us-east-2.amazonaws.com/media/food_pics_v2/medium/mandelmilch.jpg"
@@ -58,15 +58,15 @@ const mealGroups = [
       {
         "id": "breakfast-3",
         "pair": [
-          "வெண் பொங்கல்",
-          "சாம்பார்"
+          "Ven pongal",
+          "Sambar"
         ],
-        "side": "காய்கறிகள், தேங்காய்ச் சட்னி",
+        "side": "Vegetables, coconut chutney",
         "nutrients": {
-          "protein": "பாசிப்பருப்பு, சாம்பார் பருப்பு",
-          "fibre": "சாம்பார் காய்கறிகள், பருப்பு",
-          "carbs": "பொங்கல் அரிசி",
-          "other": "தேங்காயில் கொழுப்பு"
+          "protein": "Moong dal, lentils",
+          "fibre": "Vegetables, lentils",
+          "carbs": "Rice",
+          "other": "Fats: coconut"
         },
         "veg": true,
         "image": "https://media.assettype.com/deccanherald%2F2025-01-14%2Fo6y3h8uc%2FVen_Pongal.jpg?rect=0%2C0%2C2359%2C3145"
@@ -74,15 +74,15 @@ const mealGroups = [
       {
         "id": "breakfast-4",
         "pair": [
-          "அவல்",
-          "வேகவைத்த கொண்டைக்கடலை"
+          "Poha",
+          "Chickpeas"
         ],
-        "side": "வேர்க்கடலை, கேரட், எலுமிச்சை",
+        "side": "Peanuts, carrot, lemon",
         "nutrients": {
-          "protein": "கொண்டைக்கடலை, வேர்க்கடலை",
-          "fibre": "கொண்டைக்கடலை, கேரட்",
-          "carbs": "அவல்",
-          "other": "வேர்க்கடலையில் கொழுப்பு"
+          "protein": "Chickpeas, peanuts",
+          "fibre": "Chickpeas, carrot",
+          "carbs": "Poha",
+          "other": "Fats: peanuts"
         },
         "veg": true,
         "image": "https://media-assets.swiggy.com/swiggy/image/upload/f_auto%2Cq_auto%2Cfl_lossy/RX_THUMBNAIL/IMAGES/VENDOR/2024/9/12/8259a19f-a269-4113-a17c-646c8882163c_955838.jpg"
@@ -90,15 +90,15 @@ const mealGroups = [
       {
         "id": "breakfast-5",
         "pair": [
-          "அடை",
-          "சாம்பார்"
+          "Adai",
+          "Sambar"
         ],
-        "side": "கேரட், தேங்காய்ச் சட்னி",
+        "side": "Carrot, coconut chutney",
         "nutrients": {
-          "protein": "அடைப் பருப்புகள், சாம்பார் பருப்பு",
-          "fibre": "பருப்புகள், கேரட்",
-          "carbs": "அடையில் அரிசி, பருப்பு",
-          "other": "பருப்புகளில் இரும்புச்சத்து"
+          "protein": "Lentils",
+          "fibre": "Lentils, carrot",
+          "carbs": "Rice, lentils",
+          "other": "Iron: lentils"
         },
         "veg": true,
         "image": "https://www.vishalam.com/cdn/shop/files/instant-adai-dosa-readymix-1463074_1024x.jpg?v=1774389431"
@@ -106,15 +106,15 @@ const mealGroups = [
       {
         "id": "breakfast-6",
         "pair": [
-          "ராகி தோசை",
-          "சாம்பார்"
+          "Ragi dosa",
+          "Sambar"
         ],
-        "side": "காய்கறிகள், சட்னி",
+        "side": "Vegetables, chutney",
         "nutrients": {
-          "protein": "சாம்பார் பருப்பு",
-          "fibre": "ராகி, சாம்பார் காய்கறிகள்",
-          "carbs": "ராகி தோசை",
-          "other": "ராகியில் கால்சியம்"
+          "protein": "Lentils",
+          "fibre": "Ragi, vegetables",
+          "carbs": "Ragi dosa",
+          "other": "Calcium: ragi"
         },
         "veg": true,
         "image": "https://i0.wp.com/naturallynidhi.com/wp-content/uploads/2021/07/Ragi-Dosa-Cover.jpg?fit=840%2C560&ssl=1"
@@ -122,15 +122,15 @@ const mealGroups = [
       {
         "id": "breakfast-7",
         "pair": [
-          "இடியாப்பம்",
-          "கொண்டைக்கடலைக் குருமா"
+          "Idiyappam",
+          "Chickpea curry"
         ],
-        "side": "கேரட், பீன்ஸ்",
+        "side": "Carrot, beans",
         "nutrients": {
-          "protein": "கொண்டைக்கடலை",
-          "fibre": "கொண்டைக்கடலை, காய்கறிகள்",
-          "carbs": "இடியாப்பம்",
-          "other": "கொண்டைக்கடலையில் இரும்புச்சத்து"
+          "protein": "Chickpeas",
+          "fibre": "Chickpeas, vegetables",
+          "carbs": "Idiyappam",
+          "other": "Iron: chickpeas"
         },
         "veg": true,
         "image": "https://img-global.cpcdn.com/recipes/3e90d11cc4ef2940/680x781f0.5_0.5_1.0q80/idiyappam-with-vegetable-curry-recipe-main-photo.jpg"
@@ -140,20 +140,20 @@ const mealGroups = [
   {
     "id": "lunch",
     "icon": "☀️",
-    "title": "மதியம்",
+    "title": "Lunch",
     "meals": [
       {
         "id": "lunch-0",
         "pair": [
-          "சாதம்",
-          "பருப்பு, முட்டை"
+          "Rice",
+          "Dal & egg"
         ],
-        "side": "காய்கறிப் பொரியல்",
+        "side": "Vegetable poriyal",
         "nutrients": {
-          "protein": "பருப்பு, முட்டை",
-          "fibre": "பருப்பு, காய்கறிகள்",
-          "carbs": "சாதம்",
-          "other": "முட்டை மஞ்சளில் கொழுப்பு"
+          "protein": "Lentils, eggs",
+          "fibre": "Lentils, vegetables",
+          "carbs": "Rice",
+          "other": "Fats: egg yolk"
         },
         "veg": false,
         "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy%2Cf_auto%2Cq_auto/FOOD_CATALOG/IMAGES/CMS/2026/6/23/51f8fd99-e683-4c5e-a976-5e39a27f4640_74f8ee65-9ff1-463d-a934-b37414f49d63.jpg"
@@ -161,15 +161,15 @@ const mealGroups = [
       {
         "id": "lunch-1",
         "pair": [
-          "முழுக்கோதுமைச் சப்பாத்தி",
-          "பருப்பு"
+          "Chapati",
+          "Dal"
         ],
-        "side": "காய்கறிக் கூட்டு",
+        "side": "Vegetable curry",
         "nutrients": {
-          "protein": "பருப்பு",
-          "fibre": "முழுக்கோதுமை, பருப்பு, காய்கறிகள்",
-          "carbs": "சப்பாத்தி",
-          "other": "பருப்பில் இரும்புச்சத்து"
+          "protein": "Lentils",
+          "fibre": "Whole wheat, lentils, vegetables",
+          "carbs": "Whole-wheat chapati",
+          "other": "Iron: lentils"
         },
         "veg": true,
         "image": "https://bangeras-online.com/cdn/shop/files/3_3f2c2a41-7ac1-4c54-a90b-d42d1f31de23.webp?v=1751004808&width=1080"
@@ -177,15 +177,15 @@ const mealGroups = [
       {
         "id": "lunch-2",
         "pair": [
-          "சாதம்",
-          "மீன் குழம்பு"
+          "Rice",
+          "Fish curry"
         ],
-        "side": "காய்கறிப் பொரியல்",
+        "side": "Vegetable poriyal",
         "nutrients": {
-          "protein": "மீன்",
-          "fibre": "காய்கறிகள்",
-          "carbs": "சாதம்",
-          "other": "மீனில் கொழுப்பு; வகைக்கு ஏற்ப மாறும்"
+          "protein": "Fish",
+          "fibre": "Vegetables",
+          "carbs": "Rice",
+          "other": "Fats: varies by fish"
         },
         "veg": false,
         "image": "https://www.arise-app.com/images/dishes/en/fish-curry-with-rice-and-vegetables-auvdy7.webp"
@@ -193,15 +193,15 @@ const mealGroups = [
       {
         "id": "lunch-3",
         "pair": [
-          "எலுமிச்சை சாதம்",
-          "கொண்டைக்கடலைச் சுண்டல்"
+          "Lemon rice",
+          "Chickpea sundal"
         ],
-        "side": "வெள்ளரித் தயிர்ப்பச்சடி",
+        "side": "Cucumber raita",
         "nutrients": {
-          "protein": "கொண்டைக்கடலை, தயிர்",
-          "fibre": "கொண்டைக்கடலை, வெள்ளரி",
-          "carbs": "சாதம்",
-          "other": "தயிரில் கால்சியம்"
+          "protein": "Chickpeas, curd",
+          "fibre": "Chickpeas, cucumber",
+          "carbs": "Rice",
+          "other": "Calcium: curd"
         },
         "veg": true,
         "image": "https://nurrish.in/meals/south/lemon-rice-cucumber-raita-papad.webp"
@@ -209,15 +209,15 @@ const mealGroups = [
       {
         "id": "lunch-4",
         "pair": [
-          "சாதம்",
-          "ராஜ்மா குழம்பு"
+          "Rice",
+          "Rajma curry"
         ],
-        "side": "வெள்ளரி, தக்காளி",
+        "side": "Cucumber, tomato",
         "nutrients": {
-          "protein": "ராஜ்மா",
-          "fibre": "ராஜ்மா, காய்கறிகள்",
-          "carbs": "சாதம், ராஜ்மா",
-          "other": "ராஜ்மாவில் இரும்புச்சத்து"
+          "protein": "Rajma",
+          "fibre": "Rajma, vegetables",
+          "carbs": "Rice, rajma",
+          "other": "Iron: rajma"
         },
         "veg": true,
         "image": "https://b.zmtcdn.com/data/dish_photos/8ca/0ea878f2f888e008b7f28028eb1558ca.png"
@@ -225,15 +225,15 @@ const mealGroups = [
       {
         "id": "lunch-5",
         "pair": [
-          "தயிர் சாதம்",
-          "கொண்டைக்கடலைச் சுண்டல்"
+          "Curd rice",
+          "Chickpea sundal"
         ],
-        "side": "மாதுளை, வெள்ளரி",
+        "side": "Pomegranate, cucumber",
         "nutrients": {
-          "protein": "தயிர், கொண்டைக்கடலை",
-          "fibre": "கொண்டைக்கடலை, மாதுளை, வெள்ளரி",
-          "carbs": "சாதம்",
-          "other": "தயிரில் கால்சியம்"
+          "protein": "Curd, chickpeas",
+          "fibre": "Chickpeas, fruit, cucumber",
+          "carbs": "Rice",
+          "other": "Calcium: curd"
         },
         "veg": true,
         "image": "https://assets-jpcust.jwpsrv.com/thumbnails/6ksgyxm8-720.jpg"
@@ -241,15 +241,15 @@ const mealGroups = [
       {
         "id": "lunch-6",
         "pair": [
-          "சாம்பார் சாதம்",
-          "கீரைப் பருப்புக் கூட்டு"
+          "Sambar rice",
+          "Spinach dal"
         ],
-        "side": "கேரட், முருங்கைக்காய்",
+        "side": "Carrot, drumstick",
         "nutrients": {
-          "protein": "சாம்பார் பருப்பு, கூட்டுப் பருப்பு",
-          "fibre": "கீரை, பருப்பு, காய்கறிகள்",
-          "carbs": "சாதம்",
-          "other": "கீரையில் இரும்புச்சத்து"
+          "protein": "Lentils",
+          "fibre": "Spinach, lentils, vegetables",
+          "carbs": "Rice",
+          "other": "Iron: spinach"
         },
         "veg": true,
         "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy%2Cf_auto%2Cq_auto%2Cw_300%2Ch_300%2Ce_grayscale%2Cc_fit/FOOD_CATALOG/IMAGES/CMS/2025/5/27/cab61206-196b-419d-bb92-39a9db03feff_b19a7967-17fb-4848-bfdf-6466831068c2.jpg"
@@ -257,15 +257,15 @@ const mealGroups = [
       {
         "id": "lunch-7",
         "pair": [
-          "சிறுதானியப் புலாவ்",
-          "கொண்டைக்கடலை"
+          "Millet pulao",
+          "Chickpeas"
         ],
-        "side": "பட்டாணி, கேரட், தயிர்ப்பச்சடி",
+        "side": "Peas, carrot, raita",
         "nutrients": {
-          "protein": "கொண்டைக்கடலை, தயிர்",
-          "fibre": "சிறுதானியம், கொண்டைக்கடலை, காய்கறிகள்",
-          "carbs": "சிறுதானியம்",
-          "other": "தயிரில் கால்சியம்"
+          "protein": "Chickpeas, curd",
+          "fibre": "Millet, chickpeas, vegetables",
+          "carbs": "Millet",
+          "other": "Calcium: curd"
         },
         "veg": true,
         "image": "https://gramiyum.in/wp-content/uploads/2023/12/Millet-Veggie-Pulao.webp"
@@ -275,20 +275,20 @@ const mealGroups = [
   {
     "id": "snacks",
     "icon": "🍎",
-    "title": "சிற்றுண்டி",
+    "title": "Snacks",
     "meals": [
       {
         "id": "snacks-0",
         "pair": [
-          "தயிர்",
-          "வாழைப்பழம்"
+          "Curd",
+          "Banana"
         ],
-        "side": "பாதாம், வால்நட்",
+        "side": "Almonds, walnuts",
         "nutrients": {
-          "protein": "தயிர், பருப்புவகைகள்",
-          "fibre": "வாழைப்பழம், பருப்புவகைகள்",
-          "carbs": "வாழைப்பழம்",
-          "other": "தயிரில் கால்சியம்; பருப்புவகைகளில் கொழுப்பு"
+          "protein": "Curd, nuts",
+          "fibre": "Banana, nuts",
+          "carbs": "Banana",
+          "other": "Calcium: curd · Fats: nuts"
         },
         "veg": true,
         "image": "https://images.squarespace-cdn.com/content/v1/6238ad0b6eee8a52050c5bdc/a4cd04bc-3925-4ffe-ad05-31d72a6791e2/Greek%2Byogurt%2Bwith%2BUnsalted%2BNuts%2Band%2BBanana.png"
@@ -296,15 +296,15 @@ const mealGroups = [
       {
         "id": "snacks-1",
         "pair": [
-          "பொட்டுக்கடலை",
-          "கொய்யாப்பழம்"
+          "Roasted chana",
+          "Guava"
         ],
         "side": "",
         "nutrients": {
-          "protein": "பொட்டுக்கடலை",
-          "fibre": "பொட்டுக்கடலை, கொய்யா",
-          "carbs": "பொட்டுக்கடலை, கொய்யா",
-          "other": "கொய்யாவில் வைட்டமின் சி"
+          "protein": "Roasted chana",
+          "fibre": "Roasted chana, guava",
+          "carbs": "Roasted chana, guava",
+          "other": "Vitamin C: guava"
         },
         "veg": true,
         "image": "https://plantigo.in/cdn/shop/articles/Roasted_Chana_Protein_Feature_Img_jpg.jpg?v=1781085834&width=1400"
@@ -312,15 +312,15 @@ const mealGroups = [
       {
         "id": "snacks-2",
         "pair": [
-          "மோர்",
-          "பொட்டுக்கடலை"
+          "Buttermilk",
+          "Roasted chana"
         ],
         "side": "",
         "nutrients": {
-          "protein": "மோர், பொட்டுக்கடலை",
-          "fibre": "பொட்டுக்கடலை",
-          "carbs": "பொட்டுக்கடலை",
-          "other": "மோரில் கால்சியம்"
+          "protein": "Buttermilk, roasted chana",
+          "fibre": "Roasted chana",
+          "carbs": "Roasted chana",
+          "other": "Calcium: buttermilk"
         },
         "veg": true,
         "image": "https://snapcalorie-webflow-website.s3.us-east-2.amazonaws.com/media/food_pics_v2/medium/amul_masala_buttermilk.jpg"
@@ -328,15 +328,15 @@ const mealGroups = [
       {
         "id": "snacks-3",
         "pair": [
-          "கொண்டைக்கடலை",
-          "காய்கறிக் கலவை"
+          "Chickpeas",
+          "Vegetable salad"
         ],
-        "side": "மாதுளை, எலுமிச்சை",
+        "side": "Pomegranate, lemon",
         "nutrients": {
-          "protein": "கொண்டைக்கடலை",
-          "fibre": "கொண்டைக்கடலை, காய்கறிகள்",
-          "carbs": "கொண்டைக்கடலை, மாதுளை",
-          "other": "காய்கறிகளில் வைட்டமின்கள்"
+          "protein": "Chickpeas",
+          "fibre": "Chickpeas, vegetables",
+          "carbs": "Chickpeas, pomegranate",
+          "other": "Vitamins: vegetables"
         },
         "veg": true,
         "image": "https://img-global.cpcdn.com/recipes/184aad47154200f9/680x781f0.5_0.5_1.0q80/roasted-chickpea-bhel-in-just-10-minutes-recipe-main-photo.jpg"
@@ -344,15 +344,15 @@ const mealGroups = [
       {
         "id": "snacks-4",
         "pair": [
-          "ஆப்பிள், வாழைப்பழம்",
-          "வேர்க்கடலை"
+          "Apple & banana",
+          "Peanuts"
         ],
         "side": "",
         "nutrients": {
-          "protein": "வேர்க்கடலை",
-          "fibre": "பழங்கள், வேர்க்கடலை",
-          "carbs": "பழங்கள்",
-          "other": "வேர்க்கடலையில் கொழுப்பு"
+          "protein": "Peanuts",
+          "fibre": "Fruit, peanuts",
+          "carbs": "Fruit",
+          "other": "Fats: peanuts"
         },
         "veg": true,
         "image": "https://snapcalorie-webflow-website.s3.us-east-2.amazonaws.com/media/recipe_pics/banana_apple_peanut_salad.jpg"
@@ -360,15 +360,15 @@ const mealGroups = [
       {
         "id": "snacks-5",
         "pair": [
-          "கொண்டைக்கடலைச் சுண்டல்",
-          "கொய்யாப்பழம்"
+          "Chickpea sundal",
+          "Guava"
         ],
-        "side": "தேங்காய்த் துருவல்",
+        "side": "Grated coconut",
         "nutrients": {
-          "protein": "கொண்டைக்கடலை",
-          "fibre": "கொண்டைக்கடலை, கொய்யா",
-          "carbs": "கொண்டைக்கடலை, கொய்யா",
-          "other": "கொய்யாவில் வைட்டமின் சி"
+          "protein": "Chickpeas",
+          "fibre": "Chickpeas, guava",
+          "carbs": "Chickpeas, guava",
+          "other": "Vitamin C: guava"
         },
         "veg": true,
         "image": "https://aahaaramonline.com/wp-content/uploads/2013/08/Guggillu_Sundal-1024x683.jpg"
@@ -376,15 +376,15 @@ const mealGroups = [
       {
         "id": "snacks-6",
         "pair": [
-          "வேகவைத்த வேர்க்கடலை",
-          "வெள்ளரி"
+          "Boiled peanuts",
+          "Cucumber"
         ],
         "side": "",
         "nutrients": {
-          "protein": "வேர்க்கடலை",
-          "fibre": "வேர்க்கடலை, வெள்ளரி",
-          "carbs": "வேர்க்கடலை",
-          "other": "வேர்க்கடலையில் கொழுப்பு"
+          "protein": "Peanuts",
+          "fibre": "Peanuts, cucumber",
+          "carbs": "Peanuts",
+          "other": "Fats: peanuts"
         },
         "veg": true,
         "image": "https://nanaschana.com/cdn/shop/files/BoiledRoastedsing1.jpg?v=1759096963&width=3840"
@@ -392,15 +392,15 @@ const mealGroups = [
       {
         "id": "snacks-7",
         "pair": [
-          "இளநீர்",
-          "பொட்டுக்கடலை"
+          "Coconut water",
+          "Roasted chana"
         ],
         "side": "",
         "nutrients": {
-          "protein": "பொட்டுக்கடலை",
-          "fibre": "பொட்டுக்கடலை",
-          "carbs": "பொட்டுக்கடலை, இளநீர்",
-          "other": "இளநீரில் பொட்டாசியம்"
+          "protein": "Roasted chana",
+          "fibre": "Roasted chana",
+          "carbs": "Roasted chana, coconut water",
+          "other": "Potassium: coconut water"
         },
         "veg": true,
         "image": "https://images.hindustantimes.com/tamil/img/2023/04/23/960x540/main_1682236359444_1682236368745.jpg"
@@ -410,20 +410,20 @@ const mealGroups = [
   {
     "id": "dinner",
     "icon": "🌙",
-    "title": "இரவு",
+    "title": "Dinner",
     "meals": [
       {
         "id": "dinner-0",
         "pair": [
-          "முழுக்கோதுமைச் சப்பாத்தி",
-          "பருப்பு"
+          "Chapati",
+          "Dal"
         ],
-        "side": "காய்கறிக் கூட்டு",
+        "side": "Vegetable curry",
         "nutrients": {
-          "protein": "பருப்பு",
-          "fibre": "முழுக்கோதுமை, பருப்பு, காய்கறிகள்",
-          "carbs": "சப்பாத்தி",
-          "other": "பருப்பில் இரும்புச்சத்து"
+          "protein": "Lentils",
+          "fibre": "Whole wheat, lentils, vegetables",
+          "carbs": "Whole-wheat chapati",
+          "other": "Iron: lentils"
         },
         "veg": true,
         "image": "https://bangeras-online.com/cdn/shop/files/3_3f2c2a41-7ac1-4c54-a90b-d42d1f31de23.webp?v=1751004808&width=1080"
@@ -431,15 +431,15 @@ const mealGroups = [
       {
         "id": "dinner-1",
         "pair": [
-          "முட்டை தோசை",
-          "சாம்பார்"
+          "Egg dosa",
+          "Sambar"
         ],
-        "side": "காய்கறிகள், சட்னி",
+        "side": "Vegetables, chutney",
         "nutrients": {
-          "protein": "முட்டை, சாம்பார் பருப்பு",
-          "fibre": "சாம்பார் காய்கறிகள், பருப்பு",
-          "carbs": "தோசை",
-          "other": "முட்டை மஞ்சளில் கொழுப்பு"
+          "protein": "Eggs, lentils",
+          "fibre": "Vegetables, lentils",
+          "carbs": "Dosa",
+          "other": "Fats: egg yolk"
         },
         "veg": false,
         "image": "https://ik.imagekit.io/fpcle7dmn/images/thumbs/0021222_egg-pepper-dosa.jpeg"
@@ -447,15 +447,15 @@ const mealGroups = [
       {
         "id": "dinner-2",
         "pair": [
-          "சாதம்",
-          "கோழிக்கறி"
+          "Rice",
+          "Chicken"
         ],
-        "side": "கேரட், பீன்ஸ், குடைமிளகாய்",
+        "side": "Carrot, beans, peppers",
         "nutrients": {
-          "protein": "கோழிக்கறி",
-          "fibre": "காய்கறிகள்",
-          "carbs": "சாதம்",
-          "other": "காய்கறிகளில் வைட்டமின்கள்"
+          "protein": "Chicken",
+          "fibre": "Vegetables",
+          "carbs": "Rice",
+          "other": "Vitamins: vegetables"
         },
         "veg": false,
         "image": "https://cdn.foodfaithfitness.com/uploads/2024/07/Chicken-Stir-Fry-A_FFF_Chicken_Stir_Fry_Feature_2-635x635.jpg"
@@ -463,15 +463,15 @@ const mealGroups = [
       {
         "id": "dinner-3",
         "pair": [
-          "காய்கறி உப்புமா",
-          "சாம்பார்"
+          "Vegetable upma",
+          "Sambar"
         ],
-        "side": "தேங்காய்ச் சட்னி",
+        "side": "Coconut chutney",
         "nutrients": {
-          "protein": "சாம்பார் பருப்பு",
-          "fibre": "காய்கறிகள், பருப்பு",
-          "carbs": "உப்புமா ரவை",
-          "other": "தேங்காயில் கொழுப்பு"
+          "protein": "Lentils",
+          "fibre": "Vegetables, lentils",
+          "carbs": "Semolina",
+          "other": "Fats: coconut"
         },
         "veg": true,
         "image": "https://www.dakshinbhojnam.com/img/1%2811%29.jpg"
@@ -479,15 +479,15 @@ const mealGroups = [
       {
         "id": "dinner-4",
         "pair": [
-          "காய்கறிப் பருப்புக் கிச்சடி",
-          "தயிர்"
+          "Dal khichdi",
+          "Curd"
         ],
         "side": "",
         "nutrients": {
-          "protein": "கிச்சடி பருப்பு, தயிர்",
-          "fibre": "பருப்பு, காய்கறிகள்",
-          "carbs": "கிச்சடி அரிசி",
-          "other": "தயிரில் கால்சியம்"
+          "protein": "Lentils, curd",
+          "fibre": "Lentils, vegetables",
+          "carbs": "Rice",
+          "other": "Calcium: curd"
         },
         "veg": true,
         "image": "https://cdn.shopify.com/s/files/1/0702/7218/8719/files/khicdi_with_yogurt_480x480.jpg?v=1721389760"
@@ -495,15 +495,15 @@ const mealGroups = [
       {
         "id": "dinner-5",
         "pair": [
-          "ஆப்பம்",
-          "கொண்டைக்கடலைக் குருமா"
+          "Appam",
+          "Chickpea curry"
         ],
-        "side": "காய்கறிகள்",
+        "side": "Vegetables",
         "nutrients": {
-          "protein": "கொண்டைக்கடலை",
-          "fibre": "கொண்டைக்கடலை, காய்கறிகள்",
-          "carbs": "ஆப்பம்",
-          "other": "கொண்டைக்கடலையில் இரும்புச்சத்து"
+          "protein": "Chickpeas",
+          "fibre": "Chickpeas, vegetables",
+          "carbs": "Appam",
+          "other": "Iron: chickpeas"
         },
         "veg": true,
         "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy%2Cf_auto%2Cq_auto%2Cw_300%2Ch_300%2Ce_grayscale%2Cc_fit/FOOD_CATALOG/IMAGES/CMS/2024/4/7/90067657-de1a-4ff7-8d09-b269e8b03489_bdb1dff9-36b5-4ee8-9c8c-538abc5cec32.jpg_compressed"
@@ -511,15 +511,15 @@ const mealGroups = [
       {
         "id": "dinner-6",
         "pair": [
-          "காய்கறி ஊத்தப்பம்",
-          "சாம்பார்"
+          "Veg uttapam",
+          "Sambar"
         ],
-        "side": "தேங்காய்ச் சட்னி",
+        "side": "Coconut chutney",
         "nutrients": {
-          "protein": "சாம்பார் பருப்பு",
-          "fibre": "காய்கறிகள், பருப்பு",
-          "carbs": "ஊத்தப்பம்",
-          "other": "தேங்காயில் கொழுப்பு"
+          "protein": "Lentils",
+          "fibre": "Vegetables, lentils",
+          "carbs": "Uttapam",
+          "other": "Fats: coconut"
         },
         "veg": true,
         "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy%2Cf_auto%2Cq_auto/ajuphvampmwkqegpqymt"
@@ -527,15 +527,15 @@ const mealGroups = [
       {
         "id": "dinner-7",
         "pair": [
-          "காய்கறிச் சூப்",
-          "கொண்டைக்கடலைச் சுண்டல்"
+          "Vegetable soup",
+          "Chickpea sundal"
         ],
-        "side": "முழுக்கோதுமை ரொட்டி",
+        "side": "Whole-wheat bread",
         "nutrients": {
-          "protein": "கொண்டைக்கடலை",
-          "fibre": "காய்கறிகள், கொண்டைக்கடலை, முழுக்கோதுமை",
-          "carbs": "முழுக்கோதுமை ரொட்டி, கொண்டைக்கடலை",
-          "other": "காய்கறிகளில் வைட்டமின்கள்"
+          "protein": "Chickpeas",
+          "fibre": "Vegetables, chickpeas, whole wheat",
+          "carbs": "Whole-wheat bread, chickpeas",
+          "other": "Vitamins: vegetables"
         },
         "veg": true,
         "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy%2Cf_auto%2Cq_auto%2Cw_300%2Ch_300%2Ce_grayscale%2Cc_fit/yd0yeaq44pdgbjidafcp"
@@ -545,14 +545,104 @@ const mealGroups = [
 ];
 
 const storePicks = [
-  ["🍌", "வாழைப்பழம், கொய்யா"], ["🥚", "முட்டை"], ["🥛", "பால், தயிர்"], ["🧃", "மோர்"], ["🥥", "இளநீர்"],
-  ["🫘", "பொட்டுக்கடலை"], ["🥜", "வேர்க்கடலை"], ["🌱", "வேகவைத்த முளைப்பயறு"], ["🌰", "பாதாம், வால்நட்"],
-  ["🥒", "வெள்ளரி, கேரட்"], ["🍞", "முழுக்கோதுமை ரொட்டி"], ["🥣", "ஓட்ஸ்"], ["🥣", "சர்க்கரை சேர்க்காத தானியக் கலவை"],
-  ["🫓", "இட்லி, தோசை மாவு"], ["🌾", "ராகி மாவு"], ["🫘", "அடை மாவு"],
-  ["🥫", "கொண்டைக்கடலை, ராஜ்மா"], ["🌽", "வேகவைத்த சோளம்"], ["🧀", "பனீர்"], ["🥣", "சத்துமாவு"], ["🌾", "ராகி சேமியா"],
-  ["🌾", "சிறுதானிய அவல்"], ["🍘", "வறுத்த தாமரை விதை"], ["🫙", "சர்க்கரை சேர்க்காத வேர்க்கடலை விழுது"]
+  [
+    "🍌",
+    "Banana, guava"
+  ],
+  [
+    "🥚",
+    "Eggs"
+  ],
+  [
+    "🥛",
+    "Milk, curd"
+  ],
+  [
+    "🧃",
+    "Buttermilk"
+  ],
+  [
+    "🥥",
+    "Coconut water"
+  ],
+  [
+    "🫘",
+    "Roasted chana"
+  ],
+  [
+    "🥜",
+    "Peanuts"
+  ],
+  [
+    "🌱",
+    "Cooked sprouts"
+  ],
+  [
+    "🌰",
+    "Almonds, walnuts"
+  ],
+  [
+    "🥒",
+    "Cucumber, carrot"
+  ],
+  [
+    "🍞",
+    "Whole-wheat bread"
+  ],
+  [
+    "🥣",
+    "Oats"
+  ],
+  [
+    "🥣",
+    "Unsweetened muesli"
+  ],
+  [
+    "🫓",
+    "Idli / dosa batter"
+  ],
+  [
+    "🌾",
+    "Ragi flour"
+  ],
+  [
+    "🫘",
+    "Adai mix"
+  ],
+  [
+    "🥫",
+    "Chickpeas, rajma"
+  ],
+  [
+    "🌽",
+    "Boiled corn"
+  ],
+  [
+    "🧀",
+    "Paneer"
+  ],
+  [
+    "🥣",
+    "Multigrain mix"
+  ],
+  [
+    "🌾",
+    "Ragi semiya"
+  ],
+  [
+    "🌾",
+    "Millet flakes"
+  ],
+  [
+    "🍘",
+    "Roasted makhana"
+  ],
+  [
+    "🫙",
+    "Unsweetened peanut butter"
+  ]
 ];
-const nutrientLabels = {protein: "புரதம்", fibre: "நார்ச்சத்து", carbs: "மாவுச்சத்து", other: "பிற சத்துகள்"};
+const nutrientLabels = {protein: "Protein", fibre: "Fibre", carbs: "Carbs", other: "Other"};
 const storageKey = "nal-unavu-v3";
 const dayMilliseconds = 86400000;
 const dateFormatter = new Intl.DateTimeFormat("en-CA", {timeZone: "Asia/Kolkata", year: "numeric", month: "2-digit", day: "2-digit"});
@@ -619,7 +709,7 @@ function escapeHtml(value) {
 }
 
 function nutritionHtml(meal) {
-  return `<details class="nutrition"><summary>சத்துகள்</summary><dl>${Object.entries(nutrientLabels).map(([key, label]) => `<div><dt>${label}</dt><dd>${escapeHtml(meal.nutrients[key])}</dd></div>`).join("")}</dl></details>`;
+  return `<details class="nutrition"><summary>Nutrients</summary><dl>${Object.entries(nutrientLabels).map(([key, label]) => `<div><dt>${label}</dt><dd>${escapeHtml(meal.nutrients[key])}</dd></div>`).join("")}</dl></details>`;
 }
 
 function cardHtml(meal, group, daily = false) {
@@ -631,8 +721,8 @@ function cardHtml(meal, group, daily = false) {
     </div>
     <div class="meal-content">
       <h3 class="food-pair"><span>${escapeHtml(meal.pair[0])}</span><span class="pair-second">${escapeHtml(meal.pair[1])}</span></h3>
-      ${meal.side ? `<p class="side">${escapeHtml(meal.side)}</p>` : ""}
-      <div class="nutrient-tags"><span>புரதம்</span><span>நார்ச்சத்து</span></div>
+      <p class="side${meal.side ? "" : " side-empty"}"${meal.side ? "" : ' aria-hidden="true"'}>${escapeHtml(meal.side) || "&nbsp;"}</p>
+      <div class="nutrient-tags"><span>Protein</span><span>Fibre</span></div>
       ${nutritionHtml(meal)}
     </div>
   </article>`;
@@ -658,11 +748,11 @@ function renderDaily(message = "") {
   document.getElementById("dailyPlan").innerHTML = mainGroups.map(group => cardHtml(group.meals.find(meal => meal.id === currentPlan[group.id]), group, true)).join("");
   const snackGroup = mealGroups.find(group => group.id === "snacks");
   const snack = snackGroup.meals.find(meal => meal.id === currentPlan.snacks);
-  document.getElementById("dailySnack").innerHTML = `<strong>🍎 சிற்றுண்டி</strong><span class="snack-food">${escapeHtml(snack.pair.join(' + '))}${snack.side ? ` + ${escapeHtml(snack.side)}` : ''}</span>${nutritionHtml(snack)}`;
+  document.getElementById("dailySnack").innerHTML = `<strong>🍎 Snacks</strong><span class="snack-food">${escapeHtml(snack.pair.join(' + '))}${snack.side ? ` + ${escapeHtml(snack.side)}` : ''}</span>${nutritionHtml(snack)}`;
   const date = new Date(`${activeDay}T12:00:00+05:30`);
   const time = document.getElementById("todayDate");
   time.dateTime = activeDay;
-  time.textContent = new Intl.DateTimeFormat("ta-IN", {timeZone:"Asia/Kolkata", day:"numeric", month:"long", weekday:"short"}).format(date);
+  time.textContent = new Intl.DateTimeFormat("en-IN", {timeZone:"Asia/Kolkata", day:"numeric", month:"short", weekday:"short"}).format(date);
   document.getElementById("planStatus").textContent = message;
 }
 
@@ -671,7 +761,7 @@ function renderCatalogue() {
     const group = mealGroups.find(group => group.id === id);
     const meals = group.meals.filter(meal => diet !== "veg" || meal.veg);
     return `<section class="section meal-section" id="${group.id}" aria-labelledby="${group.id}-heading">
-      <div class="section-heading"><h2 id="${group.id}-heading">${group.icon} ${group.title}</h2><span class="option-count">${meals.length} தேர்வுகள்</span></div>
+      <div class="section-heading"><h2 id="${group.id}-heading">${group.icon} ${group.title}</h2><span class="option-count">${meals.length} options</span></div>
       <div class="meal-grid">${meals.map(meal => cardHtml(meal, group)).join("")}</div>
     </section>`;
   }).join("");
@@ -684,7 +774,7 @@ function refreshDay() {
   plans = {};
   restorePlan();
   saveState();
-  renderDaily("இன்றைய புதிய உணவுகள் தயார்.");
+  renderDaily("Today's menu is ready.");
   return true;
 }
 
@@ -705,7 +795,7 @@ document.getElementById("shuffleButton").addEventListener("click", () => {
   currentPlan = shufflePlan(currentPlan, diet);
   plans[diet] = currentPlan;
   saveState();
-  renderDaily("வேறு உணவுகள் தேர்ந்தெடுக்கப்பட்டன.");
+  renderDaily("Menu shuffled.");
 });
 
 document.querySelectorAll('input[name="diet"]').forEach(input => input.addEventListener("change", () => {
@@ -713,7 +803,7 @@ document.querySelectorAll('input[name="diet"]').forEach(input => input.addEventL
   diet = input.value;
   restorePlan();
   saveState();
-  renderDaily(diet === "veg" ? "சைவ உணவுகள் தேர்ந்தெடுக்கப்பட்டன." : "அனைத்து உணவுகளும் காட்டப்படுகின்றன.");
+  renderDaily(diet === "veg" ? "Vegetarian menu selected." : "All meals shown.");
   renderCatalogue();
 }));
 

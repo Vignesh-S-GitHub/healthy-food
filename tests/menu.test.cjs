@@ -44,7 +44,7 @@ for(let i=0;i<50;i++) {
 assert.equal(boot(app.saved()).run('JSON.stringify(currentPlan)'),app.run('JSON.stringify(currentPlan)'));
 app.radios[1].change();
 assert(app.run('mealGroups.every(g=>g.meals.find(m=>m.id===currentPlan[g.id]).veg)'));
-assert(!/முட்டை|மீன்|கோழி/.test(app.els.mealSections.innerHTML));
+assert(!/\b(?:eggs?|fish|chicken)\b/i.test(app.els.mealSections.innerHTML));
 const veg = app.run('JSON.stringify(currentPlan)');
 assert.equal(boot(app.saved()).run('diet'),'veg');
 app.radios[0].change();app.radios[1].change();
@@ -58,13 +58,13 @@ for(const seed of ['{bad', 'null', JSON.stringify({day:'2026-10-25',diet:'veg',p
 assert(boot(undefined,true).run('validPlan(currentPlan,diet)'));
 for(const element of Object.values(app.els)) {
   const visible = (element.innerHTML||'').replace(/<[^>]*>/g,'');
-  assert(!/[a-z]/i.test(visible),visible);
+  assert(!/[\u0B80-\u0BFF]/.test(visible),visible);
 }
 const data = JSON.parse(app.run('JSON.stringify(mealGroups)'));
 for(const group of data) for(const meal of group.meals) {
   assert.equal(meal.pair.length,2);
   assert(Object.values(meal.nutrients).every(Boolean));
-  assert(!/[a-z]/i.test([...meal.pair,meal.side,...Object.values(meal.nutrients)].join('')));
+  assert(!/[\u0B80-\u0BFF]/.test([...meal.pair,meal.side,...Object.values(meal.nutrients)].join('')));
 }
-console.log('PASS: 32 Tamil meal pairs, nutrient sources, 730 daily plans, non-repeating cycles, IST rollover, shuffle, vegetarian filtering, persistence and unavailable/corrupt storage.');
+console.log('PASS: 32 English meal pairs, nutrient sources, 730 daily plans, non-repeating cycles, IST rollover, shuffle, vegetarian filtering, persistence and unavailable/corrupt storage.');
 console.log('Today:',app.run('JSON.stringify(createPlan("2026-10-25","all"))'));
