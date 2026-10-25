@@ -1,102 +1,52 @@
 <!doctype html>
-<html lang="en">
+<html lang="ta">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="A simple Chennai-friendly healthy food guide with practical breakfast, lunch, snack and dinner options." />
+  <meta name="description" content="தினமும் மாறும் தமிழ் உணவுப் பட்டியல். புரதம், நார்ச்சத்து, மாவுச்சத்து கொண்ட எளிய உணவு இணைகள்." />
   <meta name="theme-color" content="#f7f8f3" />
-  <title>Healthy Food · Daily Menu</title>
-  <link rel="icon" type="image/png" href="assets/images/healthy-food-logo.png?v=2" />
-  <link rel="apple-touch-icon" href="assets/images/healthy-food-logo.png?v=2" />
+  <title>நல உணவு · இன்றைய உணவுகள்</title>
+  <link rel="icon" type="image/svg+xml" href="assets/images/meal-icon.svg" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Tamil:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css?v=3" />
 </head>
 <body>
   <header class="site-header">
-    <a class="brand" href="#home" aria-label="Healthy Food home">
-      <img class="brand-logo" src="assets/images/healthy-food-logo.png?v=2" alt="Healthy Food logo" />
-      <span>Healthy Food</span>
-    </a>
-
-    <nav class="desktop-nav" aria-label="Primary navigation">
-      <a href="#breakfast">Breakfast</a>
-      <a href="#lunch">Lunch</a>
-      <a href="#snacks">Snacks</a>
-      <a href="#dinner">Dinner</a>
-      <a href="#stock">Room stock</a>
-    </nav>
-
-    <button class="menu-button" id="menuButton" type="button" aria-expanded="false" aria-controls="mobileMenu" aria-label="Open menu">
-      <span></span><span></span><span></span>
-    </button>
+    <a class="brand" href="#home"><span aria-hidden="true">🥗</span> நல உணவு</a>
+    <time id="todayDate"></time>
   </header>
-
-  <div class="mobile-menu" id="mobileMenu" hidden>
-    <nav aria-label="Mobile navigation">
-      <a href="#breakfast"><span>🌅</span> Breakfast</a>
-      <a href="#lunch"><span>☀️</span> Lunch</a>
-      <a href="#snacks"><span>🍎</span> Snacks</a>
-      <a href="#dinner"><span>🌙</span> Dinner</a>
-      <a href="#stock"><span>🛒</span> Room stock</a>
-    </nav>
-  </div>
-
   <main id="home">
-    <section class="menu-intro">
-      <div>
-        <span class="section-label">DAILY FOOD MENU</span>
-        <h1>What do you want to eat?</h1>
-        <p>Open a meal section, look at the actual dish, and choose one combination. No large banner or unnecessary content.</p>
-      </div>
-      <div class="menu-summary" aria-label="Menu summary">
-        <span><strong>4</strong> meal times</span>
-        <span><strong>20</strong> options</span>
-      </div>
-    </section>
-
-    <nav class="meal-jump" aria-label="Jump to meal">
-      <a href="#breakfast">🌅 <span>Breakfast</span></a>
-      <a href="#lunch">☀️ <span>Lunch</span></a>
-      <a href="#snacks">🍎 <span>Snacks</span></a>
-      <a href="#dinner">🌙 <span>Dinner</span></a>
-    </nav>
-
-    <div id="mealSections"></div>
-
-    <section class="section stock-section" id="stock">
+    <section class="daily-section" aria-labelledby="dailyHeading">
       <div class="section-heading">
-        <div>
-          <span class="section-label">ROOM STOCK</span>
-          <h2>Keep the basics ready</h2>
-          <p>Useful for rushed mornings, evening hunger and simple backup meals.</p>
-        </div>
+        <div><h1 id="dailyHeading">இன்று என்ன சாப்பிடலாம்?</h1><p class="small-note">தினமும் புதிய தேர்வு · இரண்டு முக்கிய உணவுகள்</p></div>
+        <button id="shuffleButton" class="primary-button" type="button">↻ வேறு உணவுகள்</button>
       </div>
-
-      <div class="stock-grid">
-        <article><span>🍌</span><div><h3>Fresh fruit</h3><p>Banana, apple, guava, orange</p></div></article>
-        <article><span>🥚</span><div><h3>Eggs</h3><p>Boiled eggs or a simple omelette</p></div></article>
-        <article><span>🥛</span><div><h3>Curd & milk</h3><p>Plain curd, milk and buttermilk</p></div></article>
-        <article><span>🥣</span><div><h3>Breakfast base</h3><p>Oats and whole-wheat bread</p></div></article>
-        <article><span>🥜</span><div><h3>Nuts & chana</h3><p>Peanuts, almonds, walnuts, roasted chana</p></div></article>
-        <article><span>🥫</span><div><h3>Backup protein</h3><p>Ready chana or rajma</p></div></article>
-        <article><span>🍚</span><div><h3>Quick carbs</h3><p>Rice, poha or ready chapati</p></div></article>
-        <article><span>🥒</span><div><h3>Easy vegetables</h3><p>Cucumber, tomato, carrot and onion</p></div></article>
-      </div>
+      <fieldset class="diet-filter">
+        <legend class="sr-only">உணவு வகை</legend>
+        <label><input type="radio" name="diet" value="all" checked><span>அனைத்தும்</span></label>
+        <label><input type="radio" name="diet" value="veg"><span>சைவம் மட்டும்</span></label>
+      </fieldset>
+      <p id="planStatus" class="sr-only" role="status" aria-live="polite"></p>
+      <div id="dailyPlan" class="meal-grid daily-grid"></div>
+      <div id="dailySnack" class="daily-snack"></div>
     </section>
-
-    <aside class="disclaimer">
-      <strong>Simple food reference, not a medical diet plan.</strong>
-      <span>Adjust portions for your hunger, activity, allergies and professional medical advice.</span>
-    </aside>
+    <nav class="meal-jump" aria-label="உணவுப் பகுதிகள்">
+      <a href="#breakfast">🌅 காலை</a>
+      <a href="#lunch">☀️ மதியம்</a>
+      <a href="#dinner">🌙 இரவு</a>
+      <a href="#snacks">🍎 சிற்றுண்டி</a>
+      <a href="#stock">🛒 கடைப் பொருட்கள்</a>
+    </nav>
+    <div id="mealSections"></div>
+    <details class="stock-section section" id="stock">
+      <summary>🛒 வாங்கி வைத்துக்கொள்ள</summary>
+      <div id="stockGrid" class="stock-grid"></div>
+    </details>
+    <footer><span>படங்கள் விளக்கத்திற்காக.</span><a href="#home">மேலே ↑</a></footer>
+    <noscript><p>உணவுப் பட்டியலைப் பார்க்க உலாவியில் ஜாவாஸ்கிரிப்டை இயக்கவும்.</p></noscript>
   </main>
-
-  <footer>
-    <span>Healthy Food · Chennai-friendly daily choices</span>
-    <a href="#home">Back to top ↑</a>
-  </footer>
-
-  <script src="script.js"></script>
+  <script src="script.js?v=3"></script>
 </body>
 </html>

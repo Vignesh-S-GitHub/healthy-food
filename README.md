@@ -1,40 +1,30 @@
-<div align="center">
+# 🥗 நல உணவு
 
-# 🥗 Healthy Food
-### A practical daily meal guide for busy days in Chennai
+தமிழில் எளிய தினசரி உணவுப் பட்டியல். நிறுவலோ கட்டமைப்புப் பணியோ தேவையில்லை.
 
-**Simple meal ideas · quick filters · room-friendly options**
+- காலை, மதியம், இரவு உணவுகள் மூன்று நெடுவரிசைகளில்; சிற்றுண்டி தனியாக.
+- 32 உணவு இணைகள். ஒவ்வொன்றிலும் இரண்டு முக்கிய உணவுகள், தேவையான துணை உணவுகள்.
+- புரதம், நார்ச்சத்து முன்னிலைப்படுத்தப்படும். **சத்துகள்** என்பதைத் திறந்தால் மாவுச்சத்து மற்றும் பிற சத்துகளின் உணவு ஆதாரங்களையும் பார்க்கலாம்.
+- இந்திய நேரப்படி நாள் மாறும்போது புதிய தேர்வு. பக்கம் திறந்திருந்தாலும் 30 வினாடிகளுக்குள் புதுப்பிக்கப்படும்.
+- ஒவ்வொரு உணவு வகைக்குமான கலக்கப்பட்ட பட்டியலில் இருந்து தினமும் ஒரு தேர்வு; சுழற்சி முடியும் வரை அதே தேர்வு மீண்டும் வராது. சைவ வடிகட்டிக்கு ஏற்ப சுழற்சியில் 6 முதல் 8 தேர்வுகள் இருக்கும்.
+- **வேறு உணவுகள்** பொத்தான் ஒவ்வொரு வகையிலும் தற்போதைய உணவிலிருந்து வேறொன்றைத் தேர்ந்தெடுக்கும்.
+- சைவத் தேர்வும் அன்றைய கலக்கப்பட்ட உணவுகளும் அதே உலாவியில் சேமிக்கப்படும். சேமிப்பு கிடைக்காவிட்டாலும் பக்கம் இயங்கும்.
+- 24 கடைப் பொருட்கள் மடிக்கக்கூடிய பட்டியலில்.
+- உணவுப் படங்கள் விளக்கத்திற்காக; இணையப் படம் கிடைக்காவிட்டால் குறியீடு காட்டப்படும்.
 
-</div>
+## இயக்க
 
-> A lightweight reference for choosing everyday meals, with familiar Chennai-friendly options and practical choices for home, hostel, or hotel routines.
+`index.html` கோப்பை உலாவியில் திறக்கலாம் அல்லது நிலையான இணையச் சேவையகம் மூலம் இயக்கலாம். நேரடித் தளம்: https://vignesh-s-github.github.io/healthy-food/
 
-## What you can do
+## சத்து விவரங்கள்
 
-| Plan | Choose | Keep it practical |
-|---|---|---|
-| Browse a daily plan | Explore breakfast, lunch, snacks, and dinner | Filter quick, protein-rich, hotel, or room-friendly meals |
-| Get an idea | Pick a random meal suggestion | Check a small room-stock list before you shop |
-| Make it yours | Switch between light and dark themes | Use the responsive layout on phone or desktop |
+சத்து ஆதாரங்கள் பொதுவான உணவுத் தகவல்கள்; அளவிடப்பட்ட ஊட்டச்சத்து மதிப்புகளோ தனிப்பட்ட மருத்துவ உணவுத் திட்டமோ அல்ல. உணவின் அளவு மற்றும் தயாரிப்பு முறைக்கு ஏற்ப சத்துகள் மாறும்.
 
-## Built with
+உணவுக் குழுக்களின் அடிப்படை: [உலக சுகாதார அமைப்பின் ஆரோக்கிய உணவு வழிகாட்டி](https://www.who.int/news-room/fact-sheets/detail/healthy-diet). பருப்பு, காய்கறி, பழம், தானியம் மற்றும் புரத உணவுகளை இணைக்கும் பொதுக் கொள்கையின் அடிப்படையில் உணவுகள் தேர்ந்தெடுக்கப்பட்டுள்ளன.
 
-Plain **HTML, CSS, and JavaScript**. There is no framework, package installation, or build step.
+## கோப்புகள்
 
-## Run it
-
-1. Clone or download this repository.
-2. Open `index.html` in a browser.
-
-For local development, serve the repository with any static file server and open the local URL.
-
-## Project contents
-
-- `index.html` — page structure and meal reference
-- `styles.css` — responsive layout and themes
-- `script.js` — filters and interactive behavior
-- `assets/images/` — food imagery
-
----
-
-<p align="center"><sub>A small, practical food guide made for everyday decisions.</sub></p>
+- `index.html` — பக்க அமைப்பு
+- `styles.css` — மூன்று நெடுவரிசை வடிவமைப்பு
+- `script.js` — உணவுகள், தினசரித் தேர்வு, சைவ வடிகட்டி
+- `assets/images/` — படங்கள் மற்றும் தளக் குறியீடு
