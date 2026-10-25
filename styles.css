@@ -1,152 +1,26 @@
-:root {
-  --bg: #f7f8f3;
-  --surface: #ffffff;
-  --surface-soft: #eef4e7;
-  --text: #182018;
-  --muted: #687168;
-  --primary: #276749;
-  --primary-2: #3f8f68;
-  --accent: #f0b44d;
-  --line: rgba(24, 32, 24, .10);
-  --shadow: 0 20px 60px rgba(23, 50, 32, .10);
-  --radius-xl: 30px;
-  --radius-lg: 22px;
-  --radius-md: 16px;
-}
-
-* { box-sizing: border-box; }
-html { scroll-behavior: smooth; scroll-padding-top: 92px; }
-body {
-  margin: 0;
-  font-family: "DM Sans", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-  color: var(--text);
-  background:
-    radial-gradient(circle at 10% 0%, rgba(240,180,77,.11), transparent 30rem),
-    radial-gradient(circle at 100% 8%, rgba(63,143,104,.12), transparent 34rem),
-    var(--bg);
-}
-body.menu-open { overflow: hidden; }
-a { color: inherit; text-decoration: none; }
-button { font: inherit; }
-img { max-width: 100%; }
-
-.site-header {
-  position: sticky;
-  top: 0;
-  z-index: 50;
-  min-height: 68px;
-  display: grid;
-  grid-template-columns: 1fr auto 1fr;
-  align-items: center;
-  gap: 20px;
-  padding: 13px clamp(18px, 5vw, 72px);
-  background: rgba(247,248,243,.92);
-  border-bottom: 1px solid var(--line);
-  backdrop-filter: blur(18px);
-}
-.brand { display:inline-flex; align-items:center; gap:10px; width:max-content; font-family:"Manrope",sans-serif; font-weight:800; letter-spacing:-.03em; }
-.brand-logo { width:42px; height:42px; object-fit:contain; display:block; border-radius:12px; }
-.desktop-nav { display:flex; align-items:center; gap:24px; color:var(--muted); font-size:.92rem; }
-.desktop-nav a:hover { color:var(--text); }
-.menu-button { display:none; justify-self:end; width:44px; height:44px; padding:10px; border:1px solid var(--line); border-radius:14px; background:var(--surface); cursor:pointer; }
-.menu-button span { display:block; height:2px; margin:4px 0; border-radius:999px; background:var(--text); }
-.mobile-menu { position:fixed; inset:68px 0 0; z-index:45; padding:18px; background:rgba(247,248,243,.98); backdrop-filter:blur(18px); }
-.mobile-menu nav { display:grid; gap:10px; max-width:520px; margin:0 auto; }
-.mobile-menu a { display:flex; align-items:center; gap:12px; min-height:58px; padding:0 18px; border:1px solid var(--line); border-radius:16px; background:var(--surface); font-weight:700; }
-.mobile-menu a span { font-size:1.35rem; }
-
-main { width:min(1180px, calc(100% - 32px)); margin:0 auto; }
-.section-label { color:var(--primary-2); font-size:.75rem; font-weight:800; letter-spacing:.15em; }
-h1,h2,h3 { font-family:"Manrope",sans-serif; }
-
-.menu-intro { display:flex; justify-content:space-between; align-items:end; gap:30px; padding:52px 0 28px; }
-.menu-intro h1 { margin:10px 0 10px; max-width:700px; font-size:clamp(2.4rem,5vw,4.8rem); line-height:.98; letter-spacing:-.05em; }
-.menu-intro p { max-width:720px; margin:0; color:var(--muted); line-height:1.65; }
-.menu-summary { display:flex; gap:10px; flex:0 0 auto; }
-.menu-summary span { display:grid; gap:2px; min-width:118px; padding:14px 16px; border:1px solid var(--line); border-radius:16px; background:var(--surface); color:var(--muted); font-size:.82rem; }
-.menu-summary strong { color:var(--text); font-size:1.25rem; }
-
-.meal-jump { position:sticky; top:68px; z-index:30; display:grid; grid-template-columns:repeat(4,1fr); gap:10px; margin-bottom:58px; padding:10px; border:1px solid var(--line); border-radius:20px; background:rgba(255,255,255,.92); backdrop-filter:blur(16px); box-shadow:0 10px 35px rgba(30,45,35,.06); }
-.meal-jump a { display:flex; justify-content:center; align-items:center; gap:8px; min-height:46px; border-radius:13px; font-weight:700; }
-.meal-jump a:hover { background:var(--surface-soft); }
-
-.section { padding-bottom:84px; }
-.section-heading { display:flex; justify-content:space-between; gap:24px; align-items:end; margin-bottom:24px; }
-.section-heading h2 { margin:8px 0 0; font-size:clamp(2rem,4vw,3.2rem); letter-spacing:-.045em; }
-.section-heading p { max-width:680px; margin:9px 0 0; color:var(--muted); line-height:1.6; }
-.option-count { flex:0 0 auto; padding:8px 11px; border-radius:999px; background:var(--surface-soft); color:var(--primary); font-size:.78rem; font-weight:700; }
-
-.meal-grid { display:grid; grid-template-columns:repeat(4,1fr); gap:16px; }
-.meal-card { overflow:hidden; border:1px solid var(--line); border-radius:var(--radius-lg); background:var(--surface); box-shadow:0 10px 34px rgba(30,45,35,.05); }
-.meal-image-wrap { position:relative; background:var(--surface-soft); }
-.meal-image-wrap img { width:100%; aspect-ratio:4/3; object-fit:cover; display:block; }
-.option-number { position:absolute; top:12px; left:12px; min-width:36px; height:36px; display:grid; place-items:center; border-radius:50%; background:rgba(255,255,255,.92); color:var(--primary); font-size:.76rem; font-weight:800; }
-.meal-content { padding:17px; }
-.meal-content h3 { margin:0 0 10px; font-size:1.05rem; line-height:1.3; }
-.meal-content ul { display:grid; gap:6px; margin:0; padding:0; list-style:none; color:var(--muted); font-size:.88rem; }
-.meal-content li { display:flex; gap:8px; line-height:1.42; }
-.meal-content li::before { content:"•"; color:var(--primary-2); font-weight:800; }
-
-.stock-section { padding-top:2px; }
-.stock-grid { display:grid; grid-template-columns:repeat(4,1fr); gap:14px; }
-.stock-grid article { padding:20px; border:1px solid var(--line); border-radius:var(--radius-lg); background:var(--surface); }
-.stock-grid article > span { font-size:1.8rem; }
-.stock-grid h3 { margin:12px 0 6px; }
-.stock-grid p { margin:0; color:var(--muted); line-height:1.5; font-size:.9rem; }
-
-.disclaimer { display:flex; flex-wrap:wrap; gap:8px 18px; margin-bottom:72px; padding:18px 20px; border:1px solid var(--line); border-radius:var(--radius-md); background:var(--surface); color:var(--muted); font-size:.9rem; }
-.disclaimer strong { color:var(--text); }
-footer { display:flex; justify-content:space-between; gap:18px; padding:26px max(16px, calc((100vw - 1180px) / 2)); border-top:1px solid var(--line); color:var(--muted); font-size:.9rem; }
-
-@media (max-width:1080px) {
-  .meal-grid { grid-template-columns:repeat(2,1fr); }
-  .stock-grid { grid-template-columns:repeat(2,1fr); }
-}
-
-@media (max-width:980px) {
-  .site-header { grid-template-columns:1fr auto; }
-  .desktop-nav { display:none; }
-  .menu-button { display:block; }
-  .menu-intro { align-items:flex-start; flex-direction:column; }
-}
-
-@media (max-width:700px) {
-  html { scroll-padding-top:132px; }
-  main { width:min(100% - 20px,1180px); }
-  .site-header { min-height:62px; padding:9px 12px; }
-  .brand-logo { width:36px; height:36px; }
-  .mobile-menu { inset:62px 0 0; }
-  .menu-intro { padding:32px 0 20px; gap:18px; }
-  .menu-intro h1 { font-size:clamp(2.2rem,11vw,3.4rem); }
-  .menu-intro p { font-size:.96rem; }
-  .menu-summary { width:100%; }
-  .menu-summary span { min-width:0; flex:1; }
-  .meal-jump { top:62px; grid-template-columns:repeat(4,minmax(74px,1fr)); gap:6px; margin:0 -2px 48px; padding:7px; overflow-x:auto; border-radius:16px; }
-  .meal-jump a { flex-direction:column; gap:2px; min-height:54px; font-size:.73rem; }
-  .section { padding-bottom:60px; }
-  .section-heading { align-items:flex-start; }
-  .section-heading h2 { font-size:clamp(1.8rem,9vw,2.6rem); }
-  .meal-grid, .stock-grid { grid-template-columns:1fr; }
-  .meal-card { display:grid; grid-template-columns:42% 58%; min-height:168px; }
-  .meal-image-wrap, .meal-image-wrap img { height:100%; min-height:168px; }
-  .meal-image-wrap img { aspect-ratio:auto; }
-  .meal-content { padding:14px; }
-  .meal-content h3 { font-size:.98rem; }
-  .meal-content ul { font-size:.82rem; gap:4px; }
-  .option-number { width:32px; min-width:32px; height:32px; top:9px; left:9px; }
-  .stock-grid article { display:grid; grid-template-columns:42px 1fr; gap:12px; align-items:start; padding:17px; }
-  .stock-grid h3 { margin:0 0 5px; }
-  footer { flex-direction:column; padding:22px 14px; }
-}
-
-@media (max-width:430px) {
-  .section-heading { flex-direction:column; gap:12px; }
-  .meal-card { grid-template-columns:40% 60%; }
-  .meal-content { padding:12px; }
-  .meal-content h3 { font-size:.93rem; }
-  .meal-content ul { font-size:.78rem; }
-}
-
-@media (prefers-reduced-motion: reduce) {
-  * { scroll-behavior:auto !important; transition:none !important; }
-}
+:root{--bg:#f7f8f3;--surface:#fff;--soft:#eef4e7;--text:#182018;--muted:#5b685d;--primary:#276749;--line:rgba(24,32,24,.12)}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:152px}
+body{margin:0;background:radial-gradient(circle at 10% 0%,#f0b44d15,transparent 30rem),var(--bg);color:var(--text);font-family:"Noto Sans Tamil",system-ui,sans-serif;line-height:1.65}
+a{color:inherit;text-decoration:none}button,input{font:inherit}button,a,input,summary{-webkit-tap-highlight-color:transparent}
+button,summary{cursor:pointer}button:focus-visible,a:focus-visible,summary:focus-visible,input:focus-visible+span{outline:3px solid #c28b29;outline-offset:4px}
+.site-header{position:sticky;top:0;z-index:40;display:flex;align-items:center;justify-content:space-between;gap:16px;min-height:68px;padding:12px max(16px,calc((100% - 1180px)/2));border-bottom:1px solid var(--line);background:#f7f8f3f5;backdrop-filter:blur(14px)}
+.brand{display:flex;align-items:center;gap:8px;font-size:1.1rem;font-weight:800}.brand>span{font-size:1.8rem}time{color:var(--muted);font-size:.8rem;text-align:right}
+main{width:min(1180px,calc(100% - 32px));margin:auto}.daily-section{padding:30px 0 26px}
+.section-heading{display:flex;justify-content:space-between;align-items:center;gap:14px;margin-bottom:18px}h1,h2,h3,p{margin:0}h1{font-size:clamp(1.2rem,2.5vw,2rem);line-height:1.6}h2{font-size:1.25rem}h3{font-size:1rem;line-height:1.8;font-weight:700}.small-note{font-size:.78rem;color:var(--muted);margin-top:4px}
+.primary-button{flex-shrink:0;border:0;border-radius:12px;padding:12px 16px;min-height:44px;background:var(--primary);color:#fff;font-size:.8rem;font-weight:700}.primary-button:hover{background:#1b4f37}
+.diet-filter{border:0;padding:0;margin:0 0 18px;display:flex;gap:8px}.diet-filter label{position:relative;cursor:pointer}.diet-filter input{position:absolute;opacity:0;width:1px;height:1px}.diet-filter span{display:block;padding:10px 14px;border:1px solid var(--line);border-radius:30px;background:var(--surface);font-size:.78rem;min-height:44px}.diet-filter input:checked+span{color:#fff;background:var(--primary);border-color:var(--primary)}
+.meal-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px;align-items:start}.meal-card{min-width:0;overflow:hidden;border:1px solid var(--line);border-radius:18px;background:var(--surface);box-shadow:0 8px 24px #1e2d2309}.daily-grid .meal-card{border-color:#27674950}.meal-label{padding:9px 12px;background:var(--soft);font-weight:700;font-size:.85rem}
+.meal-image-wrap{position:relative;aspect-ratio:16/10;background:var(--soft);display:grid;place-items:center;overflow:hidden}.meal-image-wrap .image-fallback{font-size:2.7rem;position:absolute}.meal-image-wrap img{position:relative;display:block;width:100%;height:100%;object-fit:cover;min-width:0}.meal-image-wrap img[hidden]{display:none}.meal-content{padding:14px}.food-pair span{display:block}.food-pair .pair-second::before{content:"+ ";color:var(--primary)}.side{font-size:.78rem;color:var(--muted);margin-top:8px}.side::before{content:"+ ";color:var(--primary)}
+.nutrient-tags{display:flex;flex-wrap:wrap;gap:5px;margin-top:12px}.nutrient-tags span{padding:3px 7px;background:var(--soft);border-radius:6px;color:var(--primary);font-size:.66rem;font-weight:600}
+.nutrition{border-top:1px solid var(--line);margin-top:12px;padding-top:3px}.nutrition summary{font-size:.75rem;color:var(--primary);padding:9px 0;min-height:44px}.nutrition dl{margin:0 0 8px;font-size:.75rem}.nutrition dl>div{margin:8px 0}.nutrition dt{font-weight:700;color:var(--primary)}.nutrition dd{margin:0;color:var(--muted)}
+.daily-snack{margin-top:12px;padding:12px 16px;border:1px solid var(--line);border-radius:12px;background:var(--surface);font-size:.82rem}.daily-snack strong{color:var(--primary);margin-right:10px}.daily-snack .snack-food{display:inline}.daily-snack details{margin-top:8px;max-width:500px}
+.meal-jump{position:sticky;top:68px;z-index:30;display:flex;flex-wrap:wrap;gap:6px;padding:8px;margin-bottom:30px;border:1px solid var(--line);border-radius:14px;background:#fffffff5;backdrop-filter:blur(12px)}.meal-jump a{flex:1;text-align:center;display:grid;place-items:center;padding:8px;min-height:44px;font-size:.8rem;white-space:nowrap;border-radius:8px}.meal-jump a:hover{background:var(--soft)}
+.section{padding-bottom:36px}.option-count{font-size:.75rem;color:var(--muted)}.stock-section{margin-bottom:24px;border-top:1px solid var(--line);padding-top:16px}.stock-section>summary{font-weight:700;font-size:1rem;padding:10px 0;min-height:44px}.stock-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;margin-top:12px}.stock-grid article{padding:12px;border:1px solid var(--line);border-radius:12px;background:var(--surface);font-size:.82rem}.stock-grid article>span{display:block;font-size:1.5rem}
+footer{display:flex;justify-content:space-between;gap:16px;border-top:1px solid var(--line);padding:20px 0;color:var(--muted);font-size:.72rem}footer a{min-height:44px}.sr-only{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap}
+@media(max-width:700px){html{scroll-padding-top:202px}main{width:calc(100% - 20px)}.site-header{min-height:62px;padding:10px 12px}.brand{font-size:.95rem}time{font-size:.65rem;max-width:45%}.daily-section{padding-top:22px}.section-heading{flex-wrap:wrap;gap:10px;margin-bottom:12px}.primary-button{font-size:.72rem;padding:10px 12px}.meal-grid{gap:8px}.meal-card{border-radius:11px}.meal-label{font-size:.74rem;padding:7px}.meal-content{padding:9px}h3{font-size:.78rem;line-height:1.9}.side{font-size:.68rem;line-height:1.9}.nutrient-tags{gap:4px;margin-top:8px}.nutrient-tags span{font-size:.58rem;padding:2px 4px}.nutrition{margin-top:8px}.nutrition summary{font-size:.66rem}.nutrition dl{font-size:.65rem;overflow-wrap:anywhere}.meal-image-wrap{aspect-ratio:1.2}.meal-jump{top:62px;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:3px;padding:5px;margin-bottom:24px}.meal-jump a{font-size:.64rem;padding:6px 2px;white-space:normal}.daily-snack{font-size:.72rem;padding:10px}.daily-snack strong{display:block;margin:0 0 4px}.stock-grid{gap:7px}.stock-grid article{font-size:.72rem;padding:9px}h2{font-size:1rem}.option-count{font-size:.65rem}}
+@media(max-width:359px){.meal-grid{gap:5px}.meal-content{padding:6px}h3{font-size:.72rem}.nutrient-tags span{font-size:.53rem}.meal-label{font-size:.67rem;padding:6px}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+/* Keep long Tamil words inside compact three-column cards. */
+.meal-content,.stock-grid article{overflow-wrap:anywhere}
+.meal-image-wrap img{position:absolute;inset:0}
