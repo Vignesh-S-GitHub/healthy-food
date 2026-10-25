@@ -1,52 +1,49 @@
 <!doctype html>
-<html lang="ta">
+<html lang="en">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="தினமும் மாறும் தமிழ் உணவுப் பட்டியல். புரதம், நார்ச்சத்து, மாவுச்சத்து கொண்ட எளிய உணவு இணைகள்." />
+  <meta name="description" content="Simple daily meal pairs with protein, fibre and carbohydrate sources." />
   <meta name="theme-color" content="#f7f8f3" />
-  <title>நல உணவு · இன்றைய உணவுகள்</title>
+  <title>Healthy Food · Today's Menu</title>
   <link rel="icon" type="image/svg+xml" href="assets/images/meal-icon.svg" />
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Tamil:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css?v=3" />
+  <link rel="stylesheet" href="styles.css?v=4" />
 </head>
 <body>
   <header class="site-header">
-    <a class="brand" href="#home"><span aria-hidden="true">🥗</span> நல உணவு</a>
+    <a class="brand" href="#home"><span aria-hidden="true">🥗</span> Healthy Food</a>
     <time id="todayDate"></time>
   </header>
   <main id="home">
     <section class="daily-section" aria-labelledby="dailyHeading">
       <div class="section-heading">
-        <div><h1 id="dailyHeading">இன்று என்ன சாப்பிடலாம்?</h1><p class="small-note">தினமும் புதிய தேர்வு · இரண்டு முக்கிய உணவுகள்</p></div>
-        <button id="shuffleButton" class="primary-button" type="button">↻ வேறு உணவுகள்</button>
+        <div><h1 id="dailyHeading">Today's Menu</h1></div>
+        <button id="shuffleButton" class="primary-button" type="button">↻ Shuffle</button>
       </div>
       <fieldset class="diet-filter">
-        <legend class="sr-only">உணவு வகை</legend>
-        <label><input type="radio" name="diet" value="all" checked><span>அனைத்தும்</span></label>
-        <label><input type="radio" name="diet" value="veg"><span>சைவம் மட்டும்</span></label>
+        <legend class="sr-only">Diet</legend>
+        <label><input type="radio" name="diet" value="all" checked><span>All</span></label>
+        <label><input type="radio" name="diet" value="veg"><span>Veg only</span></label>
       </fieldset>
       <p id="planStatus" class="sr-only" role="status" aria-live="polite"></p>
       <div id="dailyPlan" class="meal-grid daily-grid"></div>
       <div id="dailySnack" class="daily-snack"></div>
     </section>
-    <nav class="meal-jump" aria-label="உணவுப் பகுதிகள்">
-      <a href="#breakfast">🌅 காலை</a>
-      <a href="#lunch">☀️ மதியம்</a>
-      <a href="#dinner">🌙 இரவு</a>
-      <a href="#snacks">🍎 சிற்றுண்டி</a>
-      <a href="#stock">🛒 கடைப் பொருட்கள்</a>
+    <nav class="meal-jump" aria-label="Meals">
+      <a href="#breakfast">🌅 Breakfast</a>
+      <a href="#lunch">☀️ Lunch</a>
+      <a href="#dinner">🌙 Dinner</a>
+      <a href="#snacks">🍎 Snacks</a>
+      <a href="#stock">🛒 Stock up</a>
     </nav>
     <div id="mealSections"></div>
     <details class="stock-section section" id="stock">
-      <summary>🛒 வாங்கி வைத்துக்கொள்ள</summary>
+      <summary>🛒 Stock up</summary>
       <div id="stockGrid" class="stock-grid"></div>
     </details>
-    <footer><span>படங்கள் விளக்கத்திற்காக.</span><a href="#home">மேலே ↑</a></footer>
-    <noscript><p>உணவுப் பட்டியலைப் பார்க்க உலாவியில் ஜாவாஸ்கிரிப்டை இயக்கவும்.</p></noscript>
+    <footer><span>Images are illustrative.</span><a href="#home">Top ↑</a></footer>
+    <noscript><p>Enable JavaScript to see the menu.</p></noscript>
   </main>
-  <script src="script.js?v=3"></script>
+  <script src="script.js?v=4"></script>
 </body>
 </html>
