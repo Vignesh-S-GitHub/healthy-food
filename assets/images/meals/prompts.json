@@ -1,0 +1,137 @@
+{
+  "tool": "Built-in image generation",
+  "images": [
+    {
+      "path": "assets/images/meals/idli-eggs.webp",
+      "prompt": "Use case: photorealistic-natural. Asset type: a landscape 3:2 South Indian food menu photograph. Create ONE realistic photo, no collage, no text, no watermark, no logos. Everyday restaurant food on a stainless-steel plate or small bowls, neutral pale tabletop, natural daylight, overhead three-quarter angle. All named foods must be clearly visible together. Complete serving centered, leave a little space around edges for a 16:10 website crop. No unlisted extra dishes. Subject: Three steamed white idlis, two boiled eggs cut in halves, a small bowl of vegetable lentil sambar with carrot and drumstick. Exact menu: Idli + Boiled eggs. Side: vegetable sambar."
+    },
+    {
+      "path": "assets/images/meals/dosa-sambar.webp",
+      "prompt": "Use case: photorealistic-natural. Asset type: a landscape 3:2 South Indian food menu photograph. Create ONE realistic photo, no collage, no text, no watermark, no logos. Everyday restaurant food on a stainless-steel plate or small bowls, neutral pale tabletop, natural daylight, overhead three-quarter angle. All named foods must be clearly visible together. Complete serving centered, leave a little space around edges for a 16:10 website crop. No unlisted extra dishes. Subject: One folded plain golden dosa, a separate bowl of vegetable lentil sambar, a separate bowl of white coconut chutney. No vada, no potato filling. Exact menu: Dosa + Sambar."
+    },
+    {
+      "path": "assets/images/meals/upma-sambar.webp",
+      "prompt": "Use case: photorealistic-natural. Asset type: a landscape 3:2 South Indian food menu photograph. Create ONE realistic photo, no collage, no text, no watermark, no logos. Everyday restaurant food on a stainless-steel plate or small bowls, neutral pale tabletop, natural daylight, overhead three-quarter angle. All named foods must be clearly visible together. Complete serving centered, leave a little space around edges for a 16:10 website crop. No unlisted extra dishes. Subject: A mound of South Indian vegetable rava upma with small carrot, peas and beans pieces, a separate bowl of vegetable lentil sambar and small bowl of coconut chutney. Exact menu: Vegetable upma + Sambar."
+    },
+    {
+      "path": "assets/images/meals/pongal-sambar.webp",
+      "prompt": "Use case: photorealistic-natural. Asset type: a landscape 3:2 South Indian food menu photograph. Create ONE realistic photo, no collage, no text, no watermark, no logos. Everyday restaurant food on a stainless-steel plate or small bowls, neutral pale tabletop, natural daylight, overhead three-quarter angle. All named foods must be clearly visible together. Complete serving centered, leave a little space around edges for a 16:10 website crop. No unlisted extra dishes. Subject: A modest mound of soft creamy ven pongal made of rice and moong dal with black pepper, cumin and a few cashews; a separate bowl of vegetable lentil sambar and small bowl of coconut chutney. Exact menu: Ven pongal + Sambar."
+    },
+    {
+      "path": "assets/images/meals/puttu-kadala.webp",
+      "prompt": "Use case: photorealistic-natural. Asset type: a landscape 3:2 South Indian food menu photograph. Create ONE realistic photo, no collage, no text, no watermark, no logos. Everyday restaurant food on a stainless-steel plate or small bowls, neutral pale tabletop, natural daylight, overhead three-quarter angle. All named foods must be clearly visible together. Complete serving centered, leave a little space around edges for a 16:10 website crop. No unlisted extra dishes. Subject: Kerala steamed rice puttu: two short white rice-and-coconut cylinders, a separate steel bowl of dark brown black-chickpea kadala curry with visible whole black chickpeas, and one small ripe banana. Exact menu: Puttu + Kadala curry. Side: banana."
+    },
+    {
+      "path": "assets/images/meals/adai-avial.webp",
+      "prompt": "Use case: photorealistic-natural. Asset type: a landscape 3:2 South Indian food menu photograph. Create ONE realistic photo, no collage, no text, no watermark, no logos. Everyday restaurant food on a stainless-steel plate or small bowls, neutral pale tabletop, natural daylight, overhead three-quarter angle. All named foods must be clearly visible together. Complete serving centered, leave a little space around edges for a 16:10 website crop. No unlisted extra dishes. Subject: Two thick rustic golden-brown mixed-lentil adai dosas, one steel bowl of Kerala/Tamil avial showing long carrot, green beans and drumstick pieces in a pale coconut-yogurt coating. Exact menu: Adai + Avial. No sambar or rice."
+    },
+    {
+      "path": "assets/images/meals/ragi-dosa.webp",
+      "prompt": "Use case: photorealistic-natural. Asset type: a landscape 3:2 South Indian food menu photograph. Create ONE realistic photo, no collage, no text, no watermark, no logos. Everyday restaurant food on a stainless-steel plate or small bowls, neutral pale tabletop, natural daylight, overhead three-quarter angle. All named foods must be clearly visible together. Complete serving centered, leave a little space around edges for a 16:10 website crop. No unlisted extra dishes. Subject: Two thin rustic dark brown finger-millet ragi dosas, a separate steel bowl of vegetable lentil sambar and a small bowl of coconut chutney. Exact menu: Ragi dosa + Sambar."
+    },
+    {
+      "path": "assets/images/meals/idiyappam-kadala.webp",
+      "prompt": "Use case: photorealistic-natural. Asset type: a landscape 3:2 South Indian food menu photograph. Create ONE realistic photo, no collage, no text, no watermark, no logos. Everyday restaurant food on a stainless-steel plate or small bowls, neutral pale tabletop, natural daylight, overhead three-quarter angle. All named foods must be clearly visible together. Complete serving centered, leave a little space around edges for a 16:10 website crop. No unlisted extra dishes. Subject: Three nests of very fine steamed white rice string hoppers called idiyappam; a separate steel bowl of dark brown black-chickpea kadala curry with visible whole black chickpeas. Exact menu: Idiyappam + Kadala curry."
+    },
+    {
+      "path": "assets/images/meals/mini-idli.webp",
+      "prompt": "Use case: photorealistic-natural. Asset type: a landscape 3:2 South Indian food menu photograph. Create ONE realistic photo, no collage, no text, no watermark, no logos. Everyday restaurant food on a stainless-steel plate or small bowls, neutral pale tabletop, natural daylight, overhead three-quarter angle. All named foods must be clearly visible together. Complete serving centered, leave a little space around edges for a 16:10 website crop. No unlisted extra dishes. Subject: A shallow steel bowl of many small bite-sized white mini idlis partly submerged in orange vegetable lentil sambar, carrot pieces and curry leaves visible, coconut chutney in a small side bowl. Exact menu: Mini idli + Sambar."
+    },
+    {
+      "path": "assets/images/meals/idli-sambar.webp",
+      "prompt": "Use case: photorealistic-natural. Asset type: a landscape 3:2 South Indian food menu photograph. Create ONE realistic photo, no collage, no text, no watermark, no logos. Everyday restaurant food on a stainless-steel plate or small bowls, neutral pale tabletop, natural daylight, overhead three-quarter angle. All named foods must be clearly visible together. Complete serving centered, leave a little space around edges for a 16:10 website crop. No unlisted extra dishes. Subject: Three steamed white idlis, a separate bowl of orange vegetable lentil sambar and a small bowl of white coconut chutney. Exact menu: Idli + Sambar. No eggs."
+    },
+    {
+      "path": "assets/images/meals/egg-dosa.webp",
+      "prompt": "Use case: photorealistic-natural. Asset type: a landscape 3:2 South Indian food menu photograph. Create ONE realistic photo, no collage, no text, no watermark, no logos. Everyday restaurant food on a stainless-steel plate or small bowls, neutral pale tabletop, natural daylight, overhead three-quarter angle. All named foods must be clearly visible together. Complete serving centered, leave a little space around edges for a 16:10 website crop. No unlisted extra dishes. Subject: A South Indian egg dosa folded in half with visible yellow cooked egg coating, a separate bowl of orange vegetable lentil sambar and small bowl of coconut chutney. Exact menu: Egg dosa + Sambar."
+    },
+    {
+      "path": "assets/images/meals/chicken-rice.webp",
+      "prompt": "Use case: photorealistic-natural. Asset type: a landscape 3:2 South Indian food menu photograph. Create ONE realistic photo, no collage, no text, no watermark, no logos. Everyday restaurant food on a stainless-steel plate or small bowls, neutral pale tabletop, natural daylight, overhead three-quarter angle. All named foods must be clearly visible together. Complete serving centered, leave a little space around edges for a 16:10 website crop. No unlisted extra dishes. Subject: Tamil Nadu chicken kulambu meal: mound of steamed white rice, separate steel bowl of reddish-brown South Indian chicken curry with curry leaves and identifiable cooked chicken pieces, a small portion of carrot and beans poriyal with grated coconut. Exact menu: Rice + Chicken kulambu."
+    },
+    {
+      "path": "assets/images/meals/paniyaram.webp",
+      "prompt": "Use case: photorealistic-natural. Asset type: a landscape 3:2 South Indian food menu photograph. Create ONE realistic photo, no collage, no text, no watermark, no logos. Everyday restaurant food on a stainless-steel plate or small bowls, neutral pale tabletop, natural daylight, overhead three-quarter angle. All named foods must be clearly visible together. Complete serving centered, leave a little space around edges for a 16:10 website crop. No unlisted extra dishes. Subject: Six round golden savoury kuzhi paniyaram with visible onion and curry-leaf flecks, separate bowl of vegetable lentil sambar and small bowl of coconut chutney. Exact menu: Kuzhi paniyaram + Sambar."
+    },
+    {
+      "path": "assets/images/meals/appam-kadala.webp",
+      "prompt": "Use case: photorealistic-natural. Asset type: a landscape 3:2 South Indian food menu photograph. Create ONE realistic photo, no collage, no text, no watermark, no logos. Everyday restaurant food on a stainless-steel plate or small bowls, neutral pale tabletop, natural daylight, overhead three-quarter angle. All named foods must be clearly visible together. Complete serving centered, leave a little space around edges for a 16:10 website crop. No unlisted extra dishes. Subject: Two Kerala appams with lacy crisp white edges and fluffy white centers, a separate steel bowl of dark brown black-chickpea kadala curry with whole black chickpeas visible. Exact menu: Appam + Kadala curry."
+    },
+    {
+      "path": "assets/images/meals/uttapam.webp",
+      "prompt": "Use case: photorealistic-natural. Asset type: a landscape 3:2 South Indian food menu photograph. Create ONE realistic photo, no collage, no text, no watermark, no logos. Everyday restaurant food on a stainless-steel plate or small bowls, neutral pale tabletop, natural daylight, overhead three-quarter angle. All named foods must be clearly visible together. Complete serving centered, leave a little space around edges for a 16:10 website crop. No unlisted extra dishes. Subject: Two thick round South Indian vegetable uttapams with clearly visible diced carrot, onion and tomato topping, a separate bowl of vegetable lentil sambar and coconut chutney. Exact menu: Veg uttapam + Sambar."
+    },
+    {
+      "path": "assets/images/meals/rice-dal-egg.webp",
+      "prompt": "Use case: photorealistic-natural. Asset type: a landscape 3:2 South Indian food menu photograph. Create ONE realistic photo, no collage, no text, no watermark, no logos. Everyday restaurant food on a stainless-steel plate or small bowls, neutral pale tabletop, natural daylight, overhead three-quarter angle. All named foods must be clearly visible together. Complete serving centered, leave a little space around edges for a 16:10 website crop. No unlisted extra dishes. Subject: Tamil Nadu rice meal: mound of white rice, a separate bowl of yellow paruppu (cooked lentils), one boiled egg cut into two halves, and small carrot-and-beans poriyal with grated coconut. Exact menu: Rice + Paruppu & egg."
+    },
+    {
+      "path": "assets/images/meals/veg-meals.webp",
+      "prompt": "Use case: photorealistic-natural. Asset type: a landscape 3:2 South Indian food menu photograph. Create ONE realistic photo, no collage, no text, no watermark, no logos. Everyday restaurant food on a stainless-steel plate or small bowls, neutral pale tabletop, natural daylight, overhead three-quarter angle. All named foods must be clearly visible together. Complete serving centered, leave a little space around edges for a 16:10 website crop. No unlisted extra dishes. Subject: Tamil Nadu vegetarian meals on a steel thali: white rice mound, separate small bowls of orange vegetable sambar and pale lentil-and-bottle-gourd kootu, carrot-and-beans poriyal with grated coconut and plain white curd. Exact menu: Rice + Sambar & kootu. All five dishes clear."
+    },
+    {
+      "path": "assets/images/meals/fish-rice.webp",
+      "prompt": "Use case: photorealistic-natural. Asset type: a landscape 3:2 South Indian food menu photograph. Create ONE realistic photo, no collage, no text, no watermark, no logos. Everyday restaurant food on a stainless-steel plate or small bowls, neutral pale tabletop, natural daylight, overhead three-quarter angle. All named foods must be clearly visible together. Complete serving centered, leave a little space around edges for a 16:10 website crop. No unlisted extra dishes. Subject: Tamil Nadu fish kulambu meal: mound of steamed white rice, separate steel bowl of reddish tamarind fish curry with two clearly identifiable fish steak pieces and curry leaves, carrot-and-beans poriyal with grated coconut beside rice. Exact menu: Rice + Fish kulambu."
+    },
+    {
+      "path": "assets/images/meals/tamarind-rice.webp",
+      "prompt": "Use case: photorealistic-natural. Asset type: a landscape 3:2 South Indian food menu photograph. Create ONE realistic photo, no collage, no text, no watermark, no logos. Everyday restaurant food on a stainless-steel plate or small bowls, neutral pale tabletop, natural daylight, overhead three-quarter angle. All named foods must be clearly visible together. Complete serving centered, leave a little space around edges for a 16:10 website crop. No unlisted extra dishes. Subject: Tamil Nadu puliyodharai, brown tamarind rice with peanuts and curry leaves, a clearly separate bowl of whole green gram sundal (whole cooked green mung beans with grated coconut), a separate small bowl of plain white curd. Exact menu: Tamarind rice + Green gram sundal."
+    },
+    {
+      "path": "assets/images/meals/curd-rice.webp",
+      "prompt": "Use case: photorealistic-natural. Asset type: a landscape 3:2 South Indian food menu photograph. Create ONE realistic photo, no collage, no text, no watermark, no logos. Everyday restaurant food on a stainless-steel plate or small bowls, neutral pale tabletop, natural daylight, overhead three-quarter angle. All named foods must be clearly visible together. Complete serving centered, leave a little space around edges for a 16:10 website crop. No unlisted extra dishes. Subject: Tamil Nadu curd rice, white rice mixed with plain yogurt and mustard/curry-leaf tempering, a separate small bowl of white chickpea sundal with grated coconut and curry leaves, cucumber slices beside it. Exact menu: Curd rice + Chickpea sundal. No pomegranate."
+    },
+    {
+      "path": "assets/images/meals/sambar-keerai.webp",
+      "prompt": "Use case: photorealistic-natural. Asset type: a landscape 3:2 South Indian food menu photograph. Create ONE realistic photo, no collage, no text, no watermark, no logos. Everyday restaurant food on a stainless-steel plate or small bowls, neutral pale tabletop, natural daylight, overhead three-quarter angle. All named foods must be clearly visible together. Complete serving centered, leave a little space around edges for a 16:10 website crop. No unlisted extra dishes. Subject: Tamil Nadu orange-brown sambar rice mixed with cooked lentils, carrot and drumstick pieces, a separate steel bowl of thick green spinach-and-lentil keerai kootu. Exact menu: Sambar rice + Keerai kootu."
+    },
+    {
+      "path": "assets/images/meals/tomato-rice.webp",
+      "prompt": "Use case: photorealistic-natural. Asset type: a landscape 3:2 South Indian food menu photograph. Create ONE realistic photo, no collage, no text, no watermark, no logos. Everyday restaurant food on a stainless-steel plate or small bowls, neutral pale tabletop, natural daylight, overhead three-quarter angle. All named foods must be clearly visible together. Complete serving centered, leave a little space around edges for a 16:10 website crop. No unlisted extra dishes. Subject: Tamil Nadu thakkali sadam: orange-red tomato rice with curry leaves, one boiled egg cut into two halves beside it, several cucumber slices. Exact menu: Tomato rice + Boiled egg. No other dishes."
+    },
+    {
+      "path": "assets/images/meals/rasam-rice.webp",
+      "prompt": "Use case: photorealistic-natural. Asset type: a landscape 3:2 South Indian food menu photograph. Create ONE realistic photo, no collage, no text, no watermark, no logos. Everyday restaurant food on a stainless-steel plate or small bowls, neutral pale tabletop, natural daylight, overhead three-quarter angle. All named foods must be clearly visible together. Complete serving centered, leave a little space around edges for a 16:10 website crop. No unlisted extra dishes. Subject: Tamil Nadu rasam rice meal: steamed white rice partly moistened with reddish thin pepper-tomato rasam, a clearly separate steel bowl of yellow paruppu lentils and a portion of dark green chopped spinach keerai poriyal with grated coconut. Exact menu: Rasam rice + Paruppu."
+    },
+    {
+      "path": "assets/images/meals/curd-banana.webp",
+      "prompt": "Use case: photorealistic-natural. Asset type: a landscape 3:2 South Indian food menu photograph. Create ONE realistic photo, no collage, no text, no watermark, no logos. Everyday restaurant food on a stainless-steel plate or small bowls, neutral pale tabletop, natural daylight, overhead three-quarter angle. All named foods must be clearly visible together. Complete serving centered, leave a little space around edges for a 16:10 website crop. No unlisted extra dishes. Subject: A bowl of plain white curd topped with banana slices, clearly visible whole almonds and walnut pieces. Exact menu: Curd + Banana. Side: almonds and walnuts. No honey, granola, berries or other fruit."
+    },
+    {
+      "path": "assets/images/meals/chana-guava.webp",
+      "prompt": "Use case: photorealistic-natural. Asset type: a landscape 3:2 South Indian food menu photograph. Create ONE realistic photo, no collage, no text, no watermark, no logos. Everyday restaurant food on a stainless-steel plate or small bowls, neutral pale tabletop, natural daylight, overhead three-quarter angle. All named foods must be clearly visible together. Complete serving centered, leave a little space around edges for a 16:10 website crop. No unlisted extra dishes. Subject: A small bowl of plain golden roasted chana (roasted Bengal gram) beside a whole green guava and guava wedges with white flesh on a steel snack plate. Exact menu: Roasted chana + Guava."
+    },
+    {
+      "path": "assets/images/meals/buttermilk-chana.webp",
+      "prompt": "Use case: photorealistic-natural. Asset type: a landscape 3:2 South Indian food menu photograph. Create ONE realistic photo, no collage, no text, no watermark, no logos. Everyday restaurant food on a stainless-steel plate or small bowls, neutral pale tabletop, natural daylight, overhead three-quarter angle. All named foods must be clearly visible together. Complete serving centered, leave a little space around edges for a 16:10 website crop. No unlisted extra dishes. Subject: A clear glass of plain unsweetened white buttermilk lightly flecked with curry leaf and cumin, beside a small bowl of plain golden roasted chana. Exact menu: Buttermilk + Roasted chana."
+    },
+    {
+      "path": "assets/images/meals/moong-banana.webp",
+      "prompt": "Use case: photorealistic-natural. Asset type: a landscape 3:2 South Indian food menu photograph. Create ONE realistic photo, no collage, no text, no watermark, no logos. Everyday restaurant food on a stainless-steel plate or small bowls, neutral pale tabletop, natural daylight, overhead three-quarter angle. All named foods must be clearly visible together. Complete serving centered, leave a little space around edges for a 16:10 website crop. No unlisted extra dishes. Subject: A steel bowl of South Indian cooked whole green gram sundal: whole green mung beans, curry leaves and grated coconut, beside one small ripe banana. Exact menu: Green gram sundal + Banana. Not chickpeas, not raw sprouts."
+    },
+    {
+      "path": "assets/images/meals/fruit-peanuts.webp",
+      "prompt": "Use case: photorealistic-natural. Asset type: a landscape 3:2 South Indian food menu photograph. Create ONE realistic photo, no collage, no text, no watermark, no logos. Everyday restaurant food on a stainless-steel plate or small bowls, neutral pale tabletop, natural daylight, overhead three-quarter angle. All named foods must be clearly visible together. Complete serving centered, leave a little space around edges for a 16:10 website crop. No unlisted extra dishes. Subject: A steel snack plate with one red apple partly sliced and one yellow banana partly peeled, beside a small bowl of plain roasted shelled peanuts. Exact menu: Apple & banana + Peanuts. No almonds or walnuts."
+    },
+    {
+      "path": "assets/images/meals/sundal-guava.webp",
+      "prompt": "Use case: photorealistic-natural. Asset type: a landscape 3:2 South Indian food menu photograph. Create ONE realistic photo, no collage, no text, no watermark, no logos. Everyday restaurant food on a stainless-steel plate or small bowls, neutral pale tabletop, natural daylight, overhead three-quarter angle. All named foods must be clearly visible together. Complete serving centered, leave a little space around edges for a 16:10 website crop. No unlisted extra dishes. Subject: A small steel bowl of South Indian white chickpea sundal with curry leaves and grated coconut, beside one green guava partly cut into white-fleshed wedges. Exact menu: Chickpea sundal + Guava."
+    },
+    {
+      "path": "assets/images/meals/peanuts-cucumber.webp",
+      "prompt": "Use case: photorealistic-natural. Asset type: a landscape 3:2 South Indian food menu photograph. Create ONE realistic photo, no collage, no text, no watermark, no logos. Everyday restaurant food on a stainless-steel plate or small bowls, neutral pale tabletop, natural daylight, overhead three-quarter angle. All named foods must be clearly visible together. Complete serving centered, leave a little space around edges for a 16:10 website crop. No unlisted extra dishes. Subject: A steel snack plate with a bowl of boiled shelled peanuts with pinkish skins and several freshly cut cucumber slices. Exact menu: Boiled peanuts + Cucumber. No peanut shells."
+    },
+    {
+      "path": "assets/images/meals/coconut-chana.webp",
+      "prompt": "Use case: photorealistic-natural. Asset type: a landscape 3:2 South Indian food menu photograph. Create ONE realistic photo, no collage, no text, no watermark, no logos. Everyday restaurant food on a stainless-steel plate or small bowls, neutral pale tabletop, natural daylight, overhead three-quarter angle. All named foods must be clearly visible together. Complete serving centered, leave a little space around edges for a 16:10 website crop. No unlisted extra dishes. Subject: One fresh trimmed green tender coconut opened at the top with a plain straw, beside a small steel bowl of golden roasted chana. Exact menu: Coconut water + Roasted chana."
+    },
+    {
+      "path": "assets/images/meals/corn-milk.webp",
+      "prompt": "Use case: photorealistic-natural. Asset type: a landscape 3:2 South Indian food menu photograph. Create ONE realistic photo, no collage, no text, no watermark, no logos. Everyday restaurant food on a stainless-steel plate or small bowls, neutral pale tabletop, natural daylight, overhead three-quarter angle. All named foods must be clearly visible together. Complete serving centered, leave a little space around edges for a 16:10 website crop. No unlisted extra dishes. Subject: A steel bowl of plain boiled sweet corn kernels with a small lemon wedge beside it, next to a clear glass of plain white milk. Exact menu: Boiled corn + Milk. No butter, cheese, cream sauce or other food."
+    },
+    {
+      "path": "assets/images/meals/lemon-rice.webp",
+      "prompt": "Use case: photorealistic-natural. Asset type: food photograph for a South Indian daily meal menu website. Create a single realistic landscape 3:2 photograph, no collage, no text, no logos. Subject: Tamil Nadu hotel-style lemon rice with curry leaves, mustard seeds and peanuts in one section of a stainless-steel plate; beside it a clearly separate small bowl of white chickpea sundal (whole chickpeas tempered with curry leaves and grated coconut) and a small bowl of cucumber curd raita. All three foods visible, no other dishes. Natural daylight, neutral pale tabletop, overhead three-quarter angle, appetizing everyday serving, complete plate centered with room around edges for a 16:10 website crop. This image must match the exact menu pair 'Lemon rice + Chickpea sundal', side cucumber raita."
+    }
+  ]
+}
