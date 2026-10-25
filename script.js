@@ -1,6 +1,6 @@
 "use strict";
 
-// Nutrient sources are qualitative, not calculated nutrition totals.
+// Food sources, not calculated nutrient totals. Example orders are not portion prescriptions.
 const mealGroups = [
   {
     "id": "breakfast",
@@ -11,17 +11,22 @@ const mealGroups = [
         "id": "breakfast-0",
         "pair": [
           "Idli",
-          "Boiled eggs"
+          "Boiled egg"
         ],
         "side": "Vegetable sambar",
         "nutrients": {
-          "protein": "Eggs, lentils",
-          "fibre": "Vegetables, lentils",
-          "carbs": "Idli",
-          "other": "Fats: egg yolk"
+          "protein": "Egg, urad dal, sambar lentils",
+          "fibre": "Sambar vegetables, lentils",
+          "carbs": "Idli rice",
+          "other": "Choline: egg yolk"
         },
         "veg": false,
-        "image": "https://www.arise-app.com/images/dishes/en/idli-sambar-with-boiled-eggs-xdkpr4.webp"
+        "image": "assets/images/meals/idli-eggs.webp",
+        "imageAlt": "Idli + Boiled egg, with vegetable sambar",
+        "where": "South Indian hotel / tiffin shop; mall South Indian counter",
+        "order": "Idli set + boiled egg + a bowl of sambar.",
+        "note": "Egg may need to be bought separately at an egg stall.",
+        "allergens": "Egg; ask about chutney ingredients."
       },
       {
         "id": "breakfast-1",
@@ -29,31 +34,41 @@ const mealGroups = [
           "Dosa",
           "Sambar"
         ],
-        "side": "Carrot, coconut chutney",
+        "side": "Coconut chutney",
         "nutrients": {
-          "protein": "Lentils",
-          "fibre": "Carrot, vegetables",
-          "carbs": "Dosa",
+          "protein": "Urad dal, sambar lentils",
+          "fibre": "Lentils, sambar vegetables",
+          "carbs": "Dosa rice",
           "other": "Fats: coconut"
         },
         "veg": true,
-        "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy%2Cf_auto%2Cq_auto/FOOD_CATALOG/IMAGES/CMS/2025/11/29/7d4750d1-32e9-4cc8-9192-643a41a87824_7e3a3574-16ad-4152-8659-651e6b13eb14.jpg_compressed"
+        "image": "assets/images/meals/dosa-sambar.webp",
+        "imageAlt": "Dosa + Sambar, with coconut chutney",
+        "where": "South Indian hotel / tiffin shop; mall South Indian counter",
+        "order": "Plain dosa + vegetable sambar + coconut chutney.",
+        "note": "Ask for sambar with lentils and vegetables.",
+        "allergens": "Coconut; recipe may include ghee."
       },
       {
         "id": "breakfast-2",
         "pair": [
-          "Oats",
-          "Milk"
+          "Vegetable upma",
+          "Sambar"
         ],
-        "side": "Banana, almonds",
+        "side": "Coconut chutney",
         "nutrients": {
-          "protein": "Milk, oats, almonds",
-          "fibre": "Oats, banana",
-          "carbs": "Oats, banana",
-          "other": "Calcium: milk · Fats: almonds"
+          "protein": "Sambar lentils, peas",
+          "fibre": "Carrot, beans, peas, lentils",
+          "carbs": "Rava (wheat semolina)",
+          "other": "Fats: coconut"
         },
         "veg": true,
-        "image": "https://snapcalorie-webflow-website.s3.us-east-2.amazonaws.com/media/food_pics_v2/medium/mandelmilch.jpg"
+        "image": "assets/images/meals/upma-sambar.webp",
+        "imageAlt": "Vegetable upma + Sambar, with coconut chutney",
+        "where": "South Indian hotel / tiffin shop; mall South Indian counter",
+        "order": "Vegetable rava upma + sambar.",
+        "note": "Usually a breakfast item; availability varies.",
+        "allergens": "Wheat, coconut; may contain cashews or ghee."
       },
       {
         "id": "breakfast-3",
@@ -61,47 +76,62 @@ const mealGroups = [
           "Ven pongal",
           "Sambar"
         ],
-        "side": "Vegetables, coconut chutney",
+        "side": "Coconut chutney",
         "nutrients": {
-          "protein": "Moong dal, lentils",
-          "fibre": "Vegetables, lentils",
+          "protein": "Moong dal, sambar lentils",
+          "fibre": "Sambar vegetables, lentils",
           "carbs": "Rice",
-          "other": "Fats: coconut"
+          "other": "Fats: cashews, coconut"
         },
         "veg": true,
-        "image": "https://media.assettype.com/deccanherald%2F2025-01-14%2Fo6y3h8uc%2FVen_Pongal.jpg?rect=0%2C0%2C2359%2C3145"
+        "image": "assets/images/meals/pongal-sambar.webp",
+        "imageAlt": "Ven pongal + Sambar, with coconut chutney",
+        "where": "South Indian hotel / tiffin shop; mall South Indian counter",
+        "order": "Ven pongal + sambar + coconut chutney.",
+        "note": "Ask for less added ghee if preferred.",
+        "allergens": "Cashews, milk/ghee, coconut."
       },
       {
         "id": "breakfast-4",
         "pair": [
-          "Poha",
-          "Chickpeas"
+          "Puttu",
+          "Kadala curry"
         ],
-        "side": "Peanuts, carrot, lemon",
+        "side": "Banana",
         "nutrients": {
-          "protein": "Chickpeas, peanuts",
-          "fibre": "Chickpeas, carrot",
-          "carbs": "Poha",
-          "other": "Fats: peanuts"
+          "protein": "Black chickpeas",
+          "fibre": "Black chickpeas, banana",
+          "carbs": "Rice puttu, banana",
+          "other": "Fats: coconut"
         },
         "veg": true,
-        "image": "https://media-assets.swiggy.com/swiggy/image/upload/f_auto%2Cq_auto%2Cfl_lossy/RX_THUMBNAIL/IMAGES/VENDOR/2024/9/12/8259a19f-a269-4113-a17c-646c8882163c_955838.jpg"
+        "image": "assets/images/meals/puttu-kadala.webp",
+        "imageAlt": "Puttu + Kadala curry, with banana",
+        "where": "Kerala restaurant; selected South Indian food-court counters",
+        "order": "Rice puttu + black-chickpea kadala curry + banana.",
+        "note": "Ask a Kerala restaurant; not every tiffin shop serves it.",
+        "allergens": "Coconut."
       },
       {
         "id": "breakfast-5",
         "pair": [
           "Adai",
-          "Sambar"
+          "Avial"
         ],
-        "side": "Carrot, coconut chutney",
+        "side": "",
         "nutrients": {
-          "protein": "Lentils",
-          "fibre": "Lentils, carrot",
-          "carbs": "Rice, lentils",
-          "other": "Iron: lentils"
+          "protein": "Mixed lentils in adai; curd in avial",
+          "fibre": "Lentils, avial vegetables",
+          "carbs": "Rice and lentils in adai",
+          "other": "Fats: coconut"
         },
         "veg": true,
-        "image": "https://www.vishalam.com/cdn/shop/files/instant-adai-dosa-readymix-1463074_1024x.jpg?v=1774389431"
+        "image": "assets/images/meals/adai-avial.webp",
+        "imageAlt": "Adai + Avial",
+        "where": "South Indian hotel / tiffin shop; mall South Indian counter",
+        "order": "Adai + avial; ask whether both are available.",
+        "note": "Often an evening special; breakfast availability varies.",
+        "allergens": "Milk/curd, coconut; recipes vary."
       },
       {
         "id": "breakfast-6",
@@ -109,31 +139,62 @@ const mealGroups = [
           "Ragi dosa",
           "Sambar"
         ],
-        "side": "Vegetables, chutney",
+        "side": "Coconut chutney",
         "nutrients": {
-          "protein": "Lentils",
-          "fibre": "Ragi, vegetables",
-          "carbs": "Ragi dosa",
+          "protein": "Urad dal, sambar lentils",
+          "fibre": "Ragi, lentils, vegetables",
+          "carbs": "Ragi, rice in batter",
           "other": "Calcium: ragi"
         },
         "veg": true,
-        "image": "https://i0.wp.com/naturallynidhi.com/wp-content/uploads/2021/07/Ragi-Dosa-Cover.jpg?fit=840%2C560&ssl=1"
+        "image": "assets/images/meals/ragi-dosa.webp",
+        "imageAlt": "Ragi dosa + Sambar, with coconut chutney",
+        "where": "South Indian hotel / tiffin shop; mall South Indian counter",
+        "order": "Ragi dosa + vegetable sambar.",
+        "note": "Ask for ragi dosa; some outlets serve only plain dosa.",
+        "allergens": "Coconut; some ragi batters contain wheat."
       },
       {
         "id": "breakfast-7",
         "pair": [
           "Idiyappam",
-          "Chickpea curry"
+          "Kadala curry"
         ],
-        "side": "Carrot, beans",
+        "side": "",
         "nutrients": {
-          "protein": "Chickpeas",
-          "fibre": "Chickpeas, vegetables",
-          "carbs": "Idiyappam",
-          "other": "Iron: chickpeas"
+          "protein": "Black chickpeas",
+          "fibre": "Black chickpeas",
+          "carbs": "Rice idiyappam",
+          "other": "Fats: coconut in curry"
         },
         "veg": true,
-        "image": "https://img-global.cpcdn.com/recipes/3e90d11cc4ef2940/680x781f0.5_0.5_1.0q80/idiyappam-with-vegetable-curry-recipe-main-photo.jpg"
+        "image": "assets/images/meals/idiyappam-kadala.webp",
+        "imageAlt": "Idiyappam + Kadala curry",
+        "where": "Kerala restaurant; selected South Indian food-court counters",
+        "order": "Idiyappam set + black-chickpea curry.",
+        "note": "Ask specifically for kadala curry; kurma is a different side.",
+        "allergens": "Coconut."
+      },
+      {
+        "id": "breakfast-8",
+        "pair": [
+          "Mini idli",
+          "Sambar"
+        ],
+        "side": "Coconut chutney",
+        "nutrients": {
+          "protein": "Urad dal, sambar lentils",
+          "fibre": "Lentils, sambar vegetables",
+          "carbs": "Idli rice",
+          "other": "Fats: coconut"
+        },
+        "veg": true,
+        "image": "assets/images/meals/mini-idli.webp",
+        "imageAlt": "Mini idli + Sambar, with coconut chutney",
+        "where": "South Indian hotel / tiffin shop; mall South Indian counter",
+        "order": "Mini idli in sambar + chutney.",
+        "note": "Choose sambar idli rather than a fried idli preparation.",
+        "allergens": "Coconut; may include ghee."
       }
     ]
   },
@@ -146,49 +207,64 @@ const mealGroups = [
         "id": "lunch-0",
         "pair": [
           "Rice",
-          "Dal & egg"
+          "Paruppu & egg"
         ],
         "side": "Vegetable poriyal",
         "nutrients": {
-          "protein": "Lentils, eggs",
-          "fibre": "Lentils, vegetables",
+          "protein": "Lentils, egg",
+          "fibre": "Lentils, poriyal vegetables",
           "carbs": "Rice",
-          "other": "Fats: egg yolk"
+          "other": "Choline: egg yolk"
         },
         "veg": false,
-        "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy%2Cf_auto%2Cq_auto/FOOD_CATALOG/IMAGES/CMS/2026/6/23/51f8fd99-e683-4c5e-a976-5e39a27f4640_74f8ee65-9ff1-463d-a934-b37414f49d63.jpg"
+        "image": "assets/images/meals/rice-dal-egg.webp",
+        "imageAlt": "Rice + Paruppu & egg, with vegetable poriyal",
+        "where": "Non-veg South Indian hotel / meals mess",
+        "order": "Rice + paruppu + boiled egg + vegetable poriyal.",
+        "note": "Order the egg as a separate side if needed.",
+        "allergens": "Egg, coconut; may include ghee."
       },
       {
         "id": "lunch-1",
         "pair": [
-          "Chapati",
-          "Dal"
+          "Rice",
+          "Sambar & kootu"
         ],
-        "side": "Vegetable curry",
+        "side": "Poriyal, plain curd",
         "nutrients": {
-          "protein": "Lentils",
-          "fibre": "Whole wheat, lentils, vegetables",
-          "carbs": "Whole-wheat chapati",
-          "other": "Iron: lentils"
+          "protein": "Sambar lentils, kootu lentils, curd",
+          "fibre": "Lentils, kootu and poriyal vegetables",
+          "carbs": "Rice",
+          "other": "Calcium: curd"
         },
         "veg": true,
-        "image": "https://bangeras-online.com/cdn/shop/files/3_3f2c2a41-7ac1-4c54-a90b-d42d1f31de23.webp?v=1751004808&width=1080"
+        "image": "assets/images/meals/veg-meals.webp",
+        "imageAlt": "Rice + Sambar & kootu, with poriyal, plain curd",
+        "where": "South Indian hotel / meals mess; mall meals counter",
+        "order": "South Indian meals: rice, sambar, kootu, poriyal and curd.",
+        "note": "Ask which kootu and poriyal are served that day.",
+        "allergens": "Milk/curd, coconut."
       },
       {
         "id": "lunch-2",
         "pair": [
           "Rice",
-          "Fish curry"
+          "Fish kulambu"
         ],
         "side": "Vegetable poriyal",
         "nutrients": {
           "protein": "Fish",
-          "fibre": "Vegetables",
+          "fibre": "Poriyal vegetables",
           "carbs": "Rice",
-          "other": "Fats: varies by fish"
+          "other": "Vitamin B12: fish"
         },
         "veg": false,
-        "image": "https://www.arise-app.com/images/dishes/en/fish-curry-with-rice-and-vegetables-auvdy7.webp"
+        "image": "assets/images/meals/fish-rice.webp",
+        "imageAlt": "Rice + Fish kulambu, with vegetable poriyal",
+        "where": "Non-veg South Indian hotel / meals mess",
+        "order": "Rice + fish kulambu + vegetable poriyal.",
+        "note": "Ask which fish is available; bones may be present.",
+        "allergens": "Fish, coconut depending on recipe."
       },
       {
         "id": "lunch-3",
@@ -198,29 +274,39 @@ const mealGroups = [
         ],
         "side": "Cucumber raita",
         "nutrients": {
-          "protein": "Chickpeas, curd",
+          "protein": "Chickpeas, curd, peanuts",
           "fibre": "Chickpeas, cucumber",
-          "carbs": "Rice",
+          "carbs": "Rice, chickpeas",
           "other": "Calcium: curd"
         },
         "veg": true,
-        "image": "https://nurrish.in/meals/south/lemon-rice-cucumber-raita-papad.webp"
+        "image": "assets/images/meals/lemon-rice.webp",
+        "imageAlt": "Lemon rice + Chickpea sundal, with cucumber raita",
+        "where": "South Indian hotel / meals mess; mall meals counter",
+        "order": "Lemon rice + chickpea sundal + cucumber raita.",
+        "note": "Sundal may need to be bought separately from a snack stall.",
+        "allergens": "Peanuts, milk/curd, coconut."
       },
       {
         "id": "lunch-4",
         "pair": [
-          "Rice",
-          "Rajma curry"
+          "Tamarind rice",
+          "Green gram sundal"
         ],
-        "side": "Cucumber, tomato",
+        "side": "Plain curd",
         "nutrients": {
-          "protein": "Rajma",
-          "fibre": "Rajma, vegetables",
-          "carbs": "Rice, rajma",
-          "other": "Iron: rajma"
+          "protein": "Green gram, curd, peanuts",
+          "fibre": "Whole green gram",
+          "carbs": "Rice, green gram",
+          "other": "Calcium: curd"
         },
         "veg": true,
-        "image": "https://b.zmtcdn.com/data/dish_photos/8ca/0ea878f2f888e008b7f28028eb1558ca.png"
+        "image": "assets/images/meals/tamarind-rice.webp",
+        "imageAlt": "Tamarind rice + Green gram sundal, with plain curd",
+        "where": "South Indian hotel / meals mess; mall meals counter",
+        "order": "Puliyodharai + green gram sundal + plain curd.",
+        "note": "If the rice counter has no sundal, buy it separately.",
+        "allergens": "Peanuts, sesame in some mixes, milk/curd, coconut."
       },
       {
         "id": "lunch-5",
@@ -228,47 +314,83 @@ const mealGroups = [
           "Curd rice",
           "Chickpea sundal"
         ],
-        "side": "Pomegranate, cucumber",
+        "side": "Cucumber",
         "nutrients": {
           "protein": "Curd, chickpeas",
-          "fibre": "Chickpeas, fruit, cucumber",
-          "carbs": "Rice",
+          "fibre": "Chickpeas, cucumber",
+          "carbs": "Rice, chickpeas",
           "other": "Calcium: curd"
         },
         "veg": true,
-        "image": "https://assets-jpcust.jwpsrv.com/thumbnails/6ksgyxm8-720.jpg"
+        "image": "assets/images/meals/curd-rice.webp",
+        "imageAlt": "Curd rice + Chickpea sundal, with cucumber",
+        "where": "South Indian hotel / meals mess; mall meals counter",
+        "order": "Curd rice + chickpea sundal + cucumber.",
+        "note": "Ask for plain curd rice; sundal is a separate side.",
+        "allergens": "Milk/curd, coconut."
       },
       {
         "id": "lunch-6",
         "pair": [
           "Sambar rice",
-          "Spinach dal"
+          "Keerai kootu"
         ],
-        "side": "Carrot, drumstick",
+        "side": "",
         "nutrients": {
-          "protein": "Lentils",
+          "protein": "Lentils in sambar and kootu",
           "fibre": "Spinach, lentils, vegetables",
           "carbs": "Rice",
-          "other": "Iron: spinach"
+          "other": "Iron: spinach, lentils"
         },
         "veg": true,
-        "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy%2Cf_auto%2Cq_auto%2Cw_300%2Ch_300%2Ce_grayscale%2Cc_fit/FOOD_CATALOG/IMAGES/CMS/2025/5/27/cab61206-196b-419d-bb92-39a9db03feff_b19a7967-17fb-4848-bfdf-6466831068c2.jpg"
+        "image": "assets/images/meals/sambar-keerai.webp",
+        "imageAlt": "Sambar rice + Keerai kootu",
+        "where": "South Indian hotel / meals mess; mall meals counter",
+        "order": "Sambar sadam + keerai kootu.",
+        "note": "Ask for a lentil-based keerai kootu, not just spinach gravy.",
+        "allergens": "Coconut; recipe may include ghee."
       },
       {
         "id": "lunch-7",
         "pair": [
-          "Millet pulao",
-          "Chickpeas"
+          "Tomato rice",
+          "Boiled egg"
         ],
-        "side": "Peas, carrot, raita",
+        "side": "Cucumber",
         "nutrients": {
-          "protein": "Chickpeas, curd",
-          "fibre": "Millet, chickpeas, vegetables",
-          "carbs": "Millet",
-          "other": "Calcium: curd"
+          "protein": "Egg; tempering lentils",
+          "fibre": "Tomato, cucumber",
+          "carbs": "Rice",
+          "other": "Choline: egg yolk"
+        },
+        "veg": false,
+        "image": "assets/images/meals/tomato-rice.webp",
+        "imageAlt": "Tomato rice + Boiled egg, with cucumber",
+        "where": "Non-veg South Indian hotel / meals mess",
+        "order": "Thakkali sadam + boiled egg + cucumber.",
+        "note": "Buy a boiled egg separately if the rice shop is vegetarian.",
+        "allergens": "Egg; peanuts in some tomato-rice recipes."
+      },
+      {
+        "id": "lunch-8",
+        "pair": [
+          "Rasam rice",
+          "Paruppu"
+        ],
+        "side": "Keerai poriyal",
+        "nutrients": {
+          "protein": "Lentils in paruppu",
+          "fibre": "Spinach, lentils",
+          "carbs": "Rice",
+          "other": "Iron: spinach, lentils"
         },
         "veg": true,
-        "image": "https://gramiyum.in/wp-content/uploads/2023/12/Millet-Veggie-Pulao.webp"
+        "image": "assets/images/meals/rasam-rice.webp",
+        "imageAlt": "Rasam rice + Paruppu, with keerai poriyal",
+        "where": "South Indian hotel / meals mess; mall meals counter",
+        "order": "Rice + rasam + a separate bowl of paruppu + keerai poriyal.",
+        "note": "Rasam alone is not the pulse side; order paruppu too.",
+        "allergens": "Coconut; recipe may include ghee."
       }
     ]
   },
@@ -283,15 +405,20 @@ const mealGroups = [
           "Curd",
           "Banana"
         ],
-        "side": "Almonds, walnuts",
+        "side": "Almonds & walnuts",
         "nutrients": {
           "protein": "Curd, nuts",
           "fibre": "Banana, nuts",
           "carbs": "Banana",
-          "other": "Calcium: curd · Fats: nuts"
+          "other": "Calcium: curd; fats: nuts"
         },
         "veg": true,
-        "image": "https://images.squarespace-cdn.com/content/v1/6238ad0b6eee8a52050c5bdc/a4cd04bc-3925-4ffe-ad05-31d72a6791e2/Greek%2Byogurt%2Bwith%2BUnsalted%2BNuts%2Band%2BBanana.png"
+        "image": "assets/images/meals/curd-banana.webp",
+        "imageAlt": "Curd + Banana, with almonds & walnuts",
+        "where": "Department store / supermarket; mall supermarket",
+        "order": "Plain curd cup + banana + a small pack of plain nuts.",
+        "note": "Ready to eat; keep curd chilled until eating.",
+        "allergens": "Milk, almonds, walnuts."
       },
       {
         "id": "snacks-1",
@@ -303,11 +430,16 @@ const mealGroups = [
         "nutrients": {
           "protein": "Roasted chana",
           "fibre": "Roasted chana, guava",
-          "carbs": "Roasted chana, guava",
+          "carbs": "Chana, guava",
           "other": "Vitamin C: guava"
         },
         "veg": true,
-        "image": "https://plantigo.in/cdn/shop/articles/Roasted_Chana_Protein_Feature_Img_jpg.jpg?v=1781085834&width=1400"
+        "image": "assets/images/meals/chana-guava.webp",
+        "imageAlt": "Roasted chana + Guava",
+        "where": "Department store / supermarket; mall supermarket",
+        "order": "Plain roasted chana + a whole guava.",
+        "note": "Ready to eat; wash the guava.",
+        "allergens": "Check packaged chana for peanut cross-contact."
       },
       {
         "id": "snacks-2",
@@ -323,23 +455,33 @@ const mealGroups = [
           "other": "Calcium: buttermilk"
         },
         "veg": true,
-        "image": "https://snapcalorie-webflow-website.s3.us-east-2.amazonaws.com/media/food_pics_v2/medium/amul_masala_buttermilk.jpg"
+        "image": "assets/images/meals/buttermilk-chana.webp",
+        "imageAlt": "Buttermilk + Roasted chana",
+        "where": "Department store / supermarket; mall supermarket",
+        "order": "Plain buttermilk + roasted chana.",
+        "note": "Ready to eat; check the drink is unsweetened.",
+        "allergens": "Milk; check chana packaging."
       },
       {
         "id": "snacks-3",
         "pair": [
-          "Chickpeas",
-          "Vegetable salad"
+          "Green gram sundal",
+          "Banana"
         ],
-        "side": "Pomegranate, lemon",
+        "side": "",
         "nutrients": {
-          "protein": "Chickpeas",
-          "fibre": "Chickpeas, vegetables",
-          "carbs": "Chickpeas, pomegranate",
-          "other": "Vitamins: vegetables"
+          "protein": "Whole green gram",
+          "fibre": "Whole green gram, banana",
+          "carbs": "Green gram, banana",
+          "other": "Iron: green gram"
         },
         "veg": true,
-        "image": "https://img-global.cpcdn.com/recipes/184aad47154200f9/680x781f0.5_0.5_1.0q80/roasted-chickpea-bhel-in-just-10-minutes-recipe-main-photo.jpg"
+        "image": "assets/images/meals/moong-banana.webp",
+        "imageAlt": "Green gram sundal + Banana",
+        "where": "Sundal stall / snack shop; selected mall snack counters",
+        "order": "Cooked green gram sundal + banana from a fruit shop.",
+        "note": "Buy cooked sundal; raw sprouts need cooking.",
+        "allergens": "Coconut."
       },
       {
         "id": "snacks-4",
@@ -355,7 +497,12 @@ const mealGroups = [
           "other": "Fats: peanuts"
         },
         "veg": true,
-        "image": "https://snapcalorie-webflow-website.s3.us-east-2.amazonaws.com/media/recipe_pics/banana_apple_peanut_salad.jpg"
+        "image": "assets/images/meals/fruit-peanuts.webp",
+        "imageAlt": "Apple & banana + Peanuts",
+        "where": "Department store / supermarket; mall supermarket",
+        "order": "Whole apple + banana + plain peanuts.",
+        "note": "Ready to eat; wash fruit and choose plain nuts.",
+        "allergens": "Peanuts."
       },
       {
         "id": "snacks-5",
@@ -371,7 +518,12 @@ const mealGroups = [
           "other": "Vitamin C: guava"
         },
         "veg": true,
-        "image": "https://aahaaramonline.com/wp-content/uploads/2013/08/Guggillu_Sundal-1024x683.jpg"
+        "image": "assets/images/meals/sundal-guava.webp",
+        "imageAlt": "Chickpea sundal + Guava, with grated coconut",
+        "where": "Sundal stall / snack shop; selected mall snack counters",
+        "order": "Chickpea sundal + a guava from a fruit shop.",
+        "note": "Look for cooked sundal at local snack counters.",
+        "allergens": "Coconut."
       },
       {
         "id": "snacks-6",
@@ -387,7 +539,12 @@ const mealGroups = [
           "other": "Fats: peanuts"
         },
         "veg": true,
-        "image": "https://nanaschana.com/cdn/shop/files/BoiledRoastedsing1.jpg?v=1759096963&width=3840"
+        "image": "assets/images/meals/peanuts-cucumber.webp",
+        "imageAlt": "Boiled peanuts + Cucumber",
+        "where": "Sundal stall / snack shop; selected mall snack counters",
+        "order": "Boiled peanuts + cucumber from a fruit / vegetable shop.",
+        "note": "Choose freshly boiled peanuts; wash the cucumber.",
+        "allergens": "Peanuts."
       },
       {
         "id": "snacks-7",
@@ -399,11 +556,37 @@ const mealGroups = [
         "nutrients": {
           "protein": "Roasted chana",
           "fibre": "Roasted chana",
-          "carbs": "Roasted chana, coconut water",
+          "carbs": "Chana, coconut water",
           "other": "Potassium: coconut water"
         },
         "veg": true,
-        "image": "https://images.hindustantimes.com/tamil/img/2023/04/23/960x540/main_1682236359444_1682236368745.jpg"
+        "image": "assets/images/meals/coconut-chana.webp",
+        "imageAlt": "Coconut water + Roasted chana",
+        "where": "Coconut stall + grocery shop; mall supermarket",
+        "order": "Tender coconut + a small pack of roasted chana.",
+        "note": "Buy the chana separately if the coconut stall does not sell it.",
+        "allergens": "Coconut; check chana packaging."
+      },
+      {
+        "id": "snacks-8",
+        "pair": [
+          "Boiled corn",
+          "Milk"
+        ],
+        "side": "",
+        "nutrients": {
+          "protein": "Milk; some protein from corn",
+          "fibre": "Corn",
+          "carbs": "Corn, milk",
+          "other": "Calcium: milk"
+        },
+        "veg": true,
+        "image": "assets/images/meals/corn-milk.webp",
+        "imageAlt": "Boiled corn + Milk",
+        "where": "Corn stall + dairy shop; mall corn kiosk + supermarket",
+        "order": "Plain boiled corn + plain milk.",
+        "note": "Ask for corn without butter; milk is a separate purchase.",
+        "allergens": "Milk; butter if added."
       }
     ]
   },
@@ -415,18 +598,23 @@ const mealGroups = [
       {
         "id": "dinner-0",
         "pair": [
-          "Chapati",
-          "Dal"
+          "Idli",
+          "Sambar"
         ],
-        "side": "Vegetable curry",
+        "side": "Coconut chutney",
         "nutrients": {
-          "protein": "Lentils",
-          "fibre": "Whole wheat, lentils, vegetables",
-          "carbs": "Whole-wheat chapati",
-          "other": "Iron: lentils"
+          "protein": "Urad dal, sambar lentils",
+          "fibre": "Lentils, sambar vegetables",
+          "carbs": "Idli rice",
+          "other": "Fats: coconut"
         },
         "veg": true,
-        "image": "https://bangeras-online.com/cdn/shop/files/3_3f2c2a41-7ac1-4c54-a90b-d42d1f31de23.webp?v=1751004808&width=1080"
+        "image": "assets/images/meals/idli-sambar.webp",
+        "imageAlt": "Idli + Sambar, with coconut chutney",
+        "where": "South Indian hotel / tiffin shop; mall South Indian counter",
+        "order": "Idli set + a bowl of vegetable sambar.",
+        "note": "Freshly steamed idli is usually available at tiffin outlets.",
+        "allergens": "Coconut; recipe may include ghee."
       },
       {
         "id": "dinner-1",
@@ -434,31 +622,41 @@ const mealGroups = [
           "Egg dosa",
           "Sambar"
         ],
-        "side": "Vegetables, chutney",
+        "side": "Coconut chutney",
         "nutrients": {
-          "protein": "Eggs, lentils",
-          "fibre": "Vegetables, lentils",
-          "carbs": "Dosa",
-          "other": "Fats: egg yolk"
+          "protein": "Egg, urad dal, sambar lentils",
+          "fibre": "Lentils, sambar vegetables",
+          "carbs": "Dosa rice",
+          "other": "Choline: egg yolk"
         },
         "veg": false,
-        "image": "https://ik.imagekit.io/fpcle7dmn/images/thumbs/0021222_egg-pepper-dosa.jpeg"
+        "image": "assets/images/meals/egg-dosa.webp",
+        "imageAlt": "Egg dosa + Sambar, with coconut chutney",
+        "where": "Non-veg tiffin hotel; selected mall South Indian counters",
+        "order": "Egg dosa + vegetable sambar.",
+        "note": "Pure-vegetarian hotels do not serve egg dosa.",
+        "allergens": "Egg, coconut."
       },
       {
         "id": "dinner-2",
         "pair": [
           "Rice",
-          "Chicken"
+          "Chicken kulambu"
         ],
-        "side": "Carrot, beans, peppers",
+        "side": "Carrot & beans poriyal",
         "nutrients": {
           "protein": "Chicken",
-          "fibre": "Vegetables",
+          "fibre": "Carrot, beans",
           "carbs": "Rice",
-          "other": "Vitamins: vegetables"
+          "other": "Vitamin B12: chicken"
         },
         "veg": false,
-        "image": "https://cdn.foodfaithfitness.com/uploads/2024/07/Chicken-Stir-Fry-A_FFF_Chicken_Stir_Fry_Feature_2-635x635.jpg"
+        "image": "assets/images/meals/chicken-rice.webp",
+        "imageAlt": "Rice + Chicken kulambu, with carrot & beans poriyal",
+        "where": "Non-veg South Indian hotel / meals mess",
+        "order": "Rice + chicken kulambu + vegetable poriyal.",
+        "note": "Ask for curry rather than a generic chicken stir-fry.",
+        "allergens": "Coconut or milk in some recipes."
       },
       {
         "id": "dinner-3",
@@ -468,45 +666,60 @@ const mealGroups = [
         ],
         "side": "Coconut chutney",
         "nutrients": {
-          "protein": "Lentils",
-          "fibre": "Vegetables, lentils",
-          "carbs": "Semolina",
+          "protein": "Sambar lentils, peas",
+          "fibre": "Carrot, beans, peas, lentils",
+          "carbs": "Rava (wheat semolina)",
           "other": "Fats: coconut"
         },
         "veg": true,
-        "image": "https://www.dakshinbhojnam.com/img/1%2811%29.jpg"
+        "image": "assets/images/meals/upma-sambar.webp",
+        "imageAlt": "Vegetable upma + Sambar, with coconut chutney",
+        "where": "South Indian hotel / tiffin shop; mall South Indian counter",
+        "order": "Vegetable rava upma + sambar.",
+        "note": "Check evening availability; some outlets serve it only at breakfast.",
+        "allergens": "Wheat, coconut; may contain cashews or ghee."
       },
       {
         "id": "dinner-4",
         "pair": [
-          "Dal khichdi",
-          "Curd"
+          "Kuzhi paniyaram",
+          "Sambar"
         ],
-        "side": "",
+        "side": "Coconut chutney",
         "nutrients": {
-          "protein": "Lentils, curd",
-          "fibre": "Lentils, vegetables",
-          "carbs": "Rice",
-          "other": "Calcium: curd"
+          "protein": "Urad dal, sambar lentils",
+          "fibre": "Lentils, onion, sambar vegetables",
+          "carbs": "Rice in batter",
+          "other": "Fats: coconut"
         },
         "veg": true,
-        "image": "https://cdn.shopify.com/s/files/1/0702/7218/8719/files/khicdi_with_yogurt_480x480.jpg?v=1721389760"
+        "image": "assets/images/meals/paniyaram.webp",
+        "imageAlt": "Kuzhi paniyaram + Sambar, with coconut chutney",
+        "where": "South Indian hotel / tiffin shop; mall South Indian counter",
+        "order": "Savoury kuzhi paniyaram + sambar + chutney.",
+        "note": "Often sold at evening tiffin stalls; ask for sambar separately.",
+        "allergens": "Coconut; batter may include milk/curd."
       },
       {
         "id": "dinner-5",
         "pair": [
           "Appam",
-          "Chickpea curry"
+          "Kadala curry"
         ],
-        "side": "Vegetables",
+        "side": "",
         "nutrients": {
-          "protein": "Chickpeas",
-          "fibre": "Chickpeas, vegetables",
-          "carbs": "Appam",
-          "other": "Iron: chickpeas"
+          "protein": "Black chickpeas",
+          "fibre": "Black chickpeas",
+          "carbs": "Rice appam",
+          "other": "Fats: coconut"
         },
         "veg": true,
-        "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy%2Cf_auto%2Cq_auto%2Cw_300%2Ch_300%2Ce_grayscale%2Cc_fit/FOOD_CATALOG/IMAGES/CMS/2024/4/7/90067657-de1a-4ff7-8d09-b269e8b03489_bdb1dff9-36b5-4ee8-9c8c-538abc5cec32.jpg_compressed"
+        "image": "assets/images/meals/appam-kadala.webp",
+        "imageAlt": "Appam + Kadala curry",
+        "where": "Kerala restaurant; selected South Indian food-court counters",
+        "order": "Appam set + black-chickpea kadala curry.",
+        "note": "Check the curry: vegetable stew is a different dish.",
+        "allergens": "Coconut."
       },
       {
         "id": "dinner-6",
@@ -516,134 +729,258 @@ const mealGroups = [
         ],
         "side": "Coconut chutney",
         "nutrients": {
-          "protein": "Lentils",
-          "fibre": "Vegetables, lentils",
-          "carbs": "Uttapam",
+          "protein": "Urad dal, sambar lentils",
+          "fibre": "Carrot, tomato, onion, lentils",
+          "carbs": "Rice in batter",
           "other": "Fats: coconut"
         },
         "veg": true,
-        "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy%2Cf_auto%2Cq_auto/ajuphvampmwkqegpqymt"
+        "image": "assets/images/meals/uttapam.webp",
+        "imageAlt": "Veg uttapam + Sambar, with coconut chutney",
+        "where": "South Indian hotel / tiffin shop; mall South Indian counter",
+        "order": "Vegetable uttapam + vegetable sambar.",
+        "note": "Ask for vegetables rather than only onion topping.",
+        "allergens": "Coconut; some outlets add ghee."
       },
       {
         "id": "dinner-7",
         "pair": [
-          "Vegetable soup",
-          "Chickpea sundal"
+          "Ragi dosa",
+          "Sambar"
         ],
-        "side": "Whole-wheat bread",
+        "side": "Coconut chutney",
         "nutrients": {
-          "protein": "Chickpeas",
-          "fibre": "Vegetables, chickpeas, whole wheat",
-          "carbs": "Whole-wheat bread, chickpeas",
-          "other": "Vitamins: vegetables"
+          "protein": "Urad dal, sambar lentils",
+          "fibre": "Ragi, lentils, vegetables",
+          "carbs": "Ragi, rice in batter",
+          "other": "Calcium: ragi"
         },
         "veg": true,
-        "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy%2Cf_auto%2Cq_auto%2Cw_300%2Ch_300%2Ce_grayscale%2Cc_fit/yd0yeaq44pdgbjidafcp"
+        "image": "assets/images/meals/ragi-dosa.webp",
+        "imageAlt": "Ragi dosa + Sambar, with coconut chutney",
+        "where": "South Indian hotel / tiffin shop; mall South Indian counter",
+        "order": "Ragi dosa + vegetable sambar.",
+        "note": "Availability varies; ask before ordering.",
+        "allergens": "Coconut; some ragi batters contain wheat."
+      },
+      {
+        "id": "dinner-8",
+        "pair": [
+          "Idiyappam",
+          "Kadala curry"
+        ],
+        "side": "",
+        "nutrients": {
+          "protein": "Black chickpeas",
+          "fibre": "Black chickpeas",
+          "carbs": "Rice idiyappam",
+          "other": "Fats: coconut in curry"
+        },
+        "veg": true,
+        "image": "assets/images/meals/idiyappam-kadala.webp",
+        "imageAlt": "Idiyappam + Kadala curry",
+        "where": "Kerala restaurant; selected South Indian food-court counters",
+        "order": "Idiyappam set + black-chickpea curry.",
+        "note": "Check evening availability at Kerala / South Indian restaurants.",
+        "allergens": "Coconut."
       }
     ]
   }
 ];
 
 const storePicks = [
-  [
-    "🍌",
-    "Banana, guava"
-  ],
-  [
-    "🥚",
-    "Eggs"
-  ],
-  [
-    "🥛",
-    "Milk, curd"
-  ],
-  [
-    "🧃",
-    "Buttermilk"
-  ],
-  [
-    "🥥",
-    "Coconut water"
-  ],
-  [
-    "🫘",
-    "Roasted chana"
-  ],
-  [
-    "🥜",
-    "Peanuts"
-  ],
-  [
-    "🌱",
-    "Cooked sprouts"
-  ],
-  [
-    "🌰",
-    "Almonds, walnuts"
-  ],
-  [
-    "🥒",
-    "Cucumber, carrot"
-  ],
-  [
-    "🍞",
-    "Whole-wheat bread"
-  ],
-  [
-    "🥣",
-    "Oats"
-  ],
-  [
-    "🥣",
-    "Unsweetened muesli"
-  ],
-  [
-    "🫓",
-    "Idli / dosa batter"
-  ],
-  [
-    "🌾",
-    "Ragi flour"
-  ],
-  [
-    "🫘",
-    "Adai mix"
-  ],
-  [
-    "🥫",
-    "Chickpeas, rajma"
-  ],
-  [
-    "🌽",
-    "Boiled corn"
-  ],
-  [
-    "🧀",
-    "Paneer"
-  ],
-  [
-    "🥣",
-    "Multigrain mix"
-  ],
-  [
-    "🌾",
-    "Ragi semiya"
-  ],
-  [
-    "🌾",
-    "Millet flakes"
-  ],
-  [
-    "🍘",
-    "Roasted makhana"
-  ],
-  [
-    "🫙",
-    "Unsweetened peanut butter"
-  ]
+  {
+    "icon": "🍌",
+    "title": "Banana & guava",
+    "where": "Fruit section",
+    "prep": "Ready to eat",
+    "tip": "Wash fruit."
+  },
+  {
+    "icon": "🍎",
+    "title": "Apple & seasonal fruit",
+    "where": "Fruit section",
+    "prep": "Ready to eat",
+    "tip": "Choose whole fruit."
+  },
+  {
+    "icon": "🥛",
+    "title": "Plain curd",
+    "where": "Chilled dairy aisle",
+    "prep": "Ready to eat",
+    "tip": "Keep chilled."
+  },
+  {
+    "icon": "🥛",
+    "title": "Plain milk",
+    "where": "Dairy aisle",
+    "prep": "Ready to drink / heat",
+    "tip": "Follow the pack instructions."
+  },
+  {
+    "icon": "🧃",
+    "title": "Buttermilk",
+    "where": "Chilled dairy aisle",
+    "prep": "Ready to drink",
+    "tip": "Choose unsweetened."
+  },
+  {
+    "icon": "🥥",
+    "title": "Coconut water",
+    "where": "Drinks aisle / coconut stall",
+    "prep": "Ready to drink",
+    "tip": "Choose no added sugar."
+  },
+  {
+    "icon": "🫘",
+    "title": "Roasted chana",
+    "where": "Snacks / pulses aisle",
+    "prep": "Ready to eat",
+    "tip": "Choose plain or lightly salted."
+  },
+  {
+    "icon": "🥜",
+    "title": "Plain peanuts",
+    "where": "Snacks / nuts aisle",
+    "prep": "Ready to eat if roasted",
+    "tip": "Raw peanuts need cooking."
+  },
+  {
+    "icon": "🌰",
+    "title": "Almonds & walnuts",
+    "where": "Nuts aisle",
+    "prep": "Ready to eat",
+    "tip": "Choose plain nuts."
+  },
+  {
+    "icon": "🥒",
+    "title": "Cucumber & carrot",
+    "where": "Vegetable section",
+    "prep": "Wash before eating",
+    "tip": "Buy whole or freshly prepared."
+  },
+  {
+    "icon": "🌽",
+    "title": "Boiled corn",
+    "where": "Corn kiosk / ready-food counter",
+    "prep": "Ready to eat",
+    "tip": "Frozen or raw corn needs cooking."
+  },
+  {
+    "icon": "🫘",
+    "title": "Cooked sundal",
+    "where": "Ready-food counter / snack stall",
+    "prep": "Ready to eat",
+    "tip": "Confirm it is cooked; stock varies."
+  },
+  {
+    "icon": "🥚",
+    "title": "Eggs",
+    "where": "Egg / dairy section",
+    "prep": "Cook first",
+    "tip": "For ready-boiled eggs, ask a food counter."
+  },
+  {
+    "icon": "🫓",
+    "title": "Idli / dosa batter",
+    "where": "Chilled batter aisle",
+    "prep": "Cook first",
+    "tip": "Keep chilled; steam or cook on a tawa."
+  },
+  {
+    "icon": "🌾",
+    "title": "Ragi dosa mix",
+    "where": "Breakfast-mix aisle",
+    "prep": "Cook first",
+    "tip": "Check whether wheat is included."
+  },
+  {
+    "icon": "🫘",
+    "title": "Adai mix",
+    "where": "Breakfast-mix aisle",
+    "prep": "Cook first",
+    "tip": "Follow the pack instructions."
+  },
+  {
+    "icon": "🫘",
+    "title": "Black chickpeas",
+    "where": "Dry pulses aisle",
+    "prep": "Soak & cook",
+    "tip": "For kadala curry or sundal."
+  },
+  {
+    "icon": "🌱",
+    "title": "Whole green gram",
+    "where": "Dry pulses aisle",
+    "prep": "Soak & cook",
+    "tip": "For cooked green gram sundal."
+  },
+  {
+    "icon": "🫘",
+    "title": "Toor & moong dal",
+    "where": "Dry pulses aisle",
+    "prep": "Cook first",
+    "tip": "For sambar, paruppu and kootu."
+  },
+  {
+    "icon": "🌾",
+    "title": "Rice & millets",
+    "where": "Grain aisle",
+    "prep": "Cook first",
+    "tip": "For rice meals or millet versions."
+  },
+  {
+    "icon": "🥣",
+    "title": "Puttu flour",
+    "where": "Rice-flour / breakfast aisle",
+    "prep": "Steam first",
+    "tip": "Ask for rice puttu flour."
+  },
+  {
+    "icon": "🍜",
+    "title": "Idiyappam flour",
+    "where": "Rice-flour / breakfast aisle",
+    "prep": "Cook first",
+    "tip": "Ready idiyappam, if sold, is a separate product."
+  },
+  {
+    "icon": "🥣",
+    "title": "Rava",
+    "where": "Grain / flour aisle",
+    "prep": "Cook first",
+    "tip": "Wheat semolina for vegetable upma."
+  },
+  {
+    "icon": "🥬",
+    "title": "Spinach & vegetables",
+    "where": "Vegetable section",
+    "prep": "Cook for kootu / poriyal",
+    "tip": "Buy a fresh mix of greens and vegetables."
+  }
+];
+
+const buyingGuide = [
+  {
+    "icon": "🍽️",
+    "title": "Hotels & restaurants",
+    "items": "Idli, dosa, pongal, upma, sambar meals, rice varieties.",
+    "tip": "Ask for sambar, kootu or sundal separately if missing. Egg, fish and chicken need a non-veg outlet."
+  },
+  {
+    "icon": "🛒",
+    "title": "Department stores",
+    "items": "Curd, milk, buttermilk, fruit, roasted chana, peanuts.",
+    "tip": "Ready to eat. Batter, dry pulses and flour still need cooking."
+  },
+  {
+    "icon": "🏬",
+    "title": "Shopping malls",
+    "items": "South Indian food-court counters, corn kiosks and supermarkets.",
+    "tip": "Combine a meal from the food court with fruit, curd or chana from the supermarket. Stock varies by outlet."
+  }
 ];
 const nutrientLabels = {protein: "Protein", fibre: "Fibre", carbs: "Carbs", other: "Other"};
-const storageKey = "nal-unavu-v3";
+const storageKey = "healthy-food-v4";
 const dayMilliseconds = 86400000;
 const dateFormatter = new Intl.DateTimeFormat("en-CA", {timeZone: "Asia/Kolkata", year: "numeric", month: "2-digit", day: "2-digit"});
 
@@ -709,7 +1046,10 @@ function escapeHtml(value) {
 }
 
 function nutritionHtml(meal) {
-  return `<details class="nutrition"><summary>Nutrients</summary><dl>${Object.entries(nutrientLabels).map(([key, label]) => `<div><dt>${label}</dt><dd>${escapeHtml(meal.nutrients[key])}</dd></div>`).join("")}</dl></details>`;
+  const fields = [["Order", meal.order], ["Buy", meal.where], ["Tip", meal.note],
+    ...Object.entries(nutrientLabels).map(([key, label]) => [label, meal.nutrients[key]]),
+    ["Ingredients to check", meal.allergens]];
+  return `<details class="nutrition"><summary>Details</summary><dl>${fields.map(([label, value]) => `<div><dt>${escapeHtml(label)}</dt><dd>${escapeHtml(value)}</dd></div>`).join("")}</dl></details>`;
 }
 
 function cardHtml(meal, group, daily = false) {
@@ -717,7 +1057,7 @@ function cardHtml(meal, group, daily = false) {
     ${daily ? `<div class="meal-label">${group.icon} ${group.title}</div>` : ""}
     <div class="meal-image-wrap">
       <span class="image-fallback" aria-hidden="true">${group.icon}</span>
-      <img src="${escapeHtml(meal.image)}" alt="${escapeHtml(meal.pair.join(' + '))}" loading="${daily ? 'eager' : 'lazy'}" />
+      <img src="${escapeHtml(meal.image)}" alt="${escapeHtml(meal.imageAlt)}" width="768" height="512" decoding="async" loading="${daily ? 'eager' : 'lazy'}" />
     </div>
     <div class="meal-content">
       <h3 class="food-pair"><span>${escapeHtml(meal.pair[0])}</span><span class="pair-second">${escapeHtml(meal.pair[1])}</span></h3>
@@ -783,7 +1123,11 @@ document.querySelector(`input[name="diet"][value="${diet}"]`).checked = true;
 renderDaily();
 renderCatalogue();
 saveState();
-document.getElementById("stockGrid").innerHTML = storePicks.map(([icon, title]) => `<article><span aria-hidden="true">${icon}</span>${escapeHtml(title)}</article>`).join("");
+function renderStock() {
+  document.getElementById("stockGrid").innerHTML = storePicks.filter(item => diet !== "veg" || item.title !== "Eggs").map(item => `<article><span aria-hidden="true">${item.icon}</span><h3>${escapeHtml(item.title)}</h3><p class="prep">${escapeHtml(item.prep)}</p><details><summary>Details</summary><p>${escapeHtml(item.where)}</p><p>${escapeHtml(item.tip)}</p></details></article>`).join("");
+}
+renderStock();
+document.getElementById("buyingGuide").innerHTML = buyingGuide.map(item => `<article><span aria-hidden="true">${item.icon}</span><h3>${escapeHtml(item.title)}</h3><p>${escapeHtml(item.items)}</p><p>${escapeHtml(item.tip)}</p></article>`).join("");
 
 // Keep a usable illustrated placeholder if a remote food image cannot load.
 document.addEventListener("error", event => {
@@ -805,6 +1149,7 @@ document.querySelectorAll('input[name="diet"]').forEach(input => input.addEventL
   saveState();
   renderDaily(diet === "veg" ? "Vegetarian menu selected." : "All meals shown.");
   renderCatalogue();
+  renderStock();
 }));
 
 setInterval(refreshDay, 30000);

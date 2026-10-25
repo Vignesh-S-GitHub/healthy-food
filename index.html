@@ -7,7 +7,7 @@
   <meta name="theme-color" content="#f7f8f3" />
   <title>Healthy Food · Today's Menu</title>
   <link rel="icon" type="image/svg+xml" href="assets/images/meal-icon.svg" />
-  <link rel="stylesheet" href="styles.css?v=4" />
+  <link rel="stylesheet" href="styles.css?v=5" />
 </head>
 <body>
   <header class="site-header">
@@ -34,16 +34,26 @@
       <a href="#lunch">☀️ Lunch</a>
       <a href="#dinner">🌙 Dinner</a>
       <a href="#snacks">🍎 Snacks</a>
-      <a href="#stock">🛒 Stock up</a>
+      <a href="#buy">🛒 Buy</a>
     </nav>
     <div id="mealSections"></div>
+    <details class="stock-section section" id="buy">
+      <summary>Where to buy</summary>
+      <div id="buyingGuide" class="buying-grid"></div>
+      <p class="buy-note">Typical options; availability varies by outlet. Meal sides may be separate purchases.</p>
+    </details>
     <details class="stock-section section" id="stock">
-      <summary>🛒 Stock up</summary>
+      <summary>🛒 Store list</summary>
       <div id="stockGrid" class="stock-grid"></div>
     </details>
-    <footer><span>Images are illustrative.</span><a href="#home">Top ↑</a></footer>
+    <details class="source-notes stock-section section">
+      <summary>About the menu</summary>
+      <p>Food sources, not measured nutrient totals. Orders are examples, not fixed serving sizes. Check ingredients with the outlet.</p>
+      <p>Menu examples: <a href="https://www.sangeethaveg.com/post/sangeetha-veg-restaurant-delivers-chennai-s-most-reliable-veg-dining-every-day" target="_blank" rel="noopener noreferrer">South Indian restaurant</a> · <a href="https://www.bigbasket.com/pb/batter-box/breakfast-snack-mixes/" target="_blank" rel="noopener noreferrer">Store mixes</a> · <a href="https://www.nin.res.in/dietaryguidelines2024.html" target="_blank" rel="noopener noreferrer">ICMR–NIN food guidance</a></p>
+    </details>
+    <footer><span>AI food photos · Servings vary.</span><a href="#home">Top ↑</a></footer>
     <noscript><p>Enable JavaScript to see the menu.</p></noscript>
   </main>
-  <script src="script.js?v=4"></script>
+  <script src="script.js?v=5"></script>
 </body>
 </html>
