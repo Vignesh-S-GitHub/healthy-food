@@ -210,7 +210,7 @@ const mealGroups = [
           "other": "Cooking oil / ghee and micronutrients vary with the recipe."
         },
         "veg": true,
-        "image": null,
+        "image": "assets/images/meals/added-breakfast-9.webp",
         "imageAlt": "Chapati + Vegetable kurma",
         "where": "Hotel / restaurant; office canteen (menu varies); outside food stall or mall counter",
         "order": "Chapati + Vegetable kurma; ask which sides are included.",
@@ -231,7 +231,7 @@ const mealGroups = [
           "other": "Cooking oil / ghee and micronutrients vary with the recipe."
         },
         "veg": true,
-        "image": null,
+        "image": "assets/images/meals/added-breakfast-10.webp",
         "imageAlt": "Poori + Potato masala",
         "where": "Hotel / restaurant; office canteen (menu varies); outside food stall or mall counter",
         "order": "Poori + Potato masala; ask which sides are included.",
@@ -252,7 +252,7 @@ const mealGroups = [
           "other": "Cooking oil / ghee and micronutrients vary with the recipe."
         },
         "veg": true,
-        "image": null,
+        "image": "assets/images/meals/added-breakfast-11.webp",
         "imageAlt": "Masala dosa + Sambar",
         "where": "Hotel / restaurant; office canteen (menu varies); outside food stall or mall counter",
         "order": "Masala dosa + Sambar; ask which sides are included.",
@@ -273,7 +273,7 @@ const mealGroups = [
           "other": "Cooking oil / ghee and micronutrients vary with the recipe."
         },
         "veg": true,
-        "image": null,
+        "image": "assets/images/meals/added-breakfast-12.webp",
         "imageAlt": "Rava dosa + Sambar",
         "where": "Hotel / restaurant; office canteen (menu varies); outside food stall or mall counter",
         "order": "Rava dosa + Sambar; ask which sides are included.",
@@ -294,7 +294,7 @@ const mealGroups = [
           "other": "Cooking oil / ghee and micronutrients vary with the recipe."
         },
         "veg": true,
-        "image": null,
+        "image": "assets/images/meals/added-breakfast-13.webp",
         "imageAlt": "Onion dosa + Sambar",
         "where": "Hotel / restaurant; office canteen (menu varies); outside food stall or mall counter",
         "order": "Onion dosa + Sambar; ask which sides are included.",
@@ -315,7 +315,7 @@ const mealGroups = [
           "other": "Cooking oil / ghee and micronutrients vary with the recipe."
         },
         "veg": true,
-        "image": null,
+        "image": "assets/images/meals/added-breakfast-14.webp",
         "imageAlt": "Podi dosa + Sambar",
         "where": "Hotel / restaurant; office canteen (menu varies); outside food stall or mall counter",
         "order": "Podi dosa + Sambar; ask which sides are included.",
@@ -336,7 +336,7 @@ const mealGroups = [
           "other": "Cooking oil / ghee and micronutrients vary with the recipe."
         },
         "veg": true,
-        "image": null,
+        "image": "assets/images/meals/added-breakfast-15.webp",
         "imageAlt": "Ghee roast + Sambar",
         "where": "Hotel / restaurant; office canteen (menu varies); outside food stall or mall counter",
         "order": "Ghee roast + Sambar; ask which sides are included.",
@@ -357,7 +357,7 @@ const mealGroups = [
           "other": "Cooking oil / ghee and micronutrients vary with the recipe."
         },
         "veg": true,
-        "image": null,
+        "image": "assets/images/meals/added-breakfast-16.webp",
         "imageAlt": "Rava idli + Sambar",
         "where": "Hotel / restaurant; office canteen (menu varies); outside food stall or mall counter",
         "order": "Rava idli + Sambar; ask which sides are included.",
@@ -378,7 +378,7 @@ const mealGroups = [
           "other": "Cooking oil / ghee and micronutrients vary with the recipe."
         },
         "veg": true,
-        "image": null,
+        "image": "assets/images/meals/added-breakfast-17.webp",
         "imageAlt": "Rava kichadi + Sambar",
         "where": "Hotel / restaurant; office canteen (menu varies); outside food stall or mall counter",
         "order": "Rava kichadi + Sambar; ask which sides are included.",
@@ -399,7 +399,7 @@ const mealGroups = [
           "other": "Cooking oil / ghee and micronutrients vary with the recipe."
         },
         "veg": true,
-        "image": null,
+        "image": "assets/images/meals/added-breakfast-18.webp",
         "imageAlt": "Semiya upma + Sambar",
         "where": "Hotel / restaurant; office canteen (menu varies); outside food stall or mall counter",
         "order": "Semiya upma + Sambar; ask which sides are included.",
@@ -420,7 +420,7 @@ const mealGroups = [
           "other": "Cooking oil / ghee and micronutrients vary with the recipe."
         },
         "veg": true,
-        "image": null,
+        "image": "assets/images/meals/added-breakfast-19.webp",
         "imageAlt": "Aval upma + Curd",
         "where": "Hotel / restaurant; office canteen (menu varies); outside food stall or mall counter",
         "order": "Aval upma + Curd; ask which sides are included.",
@@ -441,7 +441,7 @@ const mealGroups = [
           "other": "Cooking oil / ghee and micronutrients vary with the recipe."
         },
         "veg": true,
-        "image": null,
+        "image": "assets/images/meals/added-breakfast-20.webp",
         "imageAlt": "Pesarattu + Ginger chutney",
         "where": "Hotel / restaurant; office canteen (menu varies); outside food stall or mall counter",
         "order": "Pesarattu + Ginger chutney; ask which sides are included.",
@@ -462,7 +462,7 @@ const mealGroups = [
           "other": "Cooking oil / ghee and micronutrients vary with the recipe."
         },
         "veg": true,
-        "image": null,
+        "image": "assets/images/meals/added-breakfast-21.webp",
         "imageAlt": "Set dosa + Vegetable kurma",
         "where": "Hotel / restaurant; office canteen (menu varies); outside food stall or mall counter",
         "order": "Set dosa + Vegetable kurma; ask which sides are included.",
@@ -483,7 +483,7 @@ const mealGroups = [
           "other": "Cooking oil / ghee and micronutrients vary with the recipe."
         },
         "veg": true,
-        "image": null,
+        "image": "assets/images/meals/added-breakfast-22.webp",
         "imageAlt": "Kal dosa + Vadacurry",
         "where": "Hotel / restaurant; office canteen (menu varies); outside food stall or mall counter",
         "order": "Kal dosa + Vadacurry; ask which sides are included.",
@@ -504,7 +504,7 @@ const mealGroups = [
           "other": "Cooking oil / ghee and micronutrients vary with the recipe."
         },
         "veg": true,
-        "image": null,
+        "image": "assets/images/meals/added-breakfast-23.webp",
         "imageAlt": "Wheat dosa + Sambar",
         "where": "Hotel / restaurant; office canteen (menu varies); outside food stall or mall counter",
         "order": "Wheat dosa + Sambar; ask which sides are included.",
@@ -525,7 +525,7 @@ const mealGroups = [
           "other": "Cooking oil / ghee and micronutrients vary with the recipe."
         },
         "veg": true,
-        "image": null,
+        "image": "assets/images/meals/added-breakfast-24.webp",
         "imageAlt": "Onion uttapam + Sambar",
         "where": "Hotel / restaurant; office canteen (menu varies); outside food stall or mall counter",
         "order": "Onion uttapam + Sambar; ask which sides are included.",
@@ -546,7 +546,7 @@ const mealGroups = [
           "other": "Cooking oil / ghee and micronutrients vary with the recipe."
         },
         "veg": true,
-        "image": null,
+        "image": "assets/images/meals/added-breakfast-25.webp",
         "imageAlt": "Ven pongal + Medhu vada",
         "where": "Hotel / restaurant; office canteen (menu varies); outside food stall or mall counter",
         "order": "Ven pongal + Medhu vada; ask which sides are included.",
@@ -567,7 +567,7 @@ const mealGroups = [
           "other": "Cooking oil / ghee and micronutrients vary with the recipe."
         },
         "veg": true,
-        "image": null,
+        "image": "assets/images/meals/added-breakfast-26.webp",
         "imageAlt": "Idli + Vadacurry",
         "where": "Hotel / restaurant; office canteen (menu varies); outside food stall or mall counter",
         "order": "Idli + Vadacurry; ask which sides are included.",
@@ -784,7 +784,7 @@ const mealGroups = [
           "other": "Cooking oil / ghee and micronutrients vary with the recipe."
         },
         "veg": true,
-        "image": null,
+        "image": "assets/images/meals/added-lunch-9.webp",
         "imageAlt": "Chapati + Dal",
         "where": "Hotel / restaurant; office canteen (menu varies); outside food stall or mall counter",
         "order": "Chapati + Dal; ask which sides are included.",
@@ -805,7 +805,7 @@ const mealGroups = [
           "other": "Cooking oil / ghee and micronutrients vary with the recipe."
         },
         "veg": true,
-        "image": null,
+        "image": "assets/images/meals/added-lunch-10.webp",
         "imageAlt": "Chapati + Channa masala",
         "where": "Hotel / restaurant; office canteen (menu varies); outside food stall or mall counter",
         "order": "Chapati + Channa masala; ask which sides are included.",
@@ -826,7 +826,7 @@ const mealGroups = [
           "other": "Cooking oil / ghee and micronutrients vary with the recipe."
         },
         "veg": true,
-        "image": null,
+        "image": "assets/images/meals/added-lunch-11.webp",
         "imageAlt": "Vegetable biryani + Curd raita",
         "where": "Hotel / restaurant; office canteen (menu varies); outside food stall or mall counter",
         "order": "Vegetable biryani + Curd raita; ask which sides are included.",
@@ -847,7 +847,7 @@ const mealGroups = [
           "other": "Cooking oil / ghee and micronutrients vary with the recipe."
         },
         "veg": false,
-        "image": null,
+        "image": "assets/images/meals/added-lunch-12.webp",
         "imageAlt": "Chicken biryani + Curd raita",
         "where": "Hotel / restaurant; office canteen (menu varies); outside food stall or mall counter",
         "order": "Chicken biryani + Curd raita; ask which sides are included.",
@@ -868,7 +868,7 @@ const mealGroups = [
           "other": "Cooking oil / ghee and micronutrients vary with the recipe."
         },
         "veg": false,
-        "image": null,
+        "image": "assets/images/meals/added-lunch-13.webp",
         "imageAlt": "Egg biryani + Curd raita",
         "where": "Hotel / restaurant; office canteen (menu varies); outside food stall or mall counter",
         "order": "Egg biryani + Curd raita; ask which sides are included.",
@@ -889,7 +889,7 @@ const mealGroups = [
           "other": "Cooking oil / ghee and micronutrients vary with the recipe."
         },
         "veg": false,
-        "image": null,
+        "image": "assets/images/meals/added-lunch-14.webp",
         "imageAlt": "Mutton biryani + Curd raita",
         "where": "Hotel / restaurant; office canteen (menu varies); outside food stall or mall counter",
         "order": "Mutton biryani + Curd raita; ask which sides are included.",
@@ -910,7 +910,7 @@ const mealGroups = [
           "other": "Cooking oil / ghee and micronutrients vary with the recipe."
         },
         "veg": true,
-        "image": null,
+        "image": "assets/images/meals/added-lunch-15.webp",
         "imageAlt": "Coconut rice + Green gram sundal",
         "where": "Hotel / restaurant; office canteen (menu varies); outside food stall or mall counter",
         "order": "Coconut rice + Green gram sundal; ask which sides are included.",
@@ -931,7 +931,7 @@ const mealGroups = [
           "other": "Cooking oil / ghee and micronutrients vary with the recipe."
         },
         "veg": true,
-        "image": null,
+        "image": "assets/images/meals/added-lunch-16.webp",
         "imageAlt": "Bisibele bath + Curd",
         "where": "Hotel / restaurant; office canteen (menu varies); outside food stall or mall counter",
         "order": "Bisibele bath + Curd; ask which sides are included.",
@@ -952,7 +952,7 @@ const mealGroups = [
           "other": "Cooking oil / ghee and micronutrients vary with the recipe."
         },
         "veg": true,
-        "image": null,
+        "image": "assets/images/meals/added-lunch-17.webp",
         "imageAlt": "Millet meals + Sambar & kootu",
         "where": "Hotel / restaurant; office canteen (menu varies); outside food stall or mall counter",
         "order": "Millet meals + Sambar & kootu; ask which sides are included.",
@@ -973,7 +973,7 @@ const mealGroups = [
           "other": "Cooking oil / ghee and micronutrients vary with the recipe."
         },
         "veg": true,
-        "image": null,
+        "image": "assets/images/meals/added-lunch-18.webp",
         "imageAlt": "Keerai rice + Curd",
         "where": "Hotel / restaurant; office canteen (menu varies); outside food stall or mall counter",
         "order": "Keerai rice + Curd; ask which sides are included.",
@@ -994,7 +994,7 @@ const mealGroups = [
           "other": "Cooking oil / ghee and micronutrients vary with the recipe."
         },
         "veg": true,
-        "image": null,
+        "image": "assets/images/meals/added-lunch-19.webp",
         "imageAlt": "Kootanchoru + Curd",
         "where": "Hotel / restaurant; office canteen (menu varies); outside food stall or mall counter",
         "order": "Kootanchoru + Curd; ask which sides are included.",
@@ -1015,7 +1015,7 @@ const mealGroups = [
           "other": "Cooking oil / ghee and micronutrients vary with the recipe."
         },
         "veg": true,
-        "image": null,
+        "image": "assets/images/meals/added-lunch-20.webp",
         "imageAlt": "Vegetable pulao + Dal",
         "where": "Hotel / restaurant; office canteen (menu varies); outside food stall or mall counter",
         "order": "Vegetable pulao + Dal; ask which sides are included.",
@@ -1036,7 +1036,7 @@ const mealGroups = [
           "other": "Cooking oil / ghee and micronutrients vary with the recipe."
         },
         "veg": false,
-        "image": null,
+        "image": "assets/images/meals/added-lunch-21.webp",
         "imageAlt": "Rice + Egg kulambu",
         "where": "Hotel / restaurant; office canteen (menu varies); outside food stall or mall counter",
         "order": "Rice + Egg kulambu; ask which sides are included.",
@@ -1057,7 +1057,7 @@ const mealGroups = [
           "other": "Cooking oil / ghee and micronutrients vary with the recipe."
         },
         "veg": true,
-        "image": null,
+        "image": "assets/images/meals/added-lunch-22.webp",
         "imageAlt": "Rice + Kara kulambu & kootu",
         "where": "Hotel / restaurant; office canteen (menu varies); outside food stall or mall counter",
         "order": "Rice + Kara kulambu & kootu; ask which sides are included.",
@@ -1078,7 +1078,7 @@ const mealGroups = [
           "other": "Cooking oil / ghee and micronutrients vary with the recipe."
         },
         "veg": true,
-        "image": null,
+        "image": "assets/images/meals/added-lunch-23.webp",
         "imageAlt": "Rice + Mor kulambu & paruppu",
         "where": "Hotel / restaurant; office canteen (menu varies); outside food stall or mall counter",
         "order": "Rice + Mor kulambu & paruppu; ask which sides are included.",
@@ -1099,7 +1099,7 @@ const mealGroups = [
           "other": "Cooking oil / ghee and micronutrients vary with the recipe."
         },
         "veg": false,
-        "image": null,
+        "image": "assets/images/meals/added-lunch-24.webp",
         "imageAlt": "Rice + Meen fry & rasam",
         "where": "Hotel / restaurant; office canteen (menu varies); outside food stall or mall counter",
         "order": "Rice + Meen fry & rasam; ask which sides are included.",
@@ -1120,7 +1120,7 @@ const mealGroups = [
           "other": "Cooking oil / ghee and micronutrients vary with the recipe."
         },
         "veg": false,
-        "image": null,
+        "image": "assets/images/meals/added-lunch-25.webp",
         "imageAlt": "Rice + Chicken pepper fry",
         "where": "Hotel / restaurant; office canteen (menu varies); outside food stall or mall counter",
         "order": "Rice + Chicken pepper fry; ask which sides are included.",
@@ -1141,7 +1141,7 @@ const mealGroups = [
           "other": "Cooking oil / ghee and micronutrients vary with the recipe."
         },
         "veg": true,
-        "image": null,
+        "image": "assets/images/meals/added-lunch-26.webp",
         "imageAlt": "Rice + Mushroom kurma",
         "where": "Hotel / restaurant; office canteen (menu varies); outside food stall or mall counter",
         "order": "Rice + Mushroom kurma; ask which sides are included.",
@@ -1358,7 +1358,7 @@ const mealGroups = [
           "other": "Cooking oil / ghee and micronutrients vary with the recipe."
         },
         "veg": true,
-        "image": null,
+        "image": "assets/images/meals/added-snacks-9.webp",
         "imageAlt": "Medhu vada + Sambar",
         "where": "Office canteen / outside snack stall; store or quick-commerce ingredients (check preparation)",
         "order": "Medhu vada + Sambar; ask which sides are included.",
@@ -1379,7 +1379,7 @@ const mealGroups = [
           "other": "Cooking oil / ghee and micronutrients vary with the recipe."
         },
         "veg": true,
-        "image": null,
+        "image": "assets/images/meals/added-snacks-10.webp",
         "imageAlt": "Masala vada + Buttermilk",
         "where": "Office canteen / outside snack stall; store or quick-commerce ingredients (check preparation)",
         "order": "Masala vada + Buttermilk; ask which sides are included.",
@@ -1400,7 +1400,7 @@ const mealGroups = [
           "other": "Cooking oil / ghee and micronutrients vary with the recipe."
         },
         "veg": true,
-        "image": null,
+        "image": "assets/images/meals/added-snacks-11.webp",
         "imageAlt": "Sambar vada + Coconut chutney",
         "where": "Office canteen / outside snack stall; store or quick-commerce ingredients (check preparation)",
         "order": "Sambar vada + Coconut chutney; ask which sides are included.",
@@ -1421,7 +1421,7 @@ const mealGroups = [
           "other": "Cooking oil / ghee and micronutrients vary with the recipe."
         },
         "veg": true,
-        "image": null,
+        "image": "assets/images/meals/added-snacks-12.webp",
         "imageAlt": "Curd vada + Fruit",
         "where": "Office canteen / outside snack stall; store or quick-commerce ingredients (check preparation)",
         "order": "Curd vada + Fruit; ask which sides are included.",
@@ -1442,7 +1442,7 @@ const mealGroups = [
           "other": "Cooking oil / ghee and micronutrients vary with the recipe."
         },
         "veg": true,
-        "image": null,
+        "image": "assets/images/meals/added-snacks-13.webp",
         "imageAlt": "Bajji + Roasted chana",
         "where": "Office canteen / outside snack stall; store or quick-commerce ingredients (check preparation)",
         "order": "Bajji + Roasted chana; ask which sides are included.",
@@ -1463,7 +1463,7 @@ const mealGroups = [
           "other": "Cooking oil / ghee and micronutrients vary with the recipe."
         },
         "veg": true,
-        "image": null,
+        "image": "assets/images/meals/added-snacks-14.webp",
         "imageAlt": "Bonda + Buttermilk",
         "where": "Office canteen / outside snack stall; store or quick-commerce ingredients (check preparation)",
         "order": "Bonda + Buttermilk; ask which sides are included.",
@@ -1484,7 +1484,7 @@ const mealGroups = [
           "other": "Cooking oil / ghee and micronutrients vary with the recipe."
         },
         "veg": true,
-        "image": null,
+        "image": "assets/images/meals/added-snacks-15.webp",
         "imageAlt": "Onion pakoda + Buttermilk",
         "where": "Office canteen / outside snack stall; store or quick-commerce ingredients (check preparation)",
         "order": "Onion pakoda + Buttermilk; ask which sides are included.",
@@ -1505,7 +1505,7 @@ const mealGroups = [
           "other": "Cooking oil / ghee and micronutrients vary with the recipe."
         },
         "veg": true,
-        "image": null,
+        "image": "assets/images/meals/added-snacks-16.webp",
         "imageAlt": "Boiled sweet potato + Milk",
         "where": "Office canteen / outside snack stall; store or quick-commerce ingredients (check preparation)",
         "order": "Boiled sweet potato + Milk; ask which sides are included.",
@@ -1526,7 +1526,7 @@ const mealGroups = [
           "other": "Cooking oil / ghee and micronutrients vary with the recipe."
         },
         "veg": true,
-        "image": null,
+        "image": "assets/images/meals/added-snacks-17.webp",
         "imageAlt": "Boiled tapioca + Chickpea sundal",
         "where": "Office canteen / outside snack stall; store or quick-commerce ingredients (check preparation)",
         "order": "Boiled tapioca + Chickpea sundal; ask which sides are included.",
@@ -1547,7 +1547,7 @@ const mealGroups = [
           "other": "Cooking oil / ghee and micronutrients vary with the recipe."
         },
         "veg": true,
-        "image": null,
+        "image": "assets/images/meals/added-snacks-18.webp",
         "imageAlt": "Kara paniyaram + Chutney",
         "where": "Office canteen / outside snack stall; store or quick-commerce ingredients (check preparation)",
         "order": "Kara paniyaram + Chutney; ask which sides are included.",
@@ -1568,7 +1568,7 @@ const mealGroups = [
           "other": "Cooking oil / ghee and micronutrients vary with the recipe."
         },
         "veg": false,
-        "image": null,
+        "image": "assets/images/meals/added-snacks-19.webp",
         "imageAlt": "Egg omelette + Whole-wheat bread",
         "where": "Office canteen / outside snack stall; store or quick-commerce ingredients (check preparation)",
         "order": "Egg omelette + Whole-wheat bread; ask which sides are included.",
@@ -1589,7 +1589,7 @@ const mealGroups = [
           "other": "Cooking oil / ghee and micronutrients vary with the recipe."
         },
         "veg": false,
-        "image": null,
+        "image": "assets/images/meals/added-snacks-20.webp",
         "imageAlt": "Boiled eggs + Banana",
         "where": "Office canteen / outside snack stall; store or quick-commerce ingredients (check preparation)",
         "order": "Boiled eggs + Banana; ask which sides are included.",
@@ -1610,7 +1610,7 @@ const mealGroups = [
           "other": "Cooking oil / ghee and micronutrients vary with the recipe."
         },
         "veg": true,
-        "image": null,
+        "image": "assets/images/meals/added-snacks-21.webp",
         "imageAlt": "Cooked sprouts + Curd",
         "where": "Office canteen / outside snack stall; store or quick-commerce ingredients (check preparation)",
         "order": "Cooked sprouts + Curd; ask which sides are included.",
@@ -1631,7 +1631,7 @@ const mealGroups = [
           "other": "Cooking oil / ghee and micronutrients vary with the recipe."
         },
         "veg": true,
-        "image": null,
+        "image": "assets/images/meals/added-snacks-22.webp",
         "imageAlt": "Vegetable sandwich + Milk",
         "where": "Office canteen / outside snack stall; store or quick-commerce ingredients (check preparation)",
         "order": "Vegetable sandwich + Milk; ask which sides are included.",
@@ -1652,7 +1652,7 @@ const mealGroups = [
           "other": "Cooking oil / ghee and micronutrients vary with the recipe."
         },
         "veg": true,
-        "image": null,
+        "image": "assets/images/meals/added-snacks-23.webp",
         "imageAlt": "Paneer sandwich + Fruit",
         "where": "Office canteen / outside snack stall; store or quick-commerce ingredients (check preparation)",
         "order": "Paneer sandwich + Fruit; ask which sides are included.",
@@ -1673,7 +1673,7 @@ const mealGroups = [
           "other": "Cooking oil / ghee and micronutrients vary with the recipe."
         },
         "veg": true,
-        "image": null,
+        "image": "assets/images/meals/added-snacks-24.webp",
         "imageAlt": "Idli takeaway + Curd cup",
         "where": "Office canteen / outside snack stall; store or quick-commerce ingredients (check preparation)",
         "order": "Idli takeaway + Curd cup; ask which sides are included.",
@@ -1694,7 +1694,7 @@ const mealGroups = [
           "other": "Cooking oil / ghee and micronutrients vary with the recipe."
         },
         "veg": true,
-        "image": null,
+        "image": "assets/images/meals/added-snacks-25.webp",
         "imageAlt": "Sathu maavu drink + Banana",
         "where": "Office canteen / outside snack stall; store or quick-commerce ingredients (check preparation)",
         "order": "Sathu maavu drink + Banana; ask which sides are included.",
@@ -1715,7 +1715,7 @@ const mealGroups = [
           "other": "Cooking oil / ghee and micronutrients vary with the recipe."
         },
         "veg": true,
-        "image": null,
+        "image": "assets/images/meals/added-snacks-26.webp",
         "imageAlt": "Peanut chikki + Guava",
         "where": "Office canteen / outside snack stall; store or quick-commerce ingredients (check preparation)",
         "order": "Peanut chikki + Guava; ask which sides are included.",
@@ -1932,7 +1932,7 @@ const mealGroups = [
           "other": "Cooking oil / ghee and micronutrients vary with the recipe."
         },
         "veg": true,
-        "image": null,
+        "image": "assets/images/meals/added-breakfast-9.webp",
         "imageAlt": "Chapati + Vegetable kurma",
         "where": "Hotel / restaurant; office canteen (menu varies); outside food stall or mall counter",
         "order": "Chapati + Vegetable kurma; ask which sides are included.",
@@ -1953,7 +1953,7 @@ const mealGroups = [
           "other": "Cooking oil / ghee and micronutrients vary with the recipe."
         },
         "veg": true,
-        "image": null,
+        "image": "assets/images/meals/added-breakfast-10.webp",
         "imageAlt": "Poori + Potato masala",
         "where": "Hotel / restaurant; office canteen (menu varies); outside food stall or mall counter",
         "order": "Poori + Potato masala; ask which sides are included.",
@@ -1974,7 +1974,7 @@ const mealGroups = [
           "other": "Cooking oil / ghee and micronutrients vary with the recipe."
         },
         "veg": true,
-        "image": null,
+        "image": "assets/images/meals/added-dinner-11.webp",
         "imageAlt": "Parotta + Vegetable salna",
         "where": "Hotel / restaurant; office canteen (menu varies); outside food stall or mall counter",
         "order": "Parotta + Vegetable salna; ask which sides are included.",
@@ -1995,7 +1995,7 @@ const mealGroups = [
           "other": "Cooking oil / ghee and micronutrients vary with the recipe."
         },
         "veg": true,
-        "image": null,
+        "image": "assets/images/meals/added-dinner-12.webp",
         "imageAlt": "Wheat parotta + Channa masala",
         "where": "Hotel / restaurant; office canteen (menu varies); outside food stall or mall counter",
         "order": "Wheat parotta + Channa masala; ask which sides are included.",
@@ -2016,7 +2016,7 @@ const mealGroups = [
           "other": "Cooking oil / ghee and micronutrients vary with the recipe."
         },
         "veg": true,
-        "image": null,
+        "image": "assets/images/meals/added-dinner-13.webp",
         "imageAlt": "Veg kothu parotta + Curd raita",
         "where": "Hotel / restaurant; office canteen (menu varies); outside food stall or mall counter",
         "order": "Veg kothu parotta + Curd raita; ask which sides are included.",
@@ -2037,7 +2037,7 @@ const mealGroups = [
           "other": "Cooking oil / ghee and micronutrients vary with the recipe."
         },
         "veg": false,
-        "image": null,
+        "image": "assets/images/meals/added-dinner-14.webp",
         "imageAlt": "Egg kothu parotta + Salna",
         "where": "Hotel / restaurant; office canteen (menu varies); outside food stall or mall counter",
         "order": "Egg kothu parotta + Salna; ask which sides are included.",
@@ -2058,7 +2058,7 @@ const mealGroups = [
           "other": "Cooking oil / ghee and micronutrients vary with the recipe."
         },
         "veg": false,
-        "image": null,
+        "image": "assets/images/meals/added-dinner-15.webp",
         "imageAlt": "Chicken kothu parotta + Salna",
         "where": "Hotel / restaurant; office canteen (menu varies); outside food stall or mall counter",
         "order": "Chicken kothu parotta + Salna; ask which sides are included.",
@@ -2079,7 +2079,7 @@ const mealGroups = [
           "other": "Cooking oil / ghee and micronutrients vary with the recipe."
         },
         "veg": true,
-        "image": null,
+        "image": "assets/images/meals/added-dinner-16.webp",
         "imageAlt": "Appam + Vegetable stew",
         "where": "Hotel / restaurant; office canteen (menu varies); outside food stall or mall counter",
         "order": "Appam + Vegetable stew; ask which sides are included.",
@@ -2100,7 +2100,7 @@ const mealGroups = [
           "other": "Cooking oil / ghee and micronutrients vary with the recipe."
         },
         "veg": true,
-        "image": null,
+        "image": "assets/images/meals/added-dinner-17.webp",
         "imageAlt": "Idiyappam + Vegetable kurma",
         "where": "Hotel / restaurant; office canteen (menu varies); outside food stall or mall counter",
         "order": "Idiyappam + Vegetable kurma; ask which sides are included.",
@@ -2121,7 +2121,7 @@ const mealGroups = [
           "other": "Cooking oil / ghee and micronutrients vary with the recipe."
         },
         "veg": false,
-        "image": null,
+        "image": "assets/images/meals/added-dinner-18.webp",
         "imageAlt": "Kal dosa + Chicken kulambu",
         "where": "Hotel / restaurant; office canteen (menu varies); outside food stall or mall counter",
         "order": "Kal dosa + Chicken kulambu; ask which sides are included.",
@@ -2142,7 +2142,7 @@ const mealGroups = [
           "other": "Cooking oil / ghee and micronutrients vary with the recipe."
         },
         "veg": true,
-        "image": null,
+        "image": "assets/images/meals/added-dinner-19.webp",
         "imageAlt": "Adai + Sambar",
         "where": "Hotel / restaurant; office canteen (menu varies); outside food stall or mall counter",
         "order": "Adai + Sambar; ask which sides are included.",
@@ -2163,7 +2163,7 @@ const mealGroups = [
           "other": "Cooking oil / ghee and micronutrients vary with the recipe."
         },
         "veg": true,
-        "image": null,
+        "image": "assets/images/meals/added-breakfast-11.webp",
         "imageAlt": "Masala dosa + Sambar",
         "where": "Hotel / restaurant; office canteen (menu varies); outside food stall or mall counter",
         "order": "Masala dosa + Sambar; ask which sides are included.",
@@ -2184,7 +2184,7 @@ const mealGroups = [
           "other": "Cooking oil / ghee and micronutrients vary with the recipe."
         },
         "veg": true,
-        "image": null,
+        "image": "assets/images/meals/added-dinner-21.webp",
         "imageAlt": "Onion rava dosa + Sambar",
         "where": "Hotel / restaurant; office canteen (menu varies); outside food stall or mall counter",
         "order": "Onion rava dosa + Sambar; ask which sides are included.",
@@ -2205,7 +2205,7 @@ const mealGroups = [
           "other": "Cooking oil / ghee and micronutrients vary with the recipe."
         },
         "veg": true,
-        "image": null,
+        "image": "assets/images/meals/added-dinner-22.webp",
         "imageAlt": "Chapati + Paneer kurma",
         "where": "Hotel / restaurant; office canteen (menu varies); outside food stall or mall counter",
         "order": "Chapati + Paneer kurma; ask which sides are included.",
@@ -2226,7 +2226,7 @@ const mealGroups = [
           "other": "Cooking oil / ghee and micronutrients vary with the recipe."
         },
         "veg": true,
-        "image": null,
+        "image": "assets/images/meals/added-dinner-23.webp",
         "imageAlt": "Roti + Dal tadka",
         "where": "Hotel / restaurant; office canteen (menu varies); outside food stall or mall counter",
         "order": "Roti + Dal tadka; ask which sides are included.",
@@ -2247,7 +2247,7 @@ const mealGroups = [
           "other": "Cooking oil / ghee and micronutrients vary with the recipe."
         },
         "veg": true,
-        "image": null,
+        "image": "assets/images/meals/added-dinner-24.webp",
         "imageAlt": "Veg sevai + Sambar",
         "where": "Hotel / restaurant; office canteen (menu varies); outside food stall or mall counter",
         "order": "Veg sevai + Sambar; ask which sides are included.",
@@ -2268,7 +2268,7 @@ const mealGroups = [
           "other": "Cooking oil / ghee and micronutrients vary with the recipe."
         },
         "veg": true,
-        "image": null,
+        "image": "assets/images/meals/added-dinner-25.webp",
         "imageAlt": "Lemon sevai + Chickpea sundal",
         "where": "Hotel / restaurant; office canteen (menu varies); outside food stall or mall counter",
         "order": "Lemon sevai + Chickpea sundal; ask which sides are included.",
@@ -2289,7 +2289,7 @@ const mealGroups = [
           "other": "Cooking oil / ghee and micronutrients vary with the recipe."
         },
         "veg": true,
-        "image": null,
+        "image": "assets/images/meals/added-dinner-26.webp",
         "imageAlt": "Tomato dosa + Sambar",
         "where": "Hotel / restaurant; office canteen (menu varies); outside food stall or mall counter",
         "order": "Tomato dosa + Sambar; ask which sides are included.",

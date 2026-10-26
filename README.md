@@ -7,7 +7,7 @@ A minimal English menu for South Indian restaurant meals and easy store-bought s
 - Expand **Details** for the example order, buying options, availability, protein, fibre, carbs, other nutrient sources and ingredients to check.
 - **Where to buy** covers South Indian hotels, restaurants, department stores, supermarkets and mall food courts, office canteens, outside stalls and quick-commerce apps.
 - **Store list** has 24 grocery items with aisle and preparation information. Ready-to-eat food is distinguished from batter, flour and dry pulses that require cooking.
-- Existing local AI-generated photos show the named meal pairs. New choices without a matching photo use a labelled text tile. A repeated meal uses the same photo at breakfast and dinner.
+- All 108 choices have local AI-generated photos showing the named meal pairs. Identical pairs reuse the same photo across meal times. Images are optimised WebP files and load as you scroll.
 - Daily picks change at midnight in India. Shuffle, vegetarian filtering and saved selections work without a server.
 
 Open `index.html` or serve the folder with any static web server. Live: https://vignesh-s-github.github.io/healthy-food/

@@ -73,8 +73,8 @@ assert(app.els.stockGrid.innerHTML.includes('>Eggs<'));
 for(const group of data) for(const meal of group.meals) {
   assert.equal(meal.pair.length,2);
   for(const field of ['where','order','note','allergens','imageAlt']) assert(meal[field], `${meal.id} missing ${field}`);
-  if(meal.image) assert(meal.image.startsWith('assets/images/meals/'));
-  if(meal.image) assert(fs.existsSync(require('node:path').join(__dirname,'..',meal.image)), `Missing image: ${meal.image}`);
+  assert(meal.image && meal.image.startsWith('assets/images/meals/'), `${meal.id} missing photo`);
+  assert(fs.existsSync(require('node:path').join(__dirname,'..',meal.image)), `Missing image: ${meal.image}`);
   assert(Object.values(meal.nutrients).every(Boolean));
   assert(!/[\u0B80-\u0BFF]/.test([...meal.pair,meal.side,...Object.values(meal.nutrients)].join('')));
 }
