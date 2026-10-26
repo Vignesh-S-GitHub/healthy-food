@@ -195,6 +195,384 @@ const mealGroups = [
         "order": "Mini idli in sambar + chutney.",
         "note": "Choose sambar idli rather than a fried idli preparation.",
         "allergens": "Coconut; may include ghee."
+      },
+      {
+        "id": "breakfast-9",
+        "pair": [
+          "Chapati",
+          "Vegetable kurma"
+        ],
+        "side": "",
+        "nutrients": {
+          "protein": "Whole wheat, peas",
+          "fibre": "Whole wheat, vegetables",
+          "carbs": "Wheat",
+          "other": "Cooking oil / ghee and micronutrients vary with the recipe."
+        },
+        "veg": true,
+        "image": null,
+        "imageAlt": "Chapati + Vegetable kurma",
+        "where": "Hotel / restaurant; office canteen (menu varies); outside food stall or mall counter",
+        "order": "Chapati + Vegetable kurma; ask which sides are included.",
+        "note": "Availability and meal times vary by outlet. Packaged versions may require heating or cooking.",
+        "allergens": "Wheat; coconut"
+      },
+      {
+        "id": "breakfast-10",
+        "pair": [
+          "Poori",
+          "Potato masala"
+        ],
+        "side": "",
+        "nutrients": {
+          "protein": "Wheat; peas if included",
+          "fibre": "Wheat, potato, peas",
+          "carbs": "Wheat, potato",
+          "other": "Cooking oil / ghee and micronutrients vary with the recipe."
+        },
+        "veg": true,
+        "image": null,
+        "imageAlt": "Poori + Potato masala",
+        "where": "Hotel / restaurant; office canteen (menu varies); outside food stall or mall counter",
+        "order": "Poori + Potato masala; ask which sides are included.",
+        "note": "Rich / fried choice; included for variety. Availability and meal times vary by outlet. Packaged versions may require heating or cooking.",
+        "allergens": "Wheat; frying oil"
+      },
+      {
+        "id": "breakfast-11",
+        "pair": [
+          "Masala dosa",
+          "Sambar"
+        ],
+        "side": "",
+        "nutrients": {
+          "protein": "Urad dal, sambar lentils",
+          "fibre": "Potato, lentils, vegetables",
+          "carbs": "Rice, potato",
+          "other": "Cooking oil / ghee and micronutrients vary with the recipe."
+        },
+        "veg": true,
+        "image": null,
+        "imageAlt": "Masala dosa + Sambar",
+        "where": "Hotel / restaurant; office canteen (menu varies); outside food stall or mall counter",
+        "order": "Masala dosa + Sambar; ask which sides are included.",
+        "note": "Availability and meal times vary by outlet. Packaged versions may require heating or cooking.",
+        "allergens": "Coconut"
+      },
+      {
+        "id": "breakfast-12",
+        "pair": [
+          "Rava dosa",
+          "Sambar"
+        ],
+        "side": "",
+        "nutrients": {
+          "protein": "Sambar lentils",
+          "fibre": "Lentils, vegetables",
+          "carbs": "Rava, rice flour",
+          "other": "Cooking oil / ghee and micronutrients vary with the recipe."
+        },
+        "veg": true,
+        "image": null,
+        "imageAlt": "Rava dosa + Sambar",
+        "where": "Hotel / restaurant; office canteen (menu varies); outside food stall or mall counter",
+        "order": "Rava dosa + Sambar; ask which sides are included.",
+        "note": "Availability and meal times vary by outlet. Packaged versions may require heating or cooking.",
+        "allergens": "Wheat; coconut"
+      },
+      {
+        "id": "breakfast-13",
+        "pair": [
+          "Onion dosa",
+          "Sambar"
+        ],
+        "side": "",
+        "nutrients": {
+          "protein": "Urad dal, lentils",
+          "fibre": "Onion, lentils",
+          "carbs": "Rice",
+          "other": "Cooking oil / ghee and micronutrients vary with the recipe."
+        },
+        "veg": true,
+        "image": null,
+        "imageAlt": "Onion dosa + Sambar",
+        "where": "Hotel / restaurant; office canteen (menu varies); outside food stall or mall counter",
+        "order": "Onion dosa + Sambar; ask which sides are included.",
+        "note": "Availability and meal times vary by outlet. Packaged versions may require heating or cooking.",
+        "allergens": "Coconut"
+      },
+      {
+        "id": "breakfast-14",
+        "pair": [
+          "Podi dosa",
+          "Sambar"
+        ],
+        "side": "",
+        "nutrients": {
+          "protein": "Lentils, urad dal",
+          "fibre": "Lentils, vegetables",
+          "carbs": "Rice",
+          "other": "Cooking oil / ghee and micronutrients vary with the recipe."
+        },
+        "veg": true,
+        "image": null,
+        "imageAlt": "Podi dosa + Sambar",
+        "where": "Hotel / restaurant; office canteen (menu varies); outside food stall or mall counter",
+        "order": "Podi dosa + Sambar; ask which sides are included.",
+        "note": "Availability and meal times vary by outlet. Packaged versions may require heating or cooking.",
+        "allergens": "Sesame in some podi"
+      },
+      {
+        "id": "breakfast-15",
+        "pair": [
+          "Ghee roast",
+          "Sambar"
+        ],
+        "side": "",
+        "nutrients": {
+          "protein": "Urad dal, lentils",
+          "fibre": "Lentils, vegetables",
+          "carbs": "Rice",
+          "other": "Cooking oil / ghee and micronutrients vary with the recipe."
+        },
+        "veg": true,
+        "image": null,
+        "imageAlt": "Ghee roast + Sambar",
+        "where": "Hotel / restaurant; office canteen (menu varies); outside food stall or mall counter",
+        "order": "Ghee roast + Sambar; ask which sides are included.",
+        "note": "Rich / fried choice; included for variety. Availability and meal times vary by outlet. Packaged versions may require heating or cooking.",
+        "allergens": "Milk/ghee; coconut"
+      },
+      {
+        "id": "breakfast-16",
+        "pair": [
+          "Rava idli",
+          "Sambar"
+        ],
+        "side": "",
+        "nutrients": {
+          "protein": "Curd, lentils",
+          "fibre": "Lentils, vegetables",
+          "carbs": "Rava",
+          "other": "Cooking oil / ghee and micronutrients vary with the recipe."
+        },
+        "veg": true,
+        "image": null,
+        "imageAlt": "Rava idli + Sambar",
+        "where": "Hotel / restaurant; office canteen (menu varies); outside food stall or mall counter",
+        "order": "Rava idli + Sambar; ask which sides are included.",
+        "note": "Availability and meal times vary by outlet. Packaged versions may require heating or cooking.",
+        "allergens": "Wheat, milk, cashews"
+      },
+      {
+        "id": "breakfast-17",
+        "pair": [
+          "Rava kichadi",
+          "Sambar"
+        ],
+        "side": "",
+        "nutrients": {
+          "protein": "Peas, lentils",
+          "fibre": "Vegetables, lentils",
+          "carbs": "Rava",
+          "other": "Cooking oil / ghee and micronutrients vary with the recipe."
+        },
+        "veg": true,
+        "image": null,
+        "imageAlt": "Rava kichadi + Sambar",
+        "where": "Hotel / restaurant; office canteen (menu varies); outside food stall or mall counter",
+        "order": "Rava kichadi + Sambar; ask which sides are included.",
+        "note": "Availability and meal times vary by outlet. Packaged versions may require heating or cooking.",
+        "allergens": "Wheat, cashews"
+      },
+      {
+        "id": "breakfast-18",
+        "pair": [
+          "Semiya upma",
+          "Sambar"
+        ],
+        "side": "",
+        "nutrients": {
+          "protein": "Lentils, peas",
+          "fibre": "Vegetables, lentils",
+          "carbs": "Wheat vermicelli",
+          "other": "Cooking oil / ghee and micronutrients vary with the recipe."
+        },
+        "veg": true,
+        "image": null,
+        "imageAlt": "Semiya upma + Sambar",
+        "where": "Hotel / restaurant; office canteen (menu varies); outside food stall or mall counter",
+        "order": "Semiya upma + Sambar; ask which sides are included.",
+        "note": "Availability and meal times vary by outlet. Packaged versions may require heating or cooking.",
+        "allergens": "Wheat"
+      },
+      {
+        "id": "breakfast-19",
+        "pair": [
+          "Aval upma",
+          "Curd"
+        ],
+        "side": "",
+        "nutrients": {
+          "protein": "Peanuts, curd",
+          "fibre": "Peanuts, vegetables",
+          "carbs": "Flattened rice",
+          "other": "Cooking oil / ghee and micronutrients vary with the recipe."
+        },
+        "veg": true,
+        "image": null,
+        "imageAlt": "Aval upma + Curd",
+        "where": "Hotel / restaurant; office canteen (menu varies); outside food stall or mall counter",
+        "order": "Aval upma + Curd; ask which sides are included.",
+        "note": "Availability and meal times vary by outlet. Packaged versions may require heating or cooking.",
+        "allergens": "Milk, peanuts"
+      },
+      {
+        "id": "breakfast-20",
+        "pair": [
+          "Pesarattu",
+          "Ginger chutney"
+        ],
+        "side": "",
+        "nutrients": {
+          "protein": "Green gram",
+          "fibre": "Whole green gram",
+          "carbs": "Green gram, rice",
+          "other": "Cooking oil / ghee and micronutrients vary with the recipe."
+        },
+        "veg": true,
+        "image": null,
+        "imageAlt": "Pesarattu + Ginger chutney",
+        "where": "Hotel / restaurant; office canteen (menu varies); outside food stall or mall counter",
+        "order": "Pesarattu + Ginger chutney; ask which sides are included.",
+        "note": "Availability and meal times vary by outlet. Packaged versions may require heating or cooking.",
+        "allergens": "Check chutney ingredients"
+      },
+      {
+        "id": "breakfast-21",
+        "pair": [
+          "Set dosa",
+          "Vegetable kurma"
+        ],
+        "side": "",
+        "nutrients": {
+          "protein": "Urad dal, peas",
+          "fibre": "Vegetables, peas",
+          "carbs": "Rice",
+          "other": "Cooking oil / ghee and micronutrients vary with the recipe."
+        },
+        "veg": true,
+        "image": null,
+        "imageAlt": "Set dosa + Vegetable kurma",
+        "where": "Hotel / restaurant; office canteen (menu varies); outside food stall or mall counter",
+        "order": "Set dosa + Vegetable kurma; ask which sides are included.",
+        "note": "Availability and meal times vary by outlet. Packaged versions may require heating or cooking.",
+        "allergens": "Coconut"
+      },
+      {
+        "id": "breakfast-22",
+        "pair": [
+          "Kal dosa",
+          "Vadacurry"
+        ],
+        "side": "",
+        "nutrients": {
+          "protein": "Urad dal, chana dal",
+          "fibre": "Lentils, vegetables",
+          "carbs": "Rice",
+          "other": "Cooking oil / ghee and micronutrients vary with the recipe."
+        },
+        "veg": true,
+        "image": null,
+        "imageAlt": "Kal dosa + Vadacurry",
+        "where": "Hotel / restaurant; office canteen (menu varies); outside food stall or mall counter",
+        "order": "Kal dosa + Vadacurry; ask which sides are included.",
+        "note": "Availability and meal times vary by outlet. Packaged versions may require heating or cooking.",
+        "allergens": "Coconut"
+      },
+      {
+        "id": "breakfast-23",
+        "pair": [
+          "Wheat dosa",
+          "Sambar"
+        ],
+        "side": "",
+        "nutrients": {
+          "protein": "Wheat, lentils",
+          "fibre": "Whole wheat, vegetables",
+          "carbs": "Wheat",
+          "other": "Cooking oil / ghee and micronutrients vary with the recipe."
+        },
+        "veg": true,
+        "image": null,
+        "imageAlt": "Wheat dosa + Sambar",
+        "where": "Hotel / restaurant; office canteen (menu varies); outside food stall or mall counter",
+        "order": "Wheat dosa + Sambar; ask which sides are included.",
+        "note": "Availability and meal times vary by outlet. Packaged versions may require heating or cooking.",
+        "allergens": "Wheat"
+      },
+      {
+        "id": "breakfast-24",
+        "pair": [
+          "Onion uttapam",
+          "Sambar"
+        ],
+        "side": "",
+        "nutrients": {
+          "protein": "Urad dal, lentils",
+          "fibre": "Onion, lentils",
+          "carbs": "Rice",
+          "other": "Cooking oil / ghee and micronutrients vary with the recipe."
+        },
+        "veg": true,
+        "image": null,
+        "imageAlt": "Onion uttapam + Sambar",
+        "where": "Hotel / restaurant; office canteen (menu varies); outside food stall or mall counter",
+        "order": "Onion uttapam + Sambar; ask which sides are included.",
+        "note": "Availability and meal times vary by outlet. Packaged versions may require heating or cooking.",
+        "allergens": "Coconut"
+      },
+      {
+        "id": "breakfast-25",
+        "pair": [
+          "Ven pongal",
+          "Medhu vada"
+        ],
+        "side": "",
+        "nutrients": {
+          "protein": "Moong dal, urad dal",
+          "fibre": "Lentils",
+          "carbs": "Rice, lentils",
+          "other": "Cooking oil / ghee and micronutrients vary with the recipe."
+        },
+        "veg": true,
+        "image": null,
+        "imageAlt": "Ven pongal + Medhu vada",
+        "where": "Hotel / restaurant; office canteen (menu varies); outside food stall or mall counter",
+        "order": "Ven pongal + Medhu vada; ask which sides are included.",
+        "note": "Rich / fried choice; included for variety. Availability and meal times vary by outlet. Packaged versions may require heating or cooking.",
+        "allergens": "Cashews, ghee; fried vada"
+      },
+      {
+        "id": "breakfast-26",
+        "pair": [
+          "Idli",
+          "Vadacurry"
+        ],
+        "side": "",
+        "nutrients": {
+          "protein": "Urad dal, chana dal",
+          "fibre": "Lentils, vegetables",
+          "carbs": "Rice",
+          "other": "Cooking oil / ghee and micronutrients vary with the recipe."
+        },
+        "veg": true,
+        "image": null,
+        "imageAlt": "Idli + Vadacurry",
+        "where": "Hotel / restaurant; office canteen (menu varies); outside food stall or mall counter",
+        "order": "Idli + Vadacurry; ask which sides are included.",
+        "note": "Availability and meal times vary by outlet. Packaged versions may require heating or cooking.",
+        "allergens": "Coconut"
       }
     ]
   },
@@ -391,6 +769,384 @@ const mealGroups = [
         "order": "Rice + rasam + a separate bowl of paruppu + keerai poriyal.",
         "note": "Rasam alone is not the pulse side; order paruppu too.",
         "allergens": "Coconut; recipe may include ghee."
+      },
+      {
+        "id": "lunch-9",
+        "pair": [
+          "Chapati",
+          "Dal"
+        ],
+        "side": "",
+        "nutrients": {
+          "protein": "Lentils, wheat",
+          "fibre": "Whole wheat, lentils",
+          "carbs": "Wheat",
+          "other": "Cooking oil / ghee and micronutrients vary with the recipe."
+        },
+        "veg": true,
+        "image": null,
+        "imageAlt": "Chapati + Dal",
+        "where": "Hotel / restaurant; office canteen (menu varies); outside food stall or mall counter",
+        "order": "Chapati + Dal; ask which sides are included.",
+        "note": "Availability and meal times vary by outlet. Packaged versions may require heating or cooking.",
+        "allergens": "Wheat"
+      },
+      {
+        "id": "lunch-10",
+        "pair": [
+          "Chapati",
+          "Channa masala"
+        ],
+        "side": "",
+        "nutrients": {
+          "protein": "Chickpeas, wheat",
+          "fibre": "Chickpeas, whole wheat",
+          "carbs": "Wheat, chickpeas",
+          "other": "Cooking oil / ghee and micronutrients vary with the recipe."
+        },
+        "veg": true,
+        "image": null,
+        "imageAlt": "Chapati + Channa masala",
+        "where": "Hotel / restaurant; office canteen (menu varies); outside food stall or mall counter",
+        "order": "Chapati + Channa masala; ask which sides are included.",
+        "note": "Availability and meal times vary by outlet. Packaged versions may require heating or cooking.",
+        "allergens": "Wheat"
+      },
+      {
+        "id": "lunch-11",
+        "pair": [
+          "Vegetable biryani",
+          "Curd raita"
+        ],
+        "side": "",
+        "nutrients": {
+          "protein": "Curd, peas",
+          "fibre": "Vegetables",
+          "carbs": "Rice",
+          "other": "Cooking oil / ghee and micronutrients vary with the recipe."
+        },
+        "veg": true,
+        "image": null,
+        "imageAlt": "Vegetable biryani + Curd raita",
+        "where": "Hotel / restaurant; office canteen (menu varies); outside food stall or mall counter",
+        "order": "Vegetable biryani + Curd raita; ask which sides are included.",
+        "note": "Rich / fried choice; included for variety. Availability and meal times vary by outlet. Packaged versions may require heating or cooking.",
+        "allergens": "Milk, cashews in some recipes"
+      },
+      {
+        "id": "lunch-12",
+        "pair": [
+          "Chicken biryani",
+          "Curd raita"
+        ],
+        "side": "",
+        "nutrients": {
+          "protein": "Chicken, curd",
+          "fibre": "Onion, vegetables in raita",
+          "carbs": "Rice",
+          "other": "Cooking oil / ghee and micronutrients vary with the recipe."
+        },
+        "veg": false,
+        "image": null,
+        "imageAlt": "Chicken biryani + Curd raita",
+        "where": "Hotel / restaurant; office canteen (menu varies); outside food stall or mall counter",
+        "order": "Chicken biryani + Curd raita; ask which sides are included.",
+        "note": "Rich / fried choice; included for variety. Availability and meal times vary by outlet. Packaged versions may require heating or cooking.",
+        "allergens": "Milk; non-veg"
+      },
+      {
+        "id": "lunch-13",
+        "pair": [
+          "Egg biryani",
+          "Curd raita"
+        ],
+        "side": "",
+        "nutrients": {
+          "protein": "Egg, curd",
+          "fibre": "Vegetables in raita",
+          "carbs": "Rice",
+          "other": "Cooking oil / ghee and micronutrients vary with the recipe."
+        },
+        "veg": false,
+        "image": null,
+        "imageAlt": "Egg biryani + Curd raita",
+        "where": "Hotel / restaurant; office canteen (menu varies); outside food stall or mall counter",
+        "order": "Egg biryani + Curd raita; ask which sides are included.",
+        "note": "Rich / fried choice; included for variety. Availability and meal times vary by outlet. Packaged versions may require heating or cooking.",
+        "allergens": "Egg, milk; non-veg"
+      },
+      {
+        "id": "lunch-14",
+        "pair": [
+          "Mutton biryani",
+          "Curd raita"
+        ],
+        "side": "",
+        "nutrients": {
+          "protein": "Mutton, curd",
+          "fibre": "Vegetables in raita",
+          "carbs": "Rice",
+          "other": "Cooking oil / ghee and micronutrients vary with the recipe."
+        },
+        "veg": false,
+        "image": null,
+        "imageAlt": "Mutton biryani + Curd raita",
+        "where": "Hotel / restaurant; office canteen (menu varies); outside food stall or mall counter",
+        "order": "Mutton biryani + Curd raita; ask which sides are included.",
+        "note": "Rich / fried choice; included for variety. Availability and meal times vary by outlet. Packaged versions may require heating or cooking.",
+        "allergens": "Milk; non-veg"
+      },
+      {
+        "id": "lunch-15",
+        "pair": [
+          "Coconut rice",
+          "Green gram sundal"
+        ],
+        "side": "",
+        "nutrients": {
+          "protein": "Green gram",
+          "fibre": "Green gram, coconut",
+          "carbs": "Rice",
+          "other": "Cooking oil / ghee and micronutrients vary with the recipe."
+        },
+        "veg": true,
+        "image": null,
+        "imageAlt": "Coconut rice + Green gram sundal",
+        "where": "Hotel / restaurant; office canteen (menu varies); outside food stall or mall counter",
+        "order": "Coconut rice + Green gram sundal; ask which sides are included.",
+        "note": "Availability and meal times vary by outlet. Packaged versions may require heating or cooking.",
+        "allergens": "Coconut"
+      },
+      {
+        "id": "lunch-16",
+        "pair": [
+          "Bisibele bath",
+          "Curd"
+        ],
+        "side": "",
+        "nutrients": {
+          "protein": "Lentils, curd",
+          "fibre": "Lentils, vegetables",
+          "carbs": "Rice",
+          "other": "Cooking oil / ghee and micronutrients vary with the recipe."
+        },
+        "veg": true,
+        "image": null,
+        "imageAlt": "Bisibele bath + Curd",
+        "where": "Hotel / restaurant; office canteen (menu varies); outside food stall or mall counter",
+        "order": "Bisibele bath + Curd; ask which sides are included.",
+        "note": "Availability and meal times vary by outlet. Packaged versions may require heating or cooking.",
+        "allergens": "Milk, peanuts in some recipes"
+      },
+      {
+        "id": "lunch-17",
+        "pair": [
+          "Millet meals",
+          "Sambar & kootu"
+        ],
+        "side": "",
+        "nutrients": {
+          "protein": "Lentils",
+          "fibre": "Millets, vegetables, lentils",
+          "carbs": "Millets",
+          "other": "Cooking oil / ghee and micronutrients vary with the recipe."
+        },
+        "veg": true,
+        "image": null,
+        "imageAlt": "Millet meals + Sambar & kootu",
+        "where": "Hotel / restaurant; office canteen (menu varies); outside food stall or mall counter",
+        "order": "Millet meals + Sambar & kootu; ask which sides are included.",
+        "note": "Availability and meal times vary by outlet. Packaged versions may require heating or cooking.",
+        "allergens": "Coconut"
+      },
+      {
+        "id": "lunch-18",
+        "pair": [
+          "Keerai rice",
+          "Curd"
+        ],
+        "side": "",
+        "nutrients": {
+          "protein": "Lentils if included, curd",
+          "fibre": "Spinach",
+          "carbs": "Rice",
+          "other": "Cooking oil / ghee and micronutrients vary with the recipe."
+        },
+        "veg": true,
+        "image": null,
+        "imageAlt": "Keerai rice + Curd",
+        "where": "Hotel / restaurant; office canteen (menu varies); outside food stall or mall counter",
+        "order": "Keerai rice + Curd; ask which sides are included.",
+        "note": "Availability and meal times vary by outlet. Packaged versions may require heating or cooking.",
+        "allergens": "Milk"
+      },
+      {
+        "id": "lunch-19",
+        "pair": [
+          "Kootanchoru",
+          "Curd"
+        ],
+        "side": "",
+        "nutrients": {
+          "protein": "Lentils, curd",
+          "fibre": "Lentils, vegetables",
+          "carbs": "Rice",
+          "other": "Cooking oil / ghee and micronutrients vary with the recipe."
+        },
+        "veg": true,
+        "image": null,
+        "imageAlt": "Kootanchoru + Curd",
+        "where": "Hotel / restaurant; office canteen (menu varies); outside food stall or mall counter",
+        "order": "Kootanchoru + Curd; ask which sides are included.",
+        "note": "Availability and meal times vary by outlet. Packaged versions may require heating or cooking.",
+        "allergens": "Milk"
+      },
+      {
+        "id": "lunch-20",
+        "pair": [
+          "Vegetable pulao",
+          "Dal"
+        ],
+        "side": "",
+        "nutrients": {
+          "protein": "Lentils, peas",
+          "fibre": "Vegetables, lentils",
+          "carbs": "Rice",
+          "other": "Cooking oil / ghee and micronutrients vary with the recipe."
+        },
+        "veg": true,
+        "image": null,
+        "imageAlt": "Vegetable pulao + Dal",
+        "where": "Hotel / restaurant; office canteen (menu varies); outside food stall or mall counter",
+        "order": "Vegetable pulao + Dal; ask which sides are included.",
+        "note": "Rich / fried choice; included for variety. Availability and meal times vary by outlet. Packaged versions may require heating or cooking.",
+        "allergens": "Check ghee and nuts"
+      },
+      {
+        "id": "lunch-21",
+        "pair": [
+          "Rice",
+          "Egg kulambu"
+        ],
+        "side": "",
+        "nutrients": {
+          "protein": "Egg",
+          "fibre": "Vegetables in gravy",
+          "carbs": "Rice",
+          "other": "Cooking oil / ghee and micronutrients vary with the recipe."
+        },
+        "veg": false,
+        "image": null,
+        "imageAlt": "Rice + Egg kulambu",
+        "where": "Hotel / restaurant; office canteen (menu varies); outside food stall or mall counter",
+        "order": "Rice + Egg kulambu; ask which sides are included.",
+        "note": "Availability and meal times vary by outlet. Packaged versions may require heating or cooking.",
+        "allergens": "Egg; non-veg"
+      },
+      {
+        "id": "lunch-22",
+        "pair": [
+          "Rice",
+          "Kara kulambu & kootu"
+        ],
+        "side": "",
+        "nutrients": {
+          "protein": "Kootu lentils",
+          "fibre": "Vegetables, lentils",
+          "carbs": "Rice",
+          "other": "Cooking oil / ghee and micronutrients vary with the recipe."
+        },
+        "veg": true,
+        "image": null,
+        "imageAlt": "Rice + Kara kulambu & kootu",
+        "where": "Hotel / restaurant; office canteen (menu varies); outside food stall or mall counter",
+        "order": "Rice + Kara kulambu & kootu; ask which sides are included.",
+        "note": "Availability and meal times vary by outlet. Packaged versions may require heating or cooking.",
+        "allergens": "Coconut"
+      },
+      {
+        "id": "lunch-23",
+        "pair": [
+          "Rice",
+          "Mor kulambu & paruppu"
+        ],
+        "side": "",
+        "nutrients": {
+          "protein": "Curd, lentils",
+          "fibre": "Lentils, vegetables",
+          "carbs": "Rice",
+          "other": "Cooking oil / ghee and micronutrients vary with the recipe."
+        },
+        "veg": true,
+        "image": null,
+        "imageAlt": "Rice + Mor kulambu & paruppu",
+        "where": "Hotel / restaurant; office canteen (menu varies); outside food stall or mall counter",
+        "order": "Rice + Mor kulambu & paruppu; ask which sides are included.",
+        "note": "Availability and meal times vary by outlet. Packaged versions may require heating or cooking.",
+        "allergens": "Milk"
+      },
+      {
+        "id": "lunch-24",
+        "pair": [
+          "Rice",
+          "Meen fry & rasam"
+        ],
+        "side": "",
+        "nutrients": {
+          "protein": "Fish",
+          "fibre": "Ask for vegetable poriyal",
+          "carbs": "Rice",
+          "other": "Cooking oil / ghee and micronutrients vary with the recipe."
+        },
+        "veg": false,
+        "image": null,
+        "imageAlt": "Rice + Meen fry & rasam",
+        "where": "Hotel / restaurant; office canteen (menu varies); outside food stall or mall counter",
+        "order": "Rice + Meen fry & rasam; ask which sides are included.",
+        "note": "Availability and meal times vary by outlet. Packaged versions may require heating or cooking.",
+        "allergens": "Fish; non-veg"
+      },
+      {
+        "id": "lunch-25",
+        "pair": [
+          "Rice",
+          "Chicken pepper fry"
+        ],
+        "side": "",
+        "nutrients": {
+          "protein": "Chicken",
+          "fibre": "Ask for vegetable poriyal",
+          "carbs": "Rice",
+          "other": "Cooking oil / ghee and micronutrients vary with the recipe."
+        },
+        "veg": false,
+        "image": null,
+        "imageAlt": "Rice + Chicken pepper fry",
+        "where": "Hotel / restaurant; office canteen (menu varies); outside food stall or mall counter",
+        "order": "Rice + Chicken pepper fry; ask which sides are included.",
+        "note": "Availability and meal times vary by outlet. Packaged versions may require heating or cooking.",
+        "allergens": "Non-veg; recipe varies"
+      },
+      {
+        "id": "lunch-26",
+        "pair": [
+          "Rice",
+          "Mushroom kurma"
+        ],
+        "side": "",
+        "nutrients": {
+          "protein": "Mushrooms, peas if included",
+          "fibre": "Mushrooms, vegetables",
+          "carbs": "Rice",
+          "other": "Cooking oil / ghee and micronutrients vary with the recipe."
+        },
+        "veg": true,
+        "image": null,
+        "imageAlt": "Rice + Mushroom kurma",
+        "where": "Hotel / restaurant; office canteen (menu varies); outside food stall or mall counter",
+        "order": "Rice + Mushroom kurma; ask which sides are included.",
+        "note": "Availability and meal times vary by outlet. Packaged versions may require heating or cooking.",
+        "allergens": "Coconut, cashews in some recipes"
       }
     ]
   },
@@ -587,6 +1343,384 @@ const mealGroups = [
         "order": "Plain boiled corn + plain milk.",
         "note": "Ask for corn without butter; milk is a separate purchase.",
         "allergens": "Milk; butter if added."
+      },
+      {
+        "id": "snacks-9",
+        "pair": [
+          "Medhu vada",
+          "Sambar"
+        ],
+        "side": "",
+        "nutrients": {
+          "protein": "Urad dal, lentils",
+          "fibre": "Lentils, vegetables",
+          "carbs": "Lentils",
+          "other": "Cooking oil / ghee and micronutrients vary with the recipe."
+        },
+        "veg": true,
+        "image": null,
+        "imageAlt": "Medhu vada + Sambar",
+        "where": "Office canteen / outside snack stall; store or quick-commerce ingredients (check preparation)",
+        "order": "Medhu vada + Sambar; ask which sides are included.",
+        "note": "Rich / fried choice; included for variety. Availability and meal times vary by outlet. Packaged versions may require heating or cooking.",
+        "allergens": "Fried; coconut"
+      },
+      {
+        "id": "snacks-10",
+        "pair": [
+          "Masala vada",
+          "Buttermilk"
+        ],
+        "side": "",
+        "nutrients": {
+          "protein": "Chana dal, curd",
+          "fibre": "Chana dal",
+          "carbs": "Lentils",
+          "other": "Cooking oil / ghee and micronutrients vary with the recipe."
+        },
+        "veg": true,
+        "image": null,
+        "imageAlt": "Masala vada + Buttermilk",
+        "where": "Office canteen / outside snack stall; store or quick-commerce ingredients (check preparation)",
+        "order": "Masala vada + Buttermilk; ask which sides are included.",
+        "note": "Rich / fried choice; included for variety. Availability and meal times vary by outlet. Packaged versions may require heating or cooking.",
+        "allergens": "Milk; fried"
+      },
+      {
+        "id": "snacks-11",
+        "pair": [
+          "Sambar vada",
+          "Coconut chutney"
+        ],
+        "side": "",
+        "nutrients": {
+          "protein": "Urad dal, lentils",
+          "fibre": "Lentils",
+          "carbs": "Lentils",
+          "other": "Cooking oil / ghee and micronutrients vary with the recipe."
+        },
+        "veg": true,
+        "image": null,
+        "imageAlt": "Sambar vada + Coconut chutney",
+        "where": "Office canteen / outside snack stall; store or quick-commerce ingredients (check preparation)",
+        "order": "Sambar vada + Coconut chutney; ask which sides are included.",
+        "note": "Rich / fried choice; included for variety. Availability and meal times vary by outlet. Packaged versions may require heating or cooking.",
+        "allergens": "Coconut; fried"
+      },
+      {
+        "id": "snacks-12",
+        "pair": [
+          "Curd vada",
+          "Fruit"
+        ],
+        "side": "",
+        "nutrients": {
+          "protein": "Curd, urad dal",
+          "fibre": "Whole fruit",
+          "carbs": "Lentils, fruit",
+          "other": "Cooking oil / ghee and micronutrients vary with the recipe."
+        },
+        "veg": true,
+        "image": null,
+        "imageAlt": "Curd vada + Fruit",
+        "where": "Office canteen / outside snack stall; store or quick-commerce ingredients (check preparation)",
+        "order": "Curd vada + Fruit; ask which sides are included.",
+        "note": "Rich / fried choice; included for variety. Availability and meal times vary by outlet. Packaged versions may require heating or cooking.",
+        "allergens": "Milk; fried vada"
+      },
+      {
+        "id": "snacks-13",
+        "pair": [
+          "Bajji",
+          "Roasted chana"
+        ],
+        "side": "",
+        "nutrients": {
+          "protein": "Chana dal flour, roasted chana",
+          "fibre": "Chana, vegetable filling",
+          "carbs": "Gram flour, vegetable",
+          "other": "Cooking oil / ghee and micronutrients vary with the recipe."
+        },
+        "veg": true,
+        "image": null,
+        "imageAlt": "Bajji + Roasted chana",
+        "where": "Office canteen / outside snack stall; store or quick-commerce ingredients (check preparation)",
+        "order": "Bajji + Roasted chana; ask which sides are included.",
+        "note": "Rich / fried choice; included for variety. Availability and meal times vary by outlet. Packaged versions may require heating or cooking.",
+        "allergens": "Fried; may contain wheat"
+      },
+      {
+        "id": "snacks-14",
+        "pair": [
+          "Bonda",
+          "Buttermilk"
+        ],
+        "side": "",
+        "nutrients": {
+          "protein": "Gram flour, curd",
+          "fibre": "Potato, gram flour",
+          "carbs": "Potato, flour",
+          "other": "Cooking oil / ghee and micronutrients vary with the recipe."
+        },
+        "veg": true,
+        "image": null,
+        "imageAlt": "Bonda + Buttermilk",
+        "where": "Office canteen / outside snack stall; store or quick-commerce ingredients (check preparation)",
+        "order": "Bonda + Buttermilk; ask which sides are included.",
+        "note": "Rich / fried choice; included for variety. Availability and meal times vary by outlet. Packaged versions may require heating or cooking.",
+        "allergens": "Milk; fried"
+      },
+      {
+        "id": "snacks-15",
+        "pair": [
+          "Onion pakoda",
+          "Buttermilk"
+        ],
+        "side": "",
+        "nutrients": {
+          "protein": "Gram flour, curd",
+          "fibre": "Onion, gram flour",
+          "carbs": "Gram flour",
+          "other": "Cooking oil / ghee and micronutrients vary with the recipe."
+        },
+        "veg": true,
+        "image": null,
+        "imageAlt": "Onion pakoda + Buttermilk",
+        "where": "Office canteen / outside snack stall; store or quick-commerce ingredients (check preparation)",
+        "order": "Onion pakoda + Buttermilk; ask which sides are included.",
+        "note": "Rich / fried choice; included for variety. Availability and meal times vary by outlet. Packaged versions may require heating or cooking.",
+        "allergens": "Milk; fried"
+      },
+      {
+        "id": "snacks-16",
+        "pair": [
+          "Boiled sweet potato",
+          "Milk"
+        ],
+        "side": "",
+        "nutrients": {
+          "protein": "Milk",
+          "fibre": "Sweet potato",
+          "carbs": "Sweet potato",
+          "other": "Cooking oil / ghee and micronutrients vary with the recipe."
+        },
+        "veg": true,
+        "image": null,
+        "imageAlt": "Boiled sweet potato + Milk",
+        "where": "Office canteen / outside snack stall; store or quick-commerce ingredients (check preparation)",
+        "order": "Boiled sweet potato + Milk; ask which sides are included.",
+        "note": "Availability and meal times vary by outlet. Packaged versions may require heating or cooking.",
+        "allergens": "Milk"
+      },
+      {
+        "id": "snacks-17",
+        "pair": [
+          "Boiled tapioca",
+          "Chickpea sundal"
+        ],
+        "side": "",
+        "nutrients": {
+          "protein": "Chickpeas",
+          "fibre": "Chickpeas, tapioca",
+          "carbs": "Tapioca",
+          "other": "Cooking oil / ghee and micronutrients vary with the recipe."
+        },
+        "veg": true,
+        "image": null,
+        "imageAlt": "Boiled tapioca + Chickpea sundal",
+        "where": "Office canteen / outside snack stall; store or quick-commerce ingredients (check preparation)",
+        "order": "Boiled tapioca + Chickpea sundal; ask which sides are included.",
+        "note": "Availability and meal times vary by outlet. Packaged versions may require heating or cooking.",
+        "allergens": "Coconut"
+      },
+      {
+        "id": "snacks-18",
+        "pair": [
+          "Kara paniyaram",
+          "Chutney"
+        ],
+        "side": "",
+        "nutrients": {
+          "protein": "Urad dal",
+          "fibre": "Onion, lentils",
+          "carbs": "Rice",
+          "other": "Cooking oil / ghee and micronutrients vary with the recipe."
+        },
+        "veg": true,
+        "image": null,
+        "imageAlt": "Kara paniyaram + Chutney",
+        "where": "Office canteen / outside snack stall; store or quick-commerce ingredients (check preparation)",
+        "order": "Kara paniyaram + Chutney; ask which sides are included.",
+        "note": "Availability and meal times vary by outlet. Packaged versions may require heating or cooking.",
+        "allergens": "Check chutney ingredients"
+      },
+      {
+        "id": "snacks-19",
+        "pair": [
+          "Egg omelette",
+          "Whole-wheat bread"
+        ],
+        "side": "",
+        "nutrients": {
+          "protein": "Egg, wheat",
+          "fibre": "Whole-wheat bread",
+          "carbs": "Wheat",
+          "other": "Cooking oil / ghee and micronutrients vary with the recipe."
+        },
+        "veg": false,
+        "image": null,
+        "imageAlt": "Egg omelette + Whole-wheat bread",
+        "where": "Office canteen / outside snack stall; store or quick-commerce ingredients (check preparation)",
+        "order": "Egg omelette + Whole-wheat bread; ask which sides are included.",
+        "note": "Availability and meal times vary by outlet. Packaged versions may require heating or cooking.",
+        "allergens": "Egg, wheat; non-veg"
+      },
+      {
+        "id": "snacks-20",
+        "pair": [
+          "Boiled eggs",
+          "Banana"
+        ],
+        "side": "",
+        "nutrients": {
+          "protein": "Egg",
+          "fibre": "Banana",
+          "carbs": "Banana",
+          "other": "Cooking oil / ghee and micronutrients vary with the recipe."
+        },
+        "veg": false,
+        "image": null,
+        "imageAlt": "Boiled eggs + Banana",
+        "where": "Office canteen / outside snack stall; store or quick-commerce ingredients (check preparation)",
+        "order": "Boiled eggs + Banana; ask which sides are included.",
+        "note": "Availability and meal times vary by outlet. Packaged versions may require heating or cooking.",
+        "allergens": "Egg; non-veg"
+      },
+      {
+        "id": "snacks-21",
+        "pair": [
+          "Cooked sprouts",
+          "Curd"
+        ],
+        "side": "",
+        "nutrients": {
+          "protein": "Green gram, curd",
+          "fibre": "Green gram",
+          "carbs": "Green gram",
+          "other": "Cooking oil / ghee and micronutrients vary with the recipe."
+        },
+        "veg": true,
+        "image": null,
+        "imageAlt": "Cooked sprouts + Curd",
+        "where": "Office canteen / outside snack stall; store or quick-commerce ingredients (check preparation)",
+        "order": "Cooked sprouts + Curd; ask which sides are included.",
+        "note": "Availability and meal times vary by outlet. Packaged versions may require heating or cooking.",
+        "allergens": "Milk"
+      },
+      {
+        "id": "snacks-22",
+        "pair": [
+          "Vegetable sandwich",
+          "Milk"
+        ],
+        "side": "",
+        "nutrients": {
+          "protein": "Milk, wheat",
+          "fibre": "Vegetables, whole-wheat bread",
+          "carbs": "Wheat",
+          "other": "Cooking oil / ghee and micronutrients vary with the recipe."
+        },
+        "veg": true,
+        "image": null,
+        "imageAlt": "Vegetable sandwich + Milk",
+        "where": "Office canteen / outside snack stall; store or quick-commerce ingredients (check preparation)",
+        "order": "Vegetable sandwich + Milk; ask which sides are included.",
+        "note": "Availability and meal times vary by outlet. Packaged versions may require heating or cooking.",
+        "allergens": "Milk, wheat"
+      },
+      {
+        "id": "snacks-23",
+        "pair": [
+          "Paneer sandwich",
+          "Fruit"
+        ],
+        "side": "",
+        "nutrients": {
+          "protein": "Paneer, wheat",
+          "fibre": "Fruit, whole-wheat bread",
+          "carbs": "Wheat, fruit",
+          "other": "Cooking oil / ghee and micronutrients vary with the recipe."
+        },
+        "veg": true,
+        "image": null,
+        "imageAlt": "Paneer sandwich + Fruit",
+        "where": "Office canteen / outside snack stall; store or quick-commerce ingredients (check preparation)",
+        "order": "Paneer sandwich + Fruit; ask which sides are included.",
+        "note": "Availability and meal times vary by outlet. Packaged versions may require heating or cooking.",
+        "allergens": "Milk, wheat"
+      },
+      {
+        "id": "snacks-24",
+        "pair": [
+          "Idli takeaway",
+          "Curd cup"
+        ],
+        "side": "",
+        "nutrients": {
+          "protein": "Urad dal, curd",
+          "fibre": "Limited fibre; add fruit",
+          "carbs": "Rice",
+          "other": "Cooking oil / ghee and micronutrients vary with the recipe."
+        },
+        "veg": true,
+        "image": null,
+        "imageAlt": "Idli takeaway + Curd cup",
+        "where": "Office canteen / outside snack stall; store or quick-commerce ingredients (check preparation)",
+        "order": "Idli takeaway + Curd cup; ask which sides are included.",
+        "note": "Availability and meal times vary by outlet. Packaged versions may require heating or cooking.",
+        "allergens": "Milk"
+      },
+      {
+        "id": "snacks-25",
+        "pair": [
+          "Sathu maavu drink",
+          "Banana"
+        ],
+        "side": "",
+        "nutrients": {
+          "protein": "Pulses in mix, milk if used",
+          "fibre": "Whole grains, banana",
+          "carbs": "Grains, banana",
+          "other": "Cooking oil / ghee and micronutrients vary with the recipe."
+        },
+        "veg": true,
+        "image": null,
+        "imageAlt": "Sathu maavu drink + Banana",
+        "where": "Office canteen / outside snack stall; store or quick-commerce ingredients (check preparation)",
+        "order": "Sathu maavu drink + Banana; ask which sides are included.",
+        "note": "Availability and meal times vary by outlet. Packaged versions may require heating or cooking.",
+        "allergens": "Check wheat, nuts and milk"
+      },
+      {
+        "id": "snacks-26",
+        "pair": [
+          "Peanut chikki",
+          "Guava"
+        ],
+        "side": "",
+        "nutrients": {
+          "protein": "Peanuts",
+          "fibre": "Peanuts, guava",
+          "carbs": "Jaggery, guava",
+          "other": "Cooking oil / ghee and micronutrients vary with the recipe."
+        },
+        "veg": true,
+        "image": null,
+        "imageAlt": "Peanut chikki + Guava",
+        "where": "Office canteen / outside snack stall; store or quick-commerce ingredients (check preparation)",
+        "order": "Peanut chikki + Guava; ask which sides are included.",
+        "note": "Rich / fried choice; included for variety. Availability and meal times vary by outlet. Packaged versions may require heating or cooking.",
+        "allergens": "Peanuts; contains added sugar"
       }
     ]
   },
@@ -783,6 +1917,384 @@ const mealGroups = [
         "order": "Idiyappam set + black-chickpea curry.",
         "note": "Check evening availability at Kerala / South Indian restaurants.",
         "allergens": "Coconut."
+      },
+      {
+        "id": "dinner-9",
+        "pair": [
+          "Chapati",
+          "Vegetable kurma"
+        ],
+        "side": "",
+        "nutrients": {
+          "protein": "Whole wheat, peas",
+          "fibre": "Whole wheat, vegetables",
+          "carbs": "Wheat",
+          "other": "Cooking oil / ghee and micronutrients vary with the recipe."
+        },
+        "veg": true,
+        "image": null,
+        "imageAlt": "Chapati + Vegetable kurma",
+        "where": "Hotel / restaurant; office canteen (menu varies); outside food stall or mall counter",
+        "order": "Chapati + Vegetable kurma; ask which sides are included.",
+        "note": "Availability and meal times vary by outlet. Packaged versions may require heating or cooking.",
+        "allergens": "Wheat, coconut"
+      },
+      {
+        "id": "dinner-10",
+        "pair": [
+          "Poori",
+          "Potato masala"
+        ],
+        "side": "",
+        "nutrients": {
+          "protein": "Wheat; peas if included",
+          "fibre": "Wheat, potato",
+          "carbs": "Wheat, potato",
+          "other": "Cooking oil / ghee and micronutrients vary with the recipe."
+        },
+        "veg": true,
+        "image": null,
+        "imageAlt": "Poori + Potato masala",
+        "where": "Hotel / restaurant; office canteen (menu varies); outside food stall or mall counter",
+        "order": "Poori + Potato masala; ask which sides are included.",
+        "note": "Rich / fried choice; included for variety. Availability and meal times vary by outlet. Packaged versions may require heating or cooking.",
+        "allergens": "Wheat; frying oil"
+      },
+      {
+        "id": "dinner-11",
+        "pair": [
+          "Parotta",
+          "Vegetable salna"
+        ],
+        "side": "",
+        "nutrients": {
+          "protein": "Wheat; peas if included",
+          "fibre": "Vegetables in salna",
+          "carbs": "Refined wheat",
+          "other": "Cooking oil / ghee and micronutrients vary with the recipe."
+        },
+        "veg": true,
+        "image": null,
+        "imageAlt": "Parotta + Vegetable salna",
+        "where": "Hotel / restaurant; office canteen (menu varies); outside food stall or mall counter",
+        "order": "Parotta + Vegetable salna; ask which sides are included.",
+        "note": "Rich / fried choice; included for variety. Availability and meal times vary by outlet. Packaged versions may require heating or cooking.",
+        "allergens": "Wheat; may contain egg or milk"
+      },
+      {
+        "id": "dinner-12",
+        "pair": [
+          "Wheat parotta",
+          "Channa masala"
+        ],
+        "side": "",
+        "nutrients": {
+          "protein": "Chickpeas, wheat",
+          "fibre": "Whole wheat, chickpeas",
+          "carbs": "Wheat",
+          "other": "Cooking oil / ghee and micronutrients vary with the recipe."
+        },
+        "veg": true,
+        "image": null,
+        "imageAlt": "Wheat parotta + Channa masala",
+        "where": "Hotel / restaurant; office canteen (menu varies); outside food stall or mall counter",
+        "order": "Wheat parotta + Channa masala; ask which sides are included.",
+        "note": "Rich / fried choice; included for variety. Availability and meal times vary by outlet. Packaged versions may require heating or cooking.",
+        "allergens": "Wheat; check flour blend"
+      },
+      {
+        "id": "dinner-13",
+        "pair": [
+          "Veg kothu parotta",
+          "Curd raita"
+        ],
+        "side": "",
+        "nutrients": {
+          "protein": "Wheat, curd",
+          "fibre": "Chopped vegetables",
+          "carbs": "Refined wheat",
+          "other": "Cooking oil / ghee and micronutrients vary with the recipe."
+        },
+        "veg": true,
+        "image": null,
+        "imageAlt": "Veg kothu parotta + Curd raita",
+        "where": "Hotel / restaurant; office canteen (menu varies); outside food stall or mall counter",
+        "order": "Veg kothu parotta + Curd raita; ask which sides are included.",
+        "note": "Rich / fried choice; included for variety. Availability and meal times vary by outlet. Packaged versions may require heating or cooking.",
+        "allergens": "Wheat, milk; confirm no egg"
+      },
+      {
+        "id": "dinner-14",
+        "pair": [
+          "Egg kothu parotta",
+          "Salna"
+        ],
+        "side": "",
+        "nutrients": {
+          "protein": "Egg",
+          "fibre": "Onion, vegetables",
+          "carbs": "Refined wheat",
+          "other": "Cooking oil / ghee and micronutrients vary with the recipe."
+        },
+        "veg": false,
+        "image": null,
+        "imageAlt": "Egg kothu parotta + Salna",
+        "where": "Hotel / restaurant; office canteen (menu varies); outside food stall or mall counter",
+        "order": "Egg kothu parotta + Salna; ask which sides are included.",
+        "note": "Rich / fried choice; included for variety. Availability and meal times vary by outlet. Packaged versions may require heating or cooking.",
+        "allergens": "Egg, wheat; non-veg"
+      },
+      {
+        "id": "dinner-15",
+        "pair": [
+          "Chicken kothu parotta",
+          "Salna"
+        ],
+        "side": "",
+        "nutrients": {
+          "protein": "Chicken, egg if included",
+          "fibre": "Onion, vegetables",
+          "carbs": "Refined wheat",
+          "other": "Cooking oil / ghee and micronutrients vary with the recipe."
+        },
+        "veg": false,
+        "image": null,
+        "imageAlt": "Chicken kothu parotta + Salna",
+        "where": "Hotel / restaurant; office canteen (menu varies); outside food stall or mall counter",
+        "order": "Chicken kothu parotta + Salna; ask which sides are included.",
+        "note": "Rich / fried choice; included for variety. Availability and meal times vary by outlet. Packaged versions may require heating or cooking.",
+        "allergens": "Wheat, egg; non-veg"
+      },
+      {
+        "id": "dinner-16",
+        "pair": [
+          "Appam",
+          "Vegetable stew"
+        ],
+        "side": "",
+        "nutrients": {
+          "protein": "Peas if included",
+          "fibre": "Vegetables",
+          "carbs": "Rice",
+          "other": "Cooking oil / ghee and micronutrients vary with the recipe."
+        },
+        "veg": true,
+        "image": null,
+        "imageAlt": "Appam + Vegetable stew",
+        "where": "Hotel / restaurant; office canteen (menu varies); outside food stall or mall counter",
+        "order": "Appam + Vegetable stew; ask which sides are included.",
+        "note": "Availability and meal times vary by outlet. Packaged versions may require heating or cooking.",
+        "allergens": "Coconut milk"
+      },
+      {
+        "id": "dinner-17",
+        "pair": [
+          "Idiyappam",
+          "Vegetable kurma"
+        ],
+        "side": "",
+        "nutrients": {
+          "protein": "Peas if included",
+          "fibre": "Vegetables",
+          "carbs": "Rice",
+          "other": "Cooking oil / ghee and micronutrients vary with the recipe."
+        },
+        "veg": true,
+        "image": null,
+        "imageAlt": "Idiyappam + Vegetable kurma",
+        "where": "Hotel / restaurant; office canteen (menu varies); outside food stall or mall counter",
+        "order": "Idiyappam + Vegetable kurma; ask which sides are included.",
+        "note": "Availability and meal times vary by outlet. Packaged versions may require heating or cooking.",
+        "allergens": "Coconut, cashews in some recipes"
+      },
+      {
+        "id": "dinner-18",
+        "pair": [
+          "Kal dosa",
+          "Chicken kulambu"
+        ],
+        "side": "",
+        "nutrients": {
+          "protein": "Chicken, urad dal",
+          "fibre": "Ask for vegetable side",
+          "carbs": "Rice",
+          "other": "Cooking oil / ghee and micronutrients vary with the recipe."
+        },
+        "veg": false,
+        "image": null,
+        "imageAlt": "Kal dosa + Chicken kulambu",
+        "where": "Hotel / restaurant; office canteen (menu varies); outside food stall or mall counter",
+        "order": "Kal dosa + Chicken kulambu; ask which sides are included.",
+        "note": "Availability and meal times vary by outlet. Packaged versions may require heating or cooking.",
+        "allergens": "Non-veg; recipe varies"
+      },
+      {
+        "id": "dinner-19",
+        "pair": [
+          "Adai",
+          "Sambar"
+        ],
+        "side": "",
+        "nutrients": {
+          "protein": "Mixed lentils",
+          "fibre": "Lentils, vegetables",
+          "carbs": "Rice, lentils",
+          "other": "Cooking oil / ghee and micronutrients vary with the recipe."
+        },
+        "veg": true,
+        "image": null,
+        "imageAlt": "Adai + Sambar",
+        "where": "Hotel / restaurant; office canteen (menu varies); outside food stall or mall counter",
+        "order": "Adai + Sambar; ask which sides are included.",
+        "note": "Availability and meal times vary by outlet. Packaged versions may require heating or cooking.",
+        "allergens": "Coconut"
+      },
+      {
+        "id": "dinner-20",
+        "pair": [
+          "Masala dosa",
+          "Sambar"
+        ],
+        "side": "",
+        "nutrients": {
+          "protein": "Urad dal, lentils",
+          "fibre": "Potato, lentils",
+          "carbs": "Rice, potato",
+          "other": "Cooking oil / ghee and micronutrients vary with the recipe."
+        },
+        "veg": true,
+        "image": null,
+        "imageAlt": "Masala dosa + Sambar",
+        "where": "Hotel / restaurant; office canteen (menu varies); outside food stall or mall counter",
+        "order": "Masala dosa + Sambar; ask which sides are included.",
+        "note": "Availability and meal times vary by outlet. Packaged versions may require heating or cooking.",
+        "allergens": "Coconut"
+      },
+      {
+        "id": "dinner-21",
+        "pair": [
+          "Onion rava dosa",
+          "Sambar"
+        ],
+        "side": "",
+        "nutrients": {
+          "protein": "Lentils",
+          "fibre": "Onion, lentils",
+          "carbs": "Rava, rice flour",
+          "other": "Cooking oil / ghee and micronutrients vary with the recipe."
+        },
+        "veg": true,
+        "image": null,
+        "imageAlt": "Onion rava dosa + Sambar",
+        "where": "Hotel / restaurant; office canteen (menu varies); outside food stall or mall counter",
+        "order": "Onion rava dosa + Sambar; ask which sides are included.",
+        "note": "Availability and meal times vary by outlet. Packaged versions may require heating or cooking.",
+        "allergens": "Wheat"
+      },
+      {
+        "id": "dinner-22",
+        "pair": [
+          "Chapati",
+          "Paneer kurma"
+        ],
+        "side": "",
+        "nutrients": {
+          "protein": "Paneer, wheat",
+          "fibre": "Whole wheat, vegetables",
+          "carbs": "Wheat",
+          "other": "Cooking oil / ghee and micronutrients vary with the recipe."
+        },
+        "veg": true,
+        "image": null,
+        "imageAlt": "Chapati + Paneer kurma",
+        "where": "Hotel / restaurant; office canteen (menu varies); outside food stall or mall counter",
+        "order": "Chapati + Paneer kurma; ask which sides are included.",
+        "note": "Availability and meal times vary by outlet. Packaged versions may require heating or cooking.",
+        "allergens": "Milk, wheat, cashews"
+      },
+      {
+        "id": "dinner-23",
+        "pair": [
+          "Roti",
+          "Dal tadka"
+        ],
+        "side": "",
+        "nutrients": {
+          "protein": "Lentils, wheat",
+          "fibre": "Lentils, whole wheat",
+          "carbs": "Wheat",
+          "other": "Cooking oil / ghee and micronutrients vary with the recipe."
+        },
+        "veg": true,
+        "image": null,
+        "imageAlt": "Roti + Dal tadka",
+        "where": "Hotel / restaurant; office canteen (menu varies); outside food stall or mall counter",
+        "order": "Roti + Dal tadka; ask which sides are included.",
+        "note": "Rich / fried choice; included for variety. Availability and meal times vary by outlet. Packaged versions may require heating or cooking.",
+        "allergens": "Wheat; ghee"
+      },
+      {
+        "id": "dinner-24",
+        "pair": [
+          "Veg sevai",
+          "Sambar"
+        ],
+        "side": "",
+        "nutrients": {
+          "protein": "Lentils, peas",
+          "fibre": "Vegetables, lentils",
+          "carbs": "Rice sevai",
+          "other": "Cooking oil / ghee and micronutrients vary with the recipe."
+        },
+        "veg": true,
+        "image": null,
+        "imageAlt": "Veg sevai + Sambar",
+        "where": "Hotel / restaurant; office canteen (menu varies); outside food stall or mall counter",
+        "order": "Veg sevai + Sambar; ask which sides are included.",
+        "note": "Availability and meal times vary by outlet. Packaged versions may require heating or cooking.",
+        "allergens": "Coconut"
+      },
+      {
+        "id": "dinner-25",
+        "pair": [
+          "Lemon sevai",
+          "Chickpea sundal"
+        ],
+        "side": "",
+        "nutrients": {
+          "protein": "Chickpeas, peanuts",
+          "fibre": "Chickpeas",
+          "carbs": "Rice sevai",
+          "other": "Cooking oil / ghee and micronutrients vary with the recipe."
+        },
+        "veg": true,
+        "image": null,
+        "imageAlt": "Lemon sevai + Chickpea sundal",
+        "where": "Hotel / restaurant; office canteen (menu varies); outside food stall or mall counter",
+        "order": "Lemon sevai + Chickpea sundal; ask which sides are included.",
+        "note": "Availability and meal times vary by outlet. Packaged versions may require heating or cooking.",
+        "allergens": "Peanuts, coconut"
+      },
+      {
+        "id": "dinner-26",
+        "pair": [
+          "Tomato dosa",
+          "Sambar"
+        ],
+        "side": "",
+        "nutrients": {
+          "protein": "Urad dal, lentils",
+          "fibre": "Tomato, lentils",
+          "carbs": "Rice",
+          "other": "Cooking oil / ghee and micronutrients vary with the recipe."
+        },
+        "veg": true,
+        "image": null,
+        "imageAlt": "Tomato dosa + Sambar",
+        "where": "Hotel / restaurant; office canteen (menu varies); outside food stall or mall counter",
+        "order": "Tomato dosa + Sambar; ask which sides are included.",
+        "note": "Availability and meal times vary by outlet. Packaged versions may require heating or cooking.",
+        "allergens": "Coconut"
       }
     ]
   }
@@ -977,6 +2489,24 @@ const buyingGuide = [
     "title": "Shopping malls",
     "items": "South Indian food-court counters, corn kiosks and supermarkets.",
     "tip": "Combine a meal from the food court with fruit, curd or chana from the supermarket. Stock varies by outlet."
+  },
+  {
+    "icon": "🏢",
+    "title": "Office canteens",
+    "items": "Chapati, poori, tiffin sets, rice meals, variety rice, snacks and dairy.",
+    "tip": "Check the daily counter menu and serving times; sides and non-veg choices vary."
+  },
+  {
+    "icon": "🥡",
+    "title": "Outside stalls",
+    "items": "Dosa, idli, parotta, sundal, boiled peanuts, corn, fruit and evening snacks.",
+    "tip": "Ask what is freshly available and whether a companion food needs a separate purchase."
+  },
+  {
+    "icon": "🛵",
+    "title": "Quick commerce",
+    "items": "Curd, milk, fruit, eggs, chana, nuts, bread, batter, frozen chapati / parotta and instant mixes.",
+    "tip": "Search Blinkit, Zepto, Swiggy Instamart or a local grocery app. Stock depends on pincode. Check Ready to eat versus Ready to cook on the pack."
   }
 ];
 const nutrientLabels = {protein: "Protein", fibre: "Fibre", carbs: "Carbs", other: "Other"};
@@ -1055,10 +2585,10 @@ function nutritionHtml(meal) {
 function cardHtml(meal, group, daily = false) {
   return `<article class="meal-card" data-meal-id="${meal.id}">
     ${daily ? `<div class="meal-label">${group.icon} ${group.title}</div>` : ""}
-    <div class="meal-image-wrap">
+    ${meal.image ? `<div class="meal-image-wrap">
       <span class="image-fallback" aria-hidden="true">${group.icon}</span>
       <img src="${escapeHtml(meal.image)}" alt="${escapeHtml(meal.imageAlt)}" width="768" height="512" decoding="async" loading="${daily ? 'eager' : 'lazy'}" />
-    </div>
+    </div>` : `<div class="meal-text-tile"><span aria-hidden="true">${group.icon}</span><small>Menu option</small></div>`}
     <div class="meal-content">
       <h3 class="food-pair"><span>${escapeHtml(meal.pair[0])}</span><span class="pair-second">${escapeHtml(meal.pair[1])}</span></h3>
       <p class="side${meal.side ? "" : " side-empty"}"${meal.side ? "" : ' aria-hidden="true"'}>${escapeHtml(meal.side) || "&nbsp;"}</p>

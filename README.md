@@ -2,12 +2,12 @@
 
 A minimal English menu for South Indian restaurant meals and easy store-bought snacks.
 
-- 36 choices: 9 breakfast, 9 lunch, 9 dinner and 9 snacks.
+- 108 choices: 27 breakfast, 27 lunch, 27 dinner and 27 snacks.
 - Three symmetrical columns with aligned cards and centred partial rows under the vegetarian filter.
 - Expand **Details** for the example order, buying options, availability, protein, fibre, carbs, other nutrient sources and ingredients to check.
-- **Where to buy** covers South Indian hotels, restaurants, department stores, supermarkets and mall food courts.
+- **Where to buy** covers South Indian hotels, restaurants, department stores, supermarkets and mall food courts, office canteens, outside stalls and quick-commerce apps.
 - **Store list** has 24 grocery items with aisle and preparation information. Ready-to-eat food is distinguished from batter, flour and dry pulses that require cooking.
-- Local AI-generated photos show the named meal pairs. A repeated meal uses the same photo at breakfast and dinner.
+- Existing local AI-generated photos show the named meal pairs. New choices without a matching photo use a labelled text tile. A repeated meal uses the same photo at breakfast and dinner.
 - Daily picks change at midnight in India. Shuffle, vegetarian filtering and saved selections work without a server.
 
 Open `index.html` or serve the folder with any static web server. Live: https://vignesh-s-github.github.io/healthy-food/
