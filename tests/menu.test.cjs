@@ -75,6 +75,7 @@ for(const group of data) for(const meal of group.meals) {
   for(const field of ['where','order','note','allergens','imageAlt']) assert(meal[field], `${meal.id} missing ${field}`);
   assert(meal.image && meal.image.startsWith('assets/images/meals/'), `${meal.id} missing photo`);
   assert(fs.existsSync(require('node:path').join(__dirname,'..',meal.image)), `Missing image: ${meal.image}`);
+  assert(fs.statSync(require('node:path').join(__dirname,'..',meal.image)).size > 1000, `${meal.id} photo is empty`);
   assert(Object.values(meal.nutrients).every(Boolean));
   assert(!/[\u0B80-\u0BFF]/.test([...meal.pair,meal.side,...Object.values(meal.nutrients)].join('')));
 }
